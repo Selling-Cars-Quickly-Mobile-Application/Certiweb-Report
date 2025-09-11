@@ -327,7 +327,13 @@ El servicio está disponible mediante suscripciones mensuales (para revendedores
 
 <h5 id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</h5>
 
+<strong><li>Sí ofrecemos un informe técnico detallado con un sello de certificación visual (Certiweb), entonces los compradores confiarán más en el auto, lo que permitirá que los vendedores concreten ventas en menos tiempo.</li>
 
+<li>Si los revendedores cuentan con un plan de suscripción que les permita realizar múltiples inspecciones a bajo costo, entonces usarán nuestro servicio recurrentemente para mantener su stock certificado y competitivo.</li><br>
+
+<li>Si desarrollamos una plataforma digital que permita a los usuarios agendar inspecciones, visualizar informes y administrar suscripciones fácilmente, entonces mejoraremos la experiencia de usuario y aumentaremos la retención.</li><br>
+
+<li>Si los autos certificados por Certiweb son destacados en plataformas de venta online, entonces recibirán más visitas e interés que autos sin certificación, aumentando la posibilidad de venta.</li></strong>
 
 <h5 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h5>
 

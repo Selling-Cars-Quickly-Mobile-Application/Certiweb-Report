@@ -163,6 +163,14 @@ Certiweb es un servicio especializado en la inspección y certificación de veh�
 
 <h4 id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</h4>
 
+| Nombre | Descripción |
+|--------|-------------|
+|        |             |
+|        |             |
+|        |             |
+|        |             |
+|        |             |
+
 
 
 <h3 id="12-solution-profile">1.2. Solution Profile</h3>

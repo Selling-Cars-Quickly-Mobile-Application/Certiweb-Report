@@ -337,7 +337,9 @@ El servicio está disponible mediante suscripciones mensuales (para revendedores
 
 <h5 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h5>
 
+<img src="Images/lean-ux-canvas.png"/>
 
+[Link del Canvas](https://app.mural.co/t/certiwerb1488/m/certiwerb1488/1744410865572/59e706ebe76d0e4606051edfad70dcd865593dee?sender=u14a78cec8f790f32120e9679)
 
 <h4 id="13-segmentos-objetivo">1.3. Segmentos objetivo</h4>
 

@@ -159,7 +159,7 @@ width=50%"/>
 <h3 id="11-startup-profile">1.1. Startup Profile</h3>
 <h4 id="111-descripción-de-la-startup">1.1.1. Descripción de la Startup</h4>
 
-
+Certiweb es un servicio especializado en la inspección y certificación de vehículos usados. Su objetivo es evaluar técnicamente el estado de los autos antes de ser puestos a la venta, mediante una revisión profesional de más de 100 puntos clave. A través de un informe detallado y un sello de certificación, Certiweb ayuda a generar confianza en los compradores, permitiendo que los vendedores individuales o revendedores puedan vender sus autos más rápido y a un mejor precio.
 
 <h4 id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</h4>
 

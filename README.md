@@ -180,6 +180,7 @@ En el mercado de autos usados, la desconfianza es uno de los principales obstác
 Certiweb, el startup impulsado por la empresa Selling Cars Quickly (SCQ), nace como respuesta a esta problemática. Su propósito es brindar un servicio imparcial de inspección técnica y certificación vehicular que incremente la confianza entre ambas partes del proceso de compra-venta.
 
 Aplicación de las 5 W’s y 2 H’s <br>
+
 Who (¿Quiénes?): <br>
 Clientes: Vendedores individuales, revendedores y compradores de autos usados. <br>
 Empresa: Selling Cars Quickly (SCQ), a través de su solución Certiweb.
@@ -206,6 +207,57 @@ El servicio está disponible mediante suscripciones mensuales (para revendedores
 <h4 id="122-lean-ux-process">1.2.2. Lean UX Process</h4>
 <h5 id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</h5>
 
+<ul style="list-style-type: none; padding-left: 0; font-family: Arial, sans-serif; line-height: 1.6;">
+  <li style="margin-bottom: 1.5rem;">
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; display: inline-block;">Domain</h3>
+    <ul style="padding-left: 20px;">
+      <li>Mercado de compra-venta de vehículos usados en Perú</li>
+      <li><strong>Problema central:</strong> Confianza baja en el estado de los autos + alto riesgo de fraude</li>
+    </ul>
+  </li>
+
+  <li style="margin-bottom: 1.5rem;">
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; display: inline-block;">Customer Segments</h3>
+    <ul style="padding-left: 20px; list-style-type: square;">
+      <li><span style="color: #e67e22;">Vendedores individuales</span>: Buscan vender rápido y seguro</li>
+      <li><span style="color: #e67e22;">Revendedores</span>: Necesitan certificaciones constantes para múltiples unidades</li>
+      <li><span style="color: #e67e22;">Compradores</span>: Demandan autos con respaldo técnico confiable</li>
+    </ul>
+  </li>
+
+  <li style="margin-bottom: 1.5rem;">
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #9b59b6; display: inline-block;">Pain Points</h3>
+    <ul style="padding-left: 20px; list-style-type: circle;">
+      <li> Desconfianza en el estado real del vehículo</li>
+      <li> Dificultad para diferenciarse en el mercado</li>
+      <li> Procesos de venta lentos por falta de transparencia</li>
+      <li> Ausencia de certificadores imparciales</li>
+    </ul>
+  </li>
+
+  <li style="margin-bottom: 1.5rem; background: #f8f9fa; padding: 10px; border-radius: 5px;">
+    <h3 style="color: #d35400;">Gap (Vacío en el mercado)</h3>
+    <blockquote style="margin-left: 20px; color: #7f8c8d; border-left: 3px solid #34495e; padding-left: 10px;">
+      "No existe un servicio accesible, imparcial y profesional que certifique el estado técnico de vehículos usados <strong>sin estar vinculado a su venta o intermediación</strong>"
+    </blockquote>
+  </li>
+
+  <li style="margin-bottom: 1.5rem;">
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #27ae60; display: inline-block;">Vision / Strategy</h3>
+    <ul style="padding-left: 20px;">
+      <li> Crear un <strong>software de gestión</strong> para inspección/certificación vehicular</li>
+      <li> Aumentar transparencia + acelerar ventas + reducir riesgos</li>
+    </ul>
+  </li>
+
+  <li>
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #f39c12; display: inline-block;">Initial Segment</h3>
+    <ul style="padding-left: 20px;">
+      <li> Vendedores individuales con poca experiencia</li>
+      <li> Pequeños revendedores que buscan ventaja competitiva</li>
+    </ul>
+  </li>
+</ul>
 
 
 <h5 id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</h5>

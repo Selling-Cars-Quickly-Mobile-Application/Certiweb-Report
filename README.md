@@ -882,7 +882,14 @@ Certiweb compite con diversas plataformas de compraventa e inspección vehicular
 
 <h4 id="233-user-journey-mapping">2.3.3. User Journey Mapping</h4>
 
+Journey Map Vendedores individuales de autos usados
+<img src="Images/customer_journey_mapping_1.png">
 
+Journey Map Revendedores o pequeños comerciantes de autos usados
+<img src="Images/Customer_journey_map_2.png">
+
+Journey Map Compradores
+<img src="Images/Customer_journey_map_3.png">
 
 <h4 id="234-empathy-mapping">2.3.4. Empathy Mapping</h4>
 

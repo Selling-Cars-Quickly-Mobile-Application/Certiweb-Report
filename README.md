@@ -893,7 +893,14 @@ Journey Map Compradores
 
 <h4 id="234-empathy-mapping">2.3.4. Empathy Mapping</h4>
 
+Empathy Mapping Vendedores individuales de autos usados
+<img src="Images/Empathy_map_Mario_Hart.png">
 
+Empathy Mapping Revendedores o pequeños comerciantes de autos usados
+<img src="Images/Empathy_map_Sung_Kang.png">
+
+Empathy Mapping Compradores
+<img src="Images/Empathy_map_Matias_Zagazeta.png">
 
 <h4 id="235-ubiquitous-language">2.3.5. Ubiquitous Language</h4>
 

@@ -1117,6 +1117,67 @@ Empathy Mapping Compradores
 <h3 id="25-strategic-level-domain-driven-design">2.5. Strategic-Level Domain-Driven Design</h3>
 <h4 id="251-eventstorming">2.5.1. EventStorming</h4>
 
+Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos clave, los actores involucrados, servicios de terceros y otros elementos relevantes. Para implementar esta sección, se llevaron a cabo entrevistas con los segmentos objetivos, lo que nos permitió identificar los eventos principales y desarrollar un entendimiento compartido.
+
+A continuación, presentamos los pasos que seguimos para elaborar correctamente el Event Storming utilizando la herramienta Lucidchart:
+
+Paso 1: Unstructured Exploration
+En esta etapa, se llevó a cabo una lluvia de ideas sobre los eventos del dominio relacionados con el negocio que se está explorando. Esta actividad nos permitió identificar los eventos clave y las interacciones entre ellos, brindando una visión inicial de los procesos y dinámicas del negocio.
+
+<img src="Images/eventstorming1.png">
+
+Paso 2: Timelines
+En esta sección, los eventos previamente identificados son agrupados en subgrupos, cada uno liderado por el evento principal, que encapsula la funcionalidad clave de ese grupo. Estos eventos siguen el flujo que describe el escenario exitoso del negocio (Happy path), y también cubren los escenarios alternativos que podrían ocurrir durante el proceso de compra y venta de vehículos. El objetivo es mapear cada paso del flujo de trabajo de la plataforma, asegurando que todos los posibles resultados sean considerados para mejorar la experiencia del usuario y la eficiencia del sistema.
+
+<img src="Images/eventstorming2.png">
+<img src="Images/eventstorming3.png">
+
+Paso 3: Paint Points
+En esta fase, identificamos los puntos problemáticos o Paint Points, que son las áreas donde los usuarios podrían experimentar dificultades al realizar una acción específica dentro de la aplicación. Estos puntos son cruciales para mejorar la experiencia de usuario (UX) y asegurar que Certiweb ofrezca una aplicación eficiente, fácil de usar y sin fricciones.
+
+<img src="Images/eventstorming4.png">
+<img src="Images/eventstorming5.png">
+
+Paso 4: Pivotal Points
+En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo de trabajo de Certiweb, que tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos son vitales para el éxito de los procesos empresariales y ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle. Al mejorar estos puntos, podemos asegurar una experiencia de usuario fluida y eficiente, impactando directamente en la satisfacción y en los resultados comerciales.
+
+<img src="Images/eventstorming6.png">
+<img src="Images/eventstorming7.png">
+
+Paso 5: Commands
+Los comandos representan las acciones que los actores del sistema (vendedores, compradores, administradores) pueden ejecutar dentro de Certiweb. Durante esta fase, mapeamos qué acciones desencadenan los eventos clave dentro del sistema y qué actores son responsables de ejecutarlas. Esto nos permite estructurar la lógica de negocio en torno a acciones claras y específicas, facilitando la implementación de las reglas del negocio y asegurando un flujo coherente y eficiente de las transacciones
+
+<img src="Images/eventstorming8.png">
+<img src="Images/eventstorming9.png">
+
+Paso 6: Policies
+Las políticas son las reglas de negocio o condiciones que deben cumplirse para que un comando pueda ejecutarse o un evento pueda ocurrir. Las políticas son esenciales para garantizar que el flujo de eventos dentro de la plataforma sea coherente con las reglas del negocio, estableciendo lasrestricciones del sistema y asegurando que los procesos sean sólidos, justos y transparentes.
+En Certiweb, las políticas definen los requisitos para que los vendedores, compradores, administradores y logística puedan interactuar con la plataforma de manera correcta y eficiente. A continuación, se presentan algunas políticas clave que se aplican en la plataforma.
+
+<img src="Images/eventstorming10.png">
+<img src="Images/eventstorming11.png">
+
+Paso 7: Read Models
+Los Read Models son representaciones del estado del sistema, optimizadas para la consulta por parte de los usuarios o procesos internos. Estos modelos permiten que la información se presente de manera eficiente y clara, facilitando la toma de decisiones y mejorando la experiencia del usuario. Durante este paso, definimos qué información necesita ser accesible en momentos clave del flujo de trabajo y cómo debe ser presentada, asegurando que todos los actores (vendedores, compradores, administradores) puedan visualizar el estado del sistema de manera rápida y efectiva.
+
+<img src="Images/eventstorming12.png">
+<img src="Images/eventstorming13.png">
+
+Paso 8: External Systems
+En esta fase, identificamos los sistemas externos que interactúan con el dominio de Certiweb. Esto incluye las conexiones con servicios de terceros o sistemas independientes que influyen en los eventos del negocio. Comprender cómo estos sistemas externos afectan los flujos dentro de la plataforma es crucial, ya que nos permite asegurar que las integraciones sean correctas y optimizadas.
+A continuación, se detallan los sistemas externos clave que interactúan con Certiweb, y cómo sus integraciones impactan los procesos dentro de la plataforma.
+
+<img src="Images/eventstorming14.png">
+<img src="Images/eventstorming15.png">
+
+Paso 9: Aggregates
+En este paso, agrupamos los eventos y comandos que pertenecen a un agregado específico, con el objetivo de garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema. Los Aggregates son una colección de objetos dentro de un dominio que tienen una lógica de negocio coherente y son tratados como una unidad. Al agrupar estos eventos y comandos, se asegura que el sistema sea consistente, eficiente y cumpla con las reglas de negocio.
+
+Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respectivos eventos y comandos que gestionan las entidades del sistema.
+
+<img src="Images/eventstorming16.png">
+<img src="Images/eventstorming17.png">
+
 <h5 id="2511-candidate-context-discovery">2.5.1.1. Candidate Context Discovery</h5>
 
 

@@ -769,94 +769,139 @@ Certiweb compite con diversas plataformas de compraventa e inspección vehicular
 
 <h4 id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas</h4>
 
-| Entrevista 1 |  |
+| Entrevista 1 | Christian Trillo |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |          |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |           |
+| Edad         | 45 años              |
+| Distrito     | La Victoria          |
+| <img src="Images/entrevista2.png" width="200"/>  | Nunca ha vendido un auto usado, pero le preocupa encontrar plataformas confiables para publicar (como Marketplace o letreros físicos).<br>Desconfía de compradores por internet y cree que la transparencia es clave. Para generar confianza, muestra mantenimientos al día y sugiere que el comprador lleve un mecánico.<br>Conoce talleres que certifican autos, pero depende del comprador validarlo. Prefiere vender a buen precio antes que rápido y destaca la dificultad de encontrar mecánicos de confianza.|
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=5rWZaluun-HzSOoU&t=2)            |
+| Timming      | 00:00 - 07:29           |
 <br>
 
-| Entrevista 2 |  |
+| Entrevista 2 | Germán Espinoza |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |          |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |           |
+| Edad         | 27 años              |
+| Distrito     | Ate Vitarte          |
+| <img src="Images/entrevista3.png" width="200"/>  | Vendió su auto el año pasado, pero el proceso fue frustrante por compradores indecisos y regateos.<br>Publicó en Marketplace y OLX, pero desconfía de los interesados (muchos preguntan pero no concretan).<br>Insiste en ser transparente para generar confianza y muestra comprobantes de mantenimiento. Considera útil un servicio de certificación, pagaría hasta 200 soles si agiliza la venta.|
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=LPMD3yZgh_geO01K&t=457)            |
+| Timming      | 07:36 - 12:20           |
 <br>
 
-| Entrevista 3 |  |
+| Entrevista 3 | Romulo Mucho |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |          |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |           |
+| Edad         | 21 años              |
+| Distrito     | La Molina         |
+| <img src="Images/entrevista4.png" width="200"/>  | Vendió un Honda Civic 2004; el proceso fue agotador por mensajes constantes y compradores poco serios.<br>Publicó en Marketplace y grupos de WhatsApp. Valora vender rápido (incluso a menor precio) y reconoce la dificultad de encontrar mecánicos confiables.<br>Pagaría 80-100 soles por un servicio que evite pérdida de tiempo. Un informe técnico independiente le daría seguridad a los compradores. |
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=nEhGzcHJCSvWN6yy&t=744)            |
+| Timming      | 12:24 - 18:11           |
 <br>
 
 # Segmento 2
 
-| Entrevista 1 |  |
+| Entrevista 1 | Boris Arana |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |           |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |             |
+| Edad         | 49 años              |
+| Distrito     | Lima         |
+| <img src="Images/entrevista5.png" width="200"/>  | Enfatiza la importancia de revisiones técnicas previas a la venta (compresión del motor, frenos, suspensión, etc.).<br>Critica el fraude del kilometraje alterado y apoya la certificación técnica para generar confianza.<br>Sugiere que el informe incluya pruebas de manejo, frenado y estado de autopartes. Confiaría en el servicio si demuestra seriedad y garantía.|
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=xggXM3BkGd0ERmf3&t=1099)            |
+| Timming      | 18:19 - 29:29           |
 <br>
 
-| Entrevista 2 |  |
+| Entrevista 2 | Crhistabell |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |           |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |             |
+| Edad         | 30 años              |
+| Distrito     | Lima          |
+| <img src="Images/entrevista6.png" width="200"/>  | Vende autos en Marketplace y NeoAuto. Realiza inspecciones básicas en su taller, pero cree que una certificación técnica sería útil solo si la marca es reconocida.<br>Propone que los informes incluyan historial de choques y legales (como en EE.UU.).<br> Estaría dispuesto a probar el servicio si demuestra confiabilidad. |
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=Flv4lI5k60DShIrX&t=1773)            |
+| Timming      | 29:33 - 41:40           |
 <br>
 
-| Entrevista 3 |  |
+| Entrevista 3 | Juan Carlos Ramirez |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |           |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |             |
+| Edad         | 38 años              |
+| Distrito     | Lima          |
+| <img src="Images/entrevista7.png" width="200"/>  | Rota 2-3 autos mensuales, revisados por un mecánico fijo. Usa informes como Total Check para verificar historial.<br>Considera clave la confianza y el precio competitivo.<br> Pagaría hasta 80 soles por certificación básica, pero duda de su valor sin propuesta clara. |
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=NMHNuR3arRq4bcgp&t=2505)            |
+| Timming      | 41:45 - 53:35            |
 <br>
 
 # Segmento 3
 
-| Entrevista 1 |  |
+| Entrevista 1 | Jorge Andres |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |          |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |  |
+| Edad         | 22 años              |
+| Distrito     | Lima          |
+| <img src="Images/entrevista8.png" width="200"/>  | Busca autos en Marketplace y valora los informes técnicos para evitar fallas ocultas.<br>Confía en mecánicos propios y prefiere marcas premium (BMW, Mercedes).<br> Pagaría más por certificación y sugiere videos y checklist como herramientas útiles. |
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=Zp6Jhys5Qd-bNnWL&t=3218)            |
+| Timming      | 53:38 - 58:17           |
 <br>
 
-| Entrevista 2 |  |
+| Entrevista 2 | Carlos |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |          |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |  |
+| Edad         | 25 años              |
+| Distrito     | Lima          |
+| <img src="Images/entrevista1.png" width="200"/>  | Carlos, un analista financiero de 25 años de Lima, ha tenido una experiencia positiva y otra negativa comprando autos usados, lo que aumentó su desconfianza hacia los vendedores. Su principal preocupación son fallas ocultas, por lo que lleva los autos a un taller de confianza en San Miguel para revisarlos. Valora mucho los informes técnicos y estaría dispuesto a pagar un extra razonable por ellos. Busca autos en Facebook Marketplace, OLX, Neo Auto e Instagram, usando su celular, y prefiere marcas confiables como Toyota, Hyundai y Nissan. Aunque consulta a sus padres, la decisión final la toma él. Le gustaría recibir asesoría profesional y usa videos y checklists para guiarse. Tras enfrentar gastos inesperados en reparaciones, prioriza la seguridad, la transparencia y la certificación en sus futuras compras.|
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=3lmut_3RamZOcpxD&t=3502)            |
+| Timming      | 58:22 - 01:02:34          |
 <br>
 
-| Entrevista 3 |  |
+| Entrevista 3 | Rodrigo Salvador |
 |------------------|----------------------|
-| Edad         |               |
-| Distrito     |          |
-| <img src="Images/" width="200"/>  |  |
-| URL de la grabación | [Link]()            |
-| Timming      |            |
+| Edad         | 24 años              |
+| Distrito     | Lima         |
+| <img src="Images/entrevista9.png" width="200"/>  | Rodrigo, un técnico en redes de telecomunicaciones de 24 años de Lima, compró su primer auto usado el año pasado en un proceso largo y estresante debido a su falta de experiencia. Sus principales preocupaciones al comprar un auto de segunda son las fallas ocultas, especialmente en el motor y los frenos, y problemas de papeleo. Para verificar el estado, revisa aspectos básicos como arranque, neumáticos y luces, y confía en un mecánico conocido. Aunque no se ha sentido estafado, ha percibido falta de transparencia en vendedores, a quienes generalmente no confía. Considera crucial contar con un informe técnico y estaría dispuesto a pagar más por un auto con certificado de inspección. Suele buscar autos en Facebook Marketplace y grupos de Facebook, usando principalmente su celular. Consulta a su hermano mayor antes de comprar, pero toma la decisión final solo. Prefiere marcas como Toyota, Suzuki y Chevrolet, valora la asesoría profesional y encuentra útiles los videos explicativos y los checklists. Tras su compra, experimentó un problema de dirección no detectado inicialmente, lo que refuerza su necesidad de más seguridad en futuras adquisiciones. |
+| URL de la grabación | [Link](https://youtu.be/PCCgQrpIDJs?si=5_BjjUsmW3llsm0V&t=3760)            |
+| Timming      | 01:02:40 - 01:13:00           |
 <br>
 
 <h4 id="223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas</h4>
 
+A continuación, se presenta el análisis de las entrevistas realizadas, agrupado por segmento objetivo. Se identifican las características objetivas y subjetivas más comunes, respaldadas por porcentajes calculados sobre el total de entrevistados por segmento (3 por segmento).
 
+**Segmento 1: Vendedores Individuales**
+
+*   **Experiencia y Motivación:**
+    *   El **67%** (2 de 3) ha tenido experiencias previas de venta, describiendo el proceso como frustrante o agotador debido a compradores indecisos o poco serios.
+    *   El **67%** (2 de 3) considera la transparencia fundamental para generar confianza, mostrando mantenimientos o sugiriendo revisiones mecánicas.
+    *   Las motivaciones de venta varían: **33%** (1 de 3) prioriza vender rápido (incluso a menor precio), mientras que otro **33%** (1 de 3) prioriza obtener un buen precio.
+*   **Plataformas y Confianza:**
+    *   El **67%** (2 de 3) utiliza plataformas digitales como Facebook Marketplace u OLX para publicar sus vehículos.
+    *   Existe una desconfianza generalizada hacia los compradores online (**67%**, 2 de 3).
+    *   El **67%** (2 de 3) reconoce la dificultad de encontrar mecánicos de confianza para validar el estado del vehículo.
+*   **Percepción del Servicio de Certificación:**
+    *   El **67%** (2 de 3) considera útil un servicio de certificación y estaría dispuesto a pagar por él (rangos mencionados: 80-100 soles, hasta 200 soles) si esto agiliza la venta o evita pérdidas de tiempo.
+    *   Se percibe que un informe técnico independiente podría aumentar la seguridad para los compradores (**33%**, 1 de 3).
+
+**Segmento 2: Revendedores / Vendedores con Experiencia**
+
+*   **Proceso de Venta y Verificación:**
+    *   El **100%** (3 de 3) enfatiza la importancia de realizar revisiones técnicas previas a la venta.
+    *   El **67%** (2 de 3) cuenta con mecánicos o talleres fijos para realizar estas revisiones.
+    *   El **67%** (2 de 3) expresa preocupación por fraudes comunes como la alteración del kilometraje o la ocultación del historial del vehículo.
+    *   Utilizan plataformas como Marketplace y NeoAuto (**33%**, 1 de 3) y herramientas como informes de historial (Total Check) (**33%**, 1 de 3).
+*   **Percepción del Servicio de Certificación:**
+    *   El **100%** (3 de 3) valora la idea de una certificación técnica para generar confianza, aunque con matices: uno lo ve útil si la marca es reconocida, otro duda de su valor sin una propuesta clara.
+    *   El **67%** (2 de 3) estaría dispuesto a probar o pagar por el servicio bajo ciertas condiciones (demostrar seriedad, precio razonable por certificación básica - hasta 80 soles).
+    *   Se sugiere que los informes incluyan historial de choques y aspectos legales (**33%**, 1 de 3).
+*   **Factores Clave:**
+    *   La confianza y un precio competitivo son considerados clave para la venta (**33%**, 1 de 3).
+
+**Segmento 3: Compradores**
+
+*   **Preocupaciones y Confianza:**
+    *   La principal preocupación para el **100%** (3 de 3) son las fallas mecánicas ocultas.
+    *   El **67%** (2 de 3) ha tenido experiencias negativas previas o siente desconfianza general hacia los vendedores de autos usados.
+    *   El **100%** (3 de 3) confía en mecánicos propios o conocidos para realizar la revisión del vehículo antes de comprar.
+*   **Proceso de Búsqueda:**
+    *   El **100%** (3 de 3) utiliza plataformas digitales (Marketplace, Grupos de Facebook, OLX, NeoAuto, Instagram) para buscar vehículos.
+    *   El **67%** (2 de 3) realiza la búsqueda principalmente desde su celular.
+    *   El **67%** (2 de 3) consulta a familiares (padres, hermano) antes de tomar la decisión, aunque la decisión final es personal.
+*   **Valoración de la Certificación y Herramientas:**
+    *   El **100%** (3 de 3) valora positivamente los informes técnicos y las certificaciones.
+    *   El **100%** (3 de 3) estaría dispuesto a pagar un extra por un vehículo que cuente con un certificado de inspección.
+    *   El **100%** (3 de 3) encuentra útiles herramientas como videos explicativos y checklists durante el proceso de compra.
+*   **Preferencias:**
+    *   Mencionan preferencia por marcas consideradas confiables (Toyota, Hyundai, Nissan, Suzuki, Chevrolet) o premium (BMW, Mercedes).
 
 <h3 id="23-needfinding">2.3. Needfinding</h3>
 <h4 id="231-user-personas">2.3.1. User Personas</h4>

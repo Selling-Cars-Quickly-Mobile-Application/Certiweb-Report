@@ -1224,15 +1224,15 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 <h4 id="253-software-architecture">2.5.3. Software Architecture</h4>
 <h5 id="2531-software-architecture-context-level-diagrams">2.5.3.1. Software Architecture Context Level Diagrams</h5>
 
-
+<img src="Images/SystemContext2.png">
 
 <h5 id="2532-software-architecture-container-level-diagrams">2.5.3.2. Software Architecture Container Level Diagrams</h5>
 
-
+<img src="Images/Containers.png">
 
 <h5 id="2533-software-architecture-deployment-diagrams">2.5.3.3. Software Architecture Deployment Diagrams</h5>
 
-
+<img src="Images/Deploymentdia.png">
 
 <h3 id="26-tactical-level-domain-driven-design">2.6. Tactical-Level Domain-Driven Design</h3>
 <h4 id="261-bounded-context-iam">2.6.1. Bounded Context: IAM</h4>

@@ -1325,11 +1325,11 @@ Implementa acceso a datos y servicios técnicos:
 
 <h5 id="2616-bounded-context-software-architecture-code-level-diagrams">2.6.1.6. Bounded Context Software Architecture Code Level Diagrams</h5>
 
-<img src="Images/BounedIAMcode.png">
+<img src="Images/BounedIAMcode2.png">
 
 <h6 id="26161-bounded-context-domain-layer-class-diagrams">2.6.1.6.1. Bounded Context Domain Layer Class Diagrams</h6>
 
-<img src="Images/BounedIAMclass.png">
+<img src="Images/BounedIAMclass2.png">
 
 <h6 id="26162-bounded-context-database-design-diagram">2.6.1.6.2. Bounded Context Database Design Diagram</h6>
 

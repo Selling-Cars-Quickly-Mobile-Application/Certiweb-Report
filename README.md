@@ -1238,15 +1238,86 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 <h4 id="261-bounded-context-iam">2.6.1. Bounded Context: IAM</h4>
 <h5 id="2611-domain-layer">2.6.1.1. Domain Layer</h5>
 
+En esta capa modelamos la identidad y acceso de administradores del sistema, cuidando las invariantes de autenticación y trazabilidad.
+
+Aggregate 1: AdminUser
+
+| Nombre     | Categoría        | Descripción |
+|------------|------------------|-------------|
+| AdminUser  | Entity (Aggregate Root) | Representa a un usuario administrador del sistema para tareas administrativas. Custodia credenciales seguras y metadatos de auditoría. |
+
+Attributes
+
+| Nombre       | Tipo de dato       | Visibilidad | Descripción |
+|--------------|--------------------|-------------|-------------|
+| id           | Integer            | Private     | Identificador único del administrador. |
+| name         | String             | Private     | Nombre del administrador (requerido, máx. 100). |
+| email        | Email (String)     | Private     | Correo electrónico único y validado (máx. 255). |
+| password     | String             | Private     | Contraseña almacenada como hash (BCrypt). |
+| createdDate  | DateTimeOffset?    | Private     | Fecha de creación para auditoría. |
+| updatedDate  | DateTimeOffset?    | Private     | Fecha de última actualización. |
+
+Methods
+
+| Nombre y firma                                     | Tipo de retorno | Visibilidad | Descripción |
+|----------------------------------------------------|-----------------|-------------|-------------|
+| login(email: Email, password: String)              | Token (JWT)     | Public      | Valida credenciales del administrador y emite un JWT a través de servicios de hashing y token. |
+| verifyPassword(candidate: String)                  | Boolean         | Private     | Verifica una contraseña candidata contra el hash almacenado (delegado en servicio de hashing). |
+| changePassword(newPassword: String)                | Void            | Public      | Actualiza la contraseña del administrador (persistiendo el hash). |
+| updateProfile(name: String, email: Email)          | Void            | Public      | Actualiza datos básicos del perfil (nombre y correo). |
+
+Nota: Aunque la entidad no expone métodos en el código actual, estos representan las capacidades del agregado dentro del dominio IAM y se materializan vía servicios y controladores.
 
 <h5 id="2612-interface-layer">2.6.1.2. Interface Layer</h5>
 
+Expone endpoints REST para capacidades de IAM (administradores):
+
+- POST /api/v1/admin_user/login: Autenticación de administrador y emisión de JWT.
+- GET /api/v1/admin_user: Listado de administradores.
+- GET /api/v1/admin_user/{id}: Obtiene un administrador por ID.
+- GET /api/v1/admin_user/by-email/{email}: Obtiene un administrador por email.
+- POST /api/v1/admin_user/migrate-passwords: Migra contraseñas en texto plano a hash BCrypt.
+- POST /api/v1/admin_user/test-password: Verifica contraseñas contra el hash almacenado (debug).
 
 <h5 id="2613-application-layer">2.6.1.3. Application Layer</h5>
 
+Orquesta flujos de autenticación y consulta usando servicios de dominio:
+
+- Query Service: IAdminUserQueryService (búsqueda por id, email y listado).
+- Facade ACL: IamContextFacade (exposición controlada de capacidades de IAM hacia otros contextos).
+- Contracts CQRS del BC: Queries y Commands.
+
+Cuadros adicionales (Servicios de Aplicación relevantes):
+
+Servicios de autenticación y emisión de tokens
+
+| Servicio/Componente | Responsabilidad | Métodos clave |
+|---------------------|-----------------|---------------|
+| HashingService      | Hash y verificación de contraseñas (BCrypt) | HashPassword(plain: String): String; VerifyPassword(plain: String, hash: String): Boolean |
+| TokenService (JWT)  | Generación de tokens de acceso para el usuario autenticado | GenerateToken(user: User): String |
+
+Contratos y flujos
+
+| Contrato | Descripción | Uso en flujo |
+|----------|-------------|--------------|
+| LoginAdminRequest | DTO con email y password | Entrada del endpoint /api/v1/admin_user/login |
+| AuthenticatedUserResource | DTO de salida con Id, Name, Email, Plan, Token | Respuesta con JWT una vez autenticado |
+
+JWT Token (estructura y claims)
+
+| Claim/Propiedad | Tipo/Valor | Descripción |
+|-----------------|------------|-------------|
+| alg             | HS256      | Algoritmo de firma HMAC-SHA256. |
+| exp             | Date (+7d) | Expiración establecida a 7 días desde la emisión. |
+| sid             | String     | Identificador del usuario (ClaimTypes.Sid). |
+| name            | String     | Nombre del usuario (ClaimTypes.Name). |
 
 <h5 id="2614-infrastructure-layer">2.6.1.4 Infrastructure Layer</h5>
 
+Implementa acceso a datos y servicios técnicos:
+
+- Repositorio del agregado AdminUser: IAdminUserRepository (FindByEmailAsync, GetAllAsync, CRUD vía IBaseRepository).
+- Persistencia EFC: carpeta de implementación con Entity Framework Core y manejo de Created/UpdatedDate.
 
 <h5 id="2615-bounded-context-software-architecture-component-level-diagrams">2.6.1.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 
@@ -1263,15 +1334,116 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 <h4 id="262-bounded-context-certificaciones">2.6.2. Bounded Context: Certificaciones</h4>
 <h5 id="2621-domain-layer">2.6.2.1. Domain Layer</h5>
 
+En esta capa modelamos la certificación de vehículos (carros) y el catálogo de marcas, cuidando invariantes como placa única, año válido, precio no negativo y PDF de certificación válido.
+
+Aggregate 1: Car
+
+| Nombre | Categoría | Descripción |
+|--------|-----------|-------------|
+| Car | Entity (Aggregate Root) | Representa una certificación de vehículo con datos del propietario, marca, modelo y documentación (PDF). |
+
+Attributes (Car)
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+|--------|---------------|-------------|-------------|
+| id | Integer | Private | Identificador único del vehículo certificado. |
+| title | String | Private | Título o nombre corto del vehículo (requerido, máx. 200). |
+| owner | String | Private | Nombre del propietario (requerido, máx. 100). |
+| ownerEmail | Email (String) | Private | Correo del propietario (requerido, máx. 100). |
+| year | Year (Value Object) | Private | Año del vehículo (entre 1900 y año actual + 1). |
+| brandId | Integer | Private | Identificador de la marca asociada. |
+| brand | Brand | Private | Referencia a la marca (cargada por repositorio). |
+| model | String | Private | Modelo del vehículo (requerido, máx. 100). |
+| description | String? | Private | Descripción opcional (máx. 500). |
+| pdfCertification | PdfCertification (Value Object) | Private | Certificado en Base64 (mín. 10 caracteres; limpia prefijo data:application/pdf;base64, si existe). |
+| imageUrl | String? | Private | URL de imagen opcional (máx. 500). |
+| price | Price (Value Object) | Private | Precio no negativo; moneda por defecto "SOL". |
+| licensePlate | LicensePlate (Value Object) | Private | Placa entre 6 y 10 caracteres, normalizada a mayúsculas. |
+| originalReservationId | Integer | Private | ID de la reservación original asociada. |
+
+Methods (Car)
+
+| Nombre y firma | Tipo de retorno | Visibilidad | Descripción |
+|----------------|-----------------|-------------|-------------|
+| create(command: CreateCarCommand) | Car | Public | Crea una certificación de vehículo garantizando invariantes y unicidad (placa y reservación). |
+| update(command: UpdateCarCommand) | Void | Public | Actualiza datos del vehículo (marca, placa, PDF, precio, etc.). |
+| delete(id: Integer) | Boolean | Public | Elimina la certificación si existe. |
+| assignBrand(brandId: Integer) | Void | Public | Asigna/actualiza la marca del vehículo. |
+| changeLicensePlate(value: String) | Void | Public | Cambia la placa validando unicidad y formato. |
+| attachPdf(base64Pdf: String) | Void | Public | Adjunta o sustituye el PDF de certificación (Base64). |
+
+Nota: Aunque muchas capacidades se materializan vía servicios de aplicación y controladores, estas operaciones reflejan el comportamiento esperado del agregado.
+
+Aggregate 2: Brand
+
+| Nombre | Categoría | Descripción |
+|--------|-----------|-------------|
+| Brand | Entity (Aggregate Root) | Representa la marca del vehículo (catálogo administrado). |
+
+Attributes (Brand)
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+|--------|---------------|-------------|-------------|
+| id | Integer | Private | Identificador único de la marca. |
+| name | String | Private | Nombre de la marca (requerido, máx. 100). |
+| isActive | Boolean | Private | Indicador de marca activa. |
+
+Methods (Brand)
+
+| Nombre y firma | Tipo de retorno | Visibilidad | Descripción |
+|----------------|-----------------|-------------|-------------|
+| activate() | Void | Public | Activa la marca para su uso. |
+| deactivate() | Void | Public | Desactiva la marca (no visible para selección). |
+| rename(name: String) | Void | Public | Cambia el nombre de la marca validando no vacío. |
+
+Value Objects e invariantes
+
+| VO | Regla(s) principal(es) |
+|----|------------------------|
+| Year | Entre 1900 y (año actual + 1). |
+| LicensePlate | Longitud 6..10; no vacío; se normaliza a mayúsculas. |
+| Price | No negativo; moneda obligatoria (por defecto "SOL"). |
+| PdfCertification | Base64 mínimo 10 caracteres; opcionalmente se valida que sea Base64; elimina prefijo data URL si existe. |
 
 <h5 id="2622-interface-layer">2.6.2.2. Interface Layer</h5>
 
+Expone endpoints REST para capacidades de certificación de vehículos y marcas:
+
+- POST /api/v1/cars: Crea una certificación de vehículo.
+- GET /api/v1/cars: Lista todas las certificaciones.
+- GET /api/v1/cars/{carId}: Obtiene una certificación por ID.
+- GET /api/v1/cars/brand/{brandId}: Lista certificaciones por marca.
+- GET /api/v1/cars/owner/{ownerEmail}: Lista certificaciones por correo del propietario.
+- PATCH /api/v1/cars/{carId}: Actualiza parcialmente una certificación.
+- GET /api/v1/cars/{id}/pdf: Obtiene el PDF de certificación (Base64 con prefijo data URL).
+- DELETE /api/v1/cars/{carId}: Elimina una certificación.
+- GET /api/v1/brands: Lista de marcas activas.
 
 <h5 id="2623-application-layer">2.6.2.3. Application Layer</h5>
 
+Orquesta flujos de comandos y consultas del dominio:
+
+- Command Service: ICarCommandService (creación, actualización y eliminación de Car).
+- Query Service: ICarQueryService (listado, por id, por marca y por email del propietario).
+- Reglas de negocio: validación de VO y unicidad (placa y reservación) delegadas a repositorios y VO.
+- Contracts CQRS del BC: Commands (CreateCarCommand, UpdateCarCommand, DeleteCarCommand) y Queries (GetAllCarsQuery, GetCarByIdQuery, GetCarsByBrandQuery, GetCarsByOwnerEmailQuery).
+
+Contratos y flujos
+
+| Contrato | Descripción | Uso en flujo |
+|----------|-------------|--------------|
+| CreateCarResource | DTO con los campos para crear una certificación (incluye PDF Base64, precio, placa, etc.). | Entrada del endpoint POST /api/v1/cars |
+| UpdateCarResource | DTO para actualización parcial de una certificación. | Entrada del endpoint PATCH /api/v1/cars/{carId} |
+| CarResource | DTO de salida con los datos del vehículo y banderas derivadas (ej. HasPdfCertification). | Respuesta en endpoints GET/POST/PATCH de cars |
+| BrandResource | DTO de salida de marca (Id, Name, IsActive). | Respuesta de GET /api/v1/brands |
 
 <h5 id="2624-infrastructure-layer">2.6.2.4 Infrastructure Layer</h5>
 
+Implementa acceso a datos y servicios técnicos del BC:
+
+- Repositorio del agregado Car: ICarRepository (ListAsync con Include Brand, FindByIdAsync con Include, FindCarsByBrandIdAsync, FindCarsByOwnerEmailAsync, FindCarByLicensePlateAsync, FindCarByReservationIdAsync).
+- Repositorio del agregado Brand: IBrandRepository (FindBrandByIdAsync, GetActiveBrandsAsync y CRUD vía IBaseRepository).
+- Persistencia EFC: implementaciones concretas con Entity Framework Core; uso de UnitOfWork para completar transacciones.
 
 <h5 id="2625-bounded-context-software-architecture-component-level-diagrams">2.6.2.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 
@@ -1288,15 +1460,93 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 <h4 id="263-bounded-context-reservacion">2.6.3. Bounded Context: Reservacion</h4>
 <h5 id="2631-domain-layer">2.6.3.1. Domain Layer</h5>
 
+Este BC modela la reserva de inspecciones vehiculares, con foco en evitar duplicidades por placa/fecha-hora y en un ciclo de vida simple de estados.
+
+Aggregate: Reservation
+
+| Nombre | Categoría | Descripción |
+|--------|-----------|-------------|
+| Reservation | Entity (Aggregate Root) | Representa una reserva de inspección para un vehículo y un horario específico. |
+
+Attributes (Reservation)
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+|--------|---------------|-------------|-------------|
+| id | Integer | Private | Identificador único de la reserva. |
+| userId | Integer | Private | Id del usuario que realiza la reserva. |
+| reservationName | String | Private | Nombre de quien reserva. |
+| reservationEmail | Email (String) | Private | Correo de quien reserva. |
+| imageUrl | String | Private | URL de imagen del vehículo. |
+| brand | String | Private | Marca del vehículo. |
+| model | String | Private | Modelo del vehículo. |
+| licensePlate | String | Private | Placa en formato XXX-XXX; se normaliza a mayúsculas y con guion (helper interno). |
+| inspectionDateTime | DateTime | Private | Fecha-hora de inspección; validación de duplicidad por placa/fecha-hora. |
+| price | String | Private | Precio (representación textual). |
+| status | String | Private | Estado de reserva: pending, accepted, rejected. |
+| createdDate | DateTimeOffset? | Private | Marca de auditoría de creación. |
+| updatedDate | DateTimeOffset? | Private | Marca de auditoría de actualización. |
+
+Methods (Reservation)
+
+| Nombre y firma | Tipo de retorno | Visibilidad | Descripción |
+|----------------|-----------------|-------------|-------------|
+| create(command: CreateReservationCommand) | Reservation | Public | Crea una reserva con placa formateada y estado inicial pending. |
+| updateStatus(reservationId: Integer, status: String) | Reservation | Public | Actualiza estado validando valores permitidos. |
+| delete(reservationId: Integer) | Boolean | Public | Elimina la reserva si existe. |
+
+Reglas clave
+
+- Placa: se limpia y formatea a XXX-XXX (3+3 alfanuméricos, mayúsculas). Evitar reservaciones duplicadas por placa y fecha-hora (comparando día y hora). 
+- Estados permitidos: pending, accepted, rejected.
 
 <h5 id="2632-interface-layer">2.6.3.2. Interface Layer</h5>
 
+Endpoints REST expuestos por ReservationsController:
+
+- POST /api/v1/reservations: Crea una reserva.
+- GET /api/v1/reservations: Lista todas las reservas.
+- GET /api/v1/reservations/{reservationId}: Obtiene reserva por ID.
+- GET /api/v1/reservations/user/{userId}: Lista reservas de un usuario.
+- GET /api/v1/reservations/status/{status}: Lista reservas por estado.
+- PUT /api/v1/reservations/{reservationId}/status: Actualiza estado (body: string status).
+- PUT /api/v1/reservations/{reservationId}: Actualiza reserva (usa UpdateReservationResource con Status).
+- DELETE /api/v1/reservations/{reservationId}: Elimina una reserva.
 
 <h5 id="2633-application-layer">2.6.3.3. Application Layer</h5>
 
+Servicios y orquestación de CQRS:
+
+- Command Service: IReservationCommandService con Handle(CreateReservationCommand), Handle(UpdateReservationStatusCommand), Handle(DeleteReservationCommand).
+- Query Service: IReservationQueryService con Handle(GetAllReservationsQuery), Handle(GetReservationByIdQuery), Handle(GetReservationsByUserIdQuery), Handle(GetReservationsByStatusQuery).
+- Reglas de negocio clave en comandos: validación de placa (máx. 6 alfanuméricos, formato XXX-XXX y normalización), control de duplicidad por placa/fecha-hora, validación de estados permitidos.
+
+Contratos/DTOs
+
+| Contrato | Descripción | Uso |
+|----------|-------------|-----|
+| CreateReservationResource | Datos de entrada para crear reserva. | POST /api/v1/reservations |
+| UpdateReservationResource | Datos de actualización (Status). | PUT /api/v1/reservations/{reservationId} |
+| ReservationResource | Respuesta estándar de reservas. | Todas las respuestas GET/POST/PUT |
+
+Comandos y Consultas (CQRS)
+
+| Tipo | Nombre |
+|------|--------|
+| Command | CreateReservationCommand |
+| Command | UpdateReservationStatusCommand |
+| Command | DeleteReservationCommand |
+| Query | GetAllReservationsQuery |
+| Query | GetReservationByIdQuery |
+| Query | GetReservationsByUserIdQuery |
+| Query | GetReservationsByStatusQuery |
 
 <h5 id="2634-infrastructure-layer">2.6.3.4 Infrastructure Layer</h5>
 
+Persistencia y repositorios (EF Core):
+
+- IReservationRepository: FindReservationsByUserIdAsync, FindReservationsByStatusAsync, ExistsReservationForLicensePlateAndDateTimeAsync.
+- Implementación EFC: ReservationRepository con normalización de placa y comparación por fecha y hora exacta.
+- Unit of Work: coordinación de transacciones al crear/actualizar/eliminar reservas.
 
 <h5 id="2635-bounded-context-software-architecture-component-level-diagrams">2.6.3.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 
@@ -1313,15 +1563,82 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 <h4 id="264-bounded-context-usuarios">2.6.4. Bounded Context: Usuarios</h4>
 <h5 id="2641-domain-layer">2.6.4.1. Domain Layer</h5>
 
+Este BC modela a los usuarios finales del sistema (no administradores IAM), incluyendo registro, autenticación y plan de suscripción.
+
+Aggregate: User
+
+| Nombre | Categoría | Descripción |
+|--------|-----------|-------------|
+| User | Entity (Aggregate Root) | Representa a un usuario del sistema con credenciales y plan de suscripción. |
+
+Attributes (User)
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+|--------|---------------|-------------|-------------|
+| id | Integer | Private | Identificador único del usuario. |
+| name | String | Private | Nombre del usuario (requerido, 2-100). |
+| email | Email (String) | Private | Correo del usuario (único, validado). |
+| password | String | Private | Contraseña hasheada (BCrypt). |
+| plan | String | Private | Plan de suscripción. |
+| createdDate | DateTimeOffset? | Private | Marca de auditoría de creación. |
+| updatedDate | DateTimeOffset? | Private | Marca de auditoría de actualización. |
+
+Métodos/Regras clave
+
+- Creación: hash de contraseña antes de persistir (servicio de hashing). 
+- Autenticación: validación por email y verificación de contraseña hasheada; emisión de JWT con claims sid y name.
 
 <h5 id="2642-interface-layer">2.6.4.2. Interface Layer</h5>
 
+Endpoints REST expuestos
+
+- UsersController
+  - GET /api/v1/users: Lista usuarios.
+  - GET /api/v1/users/{userId}: Obtiene usuario por id.
+  - POST /api/v1/users/migrate-passwords: Migra contraseñas texto plano a hash (uso puntual).
+  - POST /api/v1/users/test-password: Verifica contraseña vs hash (diagnóstico).
+
+- AuthenticationController
+  - POST /api/v1/auth/register: Registra usuario y retorna token.
+  - POST /api/v1/auth/login: Autentica usuario (email+password) y retorna token.
 
 <h5 id="2643-application-layer">2.6.4.3. Application Layer</h5>
 
+Servicios y CQRS
+
+- Command Service: IUserCommandService con Handle(CreateUserCommand) -> retorna AuthenticatedUserResource (incluye JWT).
+- Query Service: IUserQueryService con Handle(GetAllUsersQuery), Handle(GetUserByIdQuery), Handle(GetUserByEmail), Handle(GetUserByEmailAndPassword).
+- Outbound Services: IHashingService (BCrypt), ITokenService (JWT HS256, exp +7d, claims sid/name).
+
+Contratos/DTOs
+
+| Contrato | Descripción | Uso |
+|----------|-------------|-----|
+| CreateUserResource | Datos de entrada para registro. | POST /api/v1/auth/register |
+| LoginRequest | Email y password para login. | POST /api/v1/auth/login |
+| UserResource | DTO estándar de usuario (incluye password hasheado). | GET endpoints de UsersController |
+| AuthenticatedUserResource | DTO de salida con Id, Name, Email, Plan, Token | Respuestas de register/login |
+
+Comandos y Consultas (CQRS)
+
+| Tipo | Nombre |
+|------|--------|
+| Command | CreateUserCommand |
+| Query | GetAllUsersQuery |
+| Query | GetUserByIdQuery |
+| Query | GetUserByEmail |
+| Query | GetUserByEmailAndPassword |
 
 <h5 id="2644-infrastructure-layer">2.6.4.4 Infrastructure Layer</h5>
 
+Persistencia y servicios técnicos
+
+- IUserRepository: extiende IBaseRepository<User>; operación específica FindUserByEmailAsync.
+- Implementación EFC: UserRepository con FindUserByEmailAsync.
+- Hashing: implementación BCrypt de IHashingService.
+- Tokens: implementación JWT de ITokenService con HS256, exp 7 días, claims sid y name.
+- Middleware: RequestAuthorizationMiddleware valida token y extrae userId.
+- Inyección de dependencias: servicios y repositorios registrados en Program.cs.
 
 <h5 id="2645-bounded-context-software-architecture-component-level-diagrams">2.6.4.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 

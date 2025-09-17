@@ -1654,16 +1654,19 @@ Persistencia y servicios técnicos
 
 <h5 id="2645-bounded-context-software-architecture-component-level-diagrams">2.6.4.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 
+<img src="Images/BounedIcertiUser.png">
 
 <h5 id="2646-bounded-context-software-architecture-code-level-diagrams">2.6.4.6. Bounded Context Software Architecture Code Level Diagrams</h5>
 
+<img src="Images/BounedIcertiUsercode.png">
 
 <h6 id="26461-bounded-context-domain-layer-class-diagrams">2.6.4.6.1. Bounded Context Domain Layer Class Diagrams</h6>
 
+<img src="Images/BounedIcertiUserclass.png">
 
 <h6 id="26462-bounded-context-database-design-diagram">2.6.4.6.2. Bounded Context Database Design Diagram</h6>
 
-
+<img src="Images/BounedIcertiUserdata.png">
 
 <h1 id="capítulo-iii-solution-uiux-design">Capítulo III: Solution UI/UX Design</h1>
 <h3 id="31-product-design">3.1. Product design</h3>

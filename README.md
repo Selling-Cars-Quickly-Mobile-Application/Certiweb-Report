@@ -1550,15 +1550,19 @@ Persistencia y repositorios (EF Core):
 
 <h5 id="2635-bounded-context-software-architecture-component-level-diagrams">2.6.3.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 
+<img src="Images/BounedIAM.png">
 
 <h5 id="2636-bounded-context-software-architecture-code-level-diagrams">2.6.3.6. Bounded Context Software Architecture Code Level Diagrams</h5>
 
+<img src="Images/BounedIAMcode.png">
 
 <h6 id="26361-bounded-context-domain-layer-class-diagrams">2.6.3.6.1. Bounded Context Domain Layer Class Diagrams</h6>
 
+<img src="Images/BounedIAMclass.png">
 
 <h6 id="26362-bounded-context-database-design-diagram">2.6.3.6.2. Bounded Context Database Design Diagram</h6>
 
+<img src="Images/BounedIAMdata.png">
 
 <h4 id="264-bounded-context-usuarios">2.6.4. Bounded Context: Usuarios</h4>
 <h5 id="2641-domain-layer">2.6.4.1. Domain Layer</h5>

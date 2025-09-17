@@ -1451,15 +1451,19 @@ Implementa acceso a datos y servicios técnicos del BC:
 
 <h5 id="2625-bounded-context-software-architecture-component-level-diagrams">2.6.2.5. Bounded Context Software Architecture Component Level Diagrams</h5>
 
+<img src="Images/BounedIcerti.png">
 
 <h5 id="2626-bounded-context-software-architecture-code-level-diagrams">2.6.2.6. Bounded Context Software Architecture Code Level Diagrams</h5>
 
+<img src="Images/BounedIcerticode.png">
 
 <h6 id="26261-bounded-context-domain-layer-class-diagrams">2.6.2.6.1. Bounded Context Domain Layer Class Diagrams</h6>
 
+<img src="Images/BounedIcerticlass.png">
 
 <h6 id="26262-bounded-context-database-design-diagram">2.6.2.6.2. Bounded Context Database Design Diagram</h6>
 
+<img src="Images/BounedIcertidata.png">
 
 <h4 id="263-bounded-context-reservacion">2.6.3. Bounded Context: Reservacion</h4>
 <h5 id="2631-domain-layer">2.6.3.1. Domain Layer</h5>

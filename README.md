@@ -1219,7 +1219,39 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 
 <h4 id="252-context-mapping">2.5.2. Context Mapping</h4>
 
+En esta sección, analizamos y evidenciamos el proceso de elaboración de context maps (visualizaciones de relaciones estructurales entre bounded contexts) a partir de la información recolectada. Para producir diseños candidatos exploramos alternativas con preguntas como:
+- ¿Qué pasaría si movemos este capability a otro bounded context?
+- ¿Qué pasaría si descomponemos este capability y movemos un sub-capability a otro bounded context?
+- ¿Qué pasaría si partimos un bounded context en múltiples bounded contexts?
+- ¿Qué pasaría si combinamos capabilities de 3 contexts para formar uno nuevo?
+- ¿Qué pasaría si duplicamos una funcionalidad para romper una dependencia?
+- ¿Qué pasaría si creamos un shared service para reducir duplicación?
+- ¿Qué pasaría si aislamos los core capabilities y movemos otros a un context aparte?
 
+Contextos involucrados (en orden): IAM, Certifications, Reservation, Users.
+
+Decisiones y patrones aplicados:
+- IAM actúa como Proveedor de Identidad y Permisos para el resto de contexts. Patrón: Customer/Supplier con Open Host Service + Published Language en IAM; los consumidores integran vía Anti‑corruption Layer (ACL) para evitar fugas de modelos.
+- Users provee identidad de usuarios finales y su ciclo de vida; Reservation consume Users para validar existencia/identidad del usuario (Customer/Supplier + ACL).
+- Reservation publica el estado de las reservas; Certifications depende de este upstream para validar y trazar OriginalReservationId y reglas de flujo. Patrón: Conformist (Certifications adopta el lenguaje publicado por Reservation).
+- No se adopta Shared Kernel de dominio entre estos contexts para evitar acoplamiento. Se comparte únicamente infraestructura técnica (por ejemplo, configuración EFC, middleware y utilitarios), sin compartir modelos de dominio.
+
+Preguntas estratégicas y hallazgos:
+- ¿Mover capacidades de autenticación fuera de IAM? Rechazado: concentramos identidad y autorización en IAM para evitar duplicación y conflictos.
+- ¿Dividir Users en “Registro/Perfil” y “Auth”? Rechazado por la escala actual; se mantiene Users íntegro para reducir latencia y complejidad de sincronización.
+- ¿Crear un contexto “Assignments” entre Users y Reservation? Descartado; cada contexto maneja sus propias invariantes y responsabilidades.
+- ¿Duplicar validaciones de identidad en Reservation o Certifications? Descartado; se prefiere Customer/Supplier + ACL hacia IAM.
+- ¿Elevar un Shared Kernel de dominio? Descartado; privilegiamos autonomía y evolución independiente de los modelos.
+
+Conclusión:
+- Se mantienen 4 bounded contexts (IAM, Certifications, Reservation, Users) con relaciones explícitas.
+- Los consumidores (Users, Reservation, Certifications) integran con IAM vía ACL para desacoplarse del modelo de identidad.
+- Reservation es upstream de Certifications; Certifications adopta el lenguaje de Reservation (Conformist) y referencia OriginalReservationId.
+- Sin Shared Kernel de dominio; únicamente “shared” técnico.
+
+Diagrama de Context Mapping (PlantUML):
+
+<img src="Images/ContextMapping.png">
 
 <h4 id="253-software-architecture">2.5.3. Software Architecture</h4>
 <h5 id="2531-software-architecture-context-level-diagrams">2.5.3.1. Software Architecture Context Level Diagrams</h5>

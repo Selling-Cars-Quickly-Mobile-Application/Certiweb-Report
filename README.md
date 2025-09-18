@@ -1205,11 +1205,40 @@ Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respe
 <img src="Images/Diagrama en blanco (14).png">
 
 <h5 id="2511-candidate-context-discovery">2.5.1.1. Candidate Context Discovery</h5>
+Nuestro equipo optó por utilizar la técnica “start-with-simple” porque hemos observado que esta estrategia se centra en identificar componentes del sistema que, desde una perspectiva funcional, de usuario o de infraestructura, claramente deben ir juntos. Es especialmente útil para sistemas que ya están bien comprendidos.
 
+Hemos identificado 5 Bounded Contexts.
+
+<h5>Usuarios</h5>
+
+Este contexto maneja todo lo relacionado con el registro y autenticación de usuarios, tanto vendedores como compradores. Incluye la gestión de perfiles, suscripciones y pagos. Los usuarios deben estar autenticados y tener una cuenta activa para interactuar con la plataforma.
+
+<img src="Images/candidate_usuario.png">
+
+<h5>Reservacion</h5>
+
+Aquí se gestiona la publicación de vehículos en la plataforma. Los vendedores crean, actualizan o eliminan anuncios de vehículos. Cada vehículo debe ser verificado (licencia) antes de su publicación, y solo puede ser asignado a un comprador si ha sido certificado correctamente.
+
+<img src="Images/candidate_reservacion.png">
+
+<h5>Certificación</h5>
+
+Este contexto se encarga de la inspección técnica de los vehículos y la certificación de su estado. Los vehículos deben pasar una inspección para garantizar que cumplen con los estándares de calidad. Si fallan, no se emite una certificación y no pueden ser vendidos en la plataforma.
+
+<img src="Images/candidate_certificacion.png">
+
+<h5>IAM</h5>
+
+Este contexto se encarga de la gestión de identidades y accesos dentro de la plataforma. Su principal función es garantizar que solo los usuarios autenticados y autorizados puedan acceder a las funcionalidades específicas del sistema. **IAM** maneja el registro, la autenticación, la autorización y la asignación de roles de los usuarios, tanto vendedores como compradores. Además, es responsable de proporcionar acceso a las plataformas según los roles y planes de suscripción de los usuarios.
+
+<img src="Images/candidate_IAM.png">
+
+link del lucidChart: https://lucid.app/lucidchart/f864c62e-e773-40df-be1b-de30a22826ef/edit?viewport_loc=7386%2C1233%2C2996%2C1438%2C0_0&invitationId=inv_379ee707-62fc-4d69-a98e-9b7ff442b436
 
 
 <h5 id="2512-domain-message-flows-modeling">2.5.1.2. Domain Message Flows Modeling</h5>
 
+En esta sección, se describe el proceso utilizado para visualizar la interacción entre los **Bounded Contexts** que conforman el sistema de **CertiMóvil**. El objetivo principal es comprender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograrlo, se aplicó la técnica de **Domain Storytelling**, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas. Esto permite identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio.
 
 
 <h5 id="2513-bounded-context-canvases">2.5.1.3. Bounded Context Canvases</h5>

@@ -1240,6 +1240,34 @@ link del lucidChart: https://lucid.app/lucidchart/f864c62e-e773-40df-be1b-de30a2
 
 En esta sección, se describe el proceso utilizado para visualizar la interacción entre los **Bounded Contexts** que conforman el sistema de **CertiMóvil**. El objetivo principal es comprender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograrlo, se aplicó la técnica de **Domain Storytelling**, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas. Esto permite identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio.
 
+<h5>Usuarios → IAM → Reservación</h5>
+
+Cuando un vendedor se registra en la plataforma, primero debe seleccionar un plan de suscripción (Free, Mensual o Anual). El **Gestor de Usuarios** captura esta información y la envía al contexto de **IAM** para procesar la autenticación y validación de la identidad del vendedor.
+
+Una vez autenticado, **IAM** envía los datos de autenticación y el plan de suscripción al contexto de **Reservación**, donde se valida la selección del plan y se activa el acceso correspondiente al vendedor.
+
+Si el plan Free es seleccionado, el vendedor obtiene acceso a las funcionalidades básicas de la plataforma. Si el pago es exitoso (en caso de que se haya seleccionado un plan de pago), se activa el plan y el vendedor puede acceder a las funcionalidades premium.
+
+Con el plan activado, el vendedor puede proceder con la publicación de vehículos en la plataforma, dentro del contexto de **Reservación**.
+
+<img src="Images/Flow 1.jpg">
+
+<h5>Reservación→ Certificación</h5>
+
+Cuando un vendedor publica un vehículo en la plataforma, el sistema de **Reservación** solicita una inspección al contexto de **Certificación** para certificar el estado del vehículo. Esta inspección garantiza que el vehículo cumpla con los requisitos de seguridad y calidad antes de ser publicado en la plataforma.
+
+<img src="Images/Flow 3.jpg">
+
+<h5>Usuarios → IAM → Reservación</h5>
+
+Cuando un **Usuario** se registra y autentica en el sistema a través de **IAM**, se valida la identidad y los permisos del usuario (vendedor o comprador).
+
+**IAM** garantiza que el usuario tenga los roles y permisos adecuados para interactuar con el sistema.
+
+Después de la autenticación, el **Usuario** es autorizado para realizar acciones dentro del contexto de **Reservación**, como crear, consultar o eliminar vehículos.
+
+<img src="Images/Flow 4.jpg">
+
 
 <h5 id="2513-bounded-context-canvases">2.5.1.3. Bounded Context Canvases</h5>
 

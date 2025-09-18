@@ -192,11 +192,11 @@ Certiweb es un servicio especializado en la inspección y certificación de veh�
 
 | Nombre | Descripción |
 |--------|-------------|
-|        |             |
-|        |             |
-|        |             |
-|        |             |
-|        |             |
+| <img src="Images/IntegranteBarturen.png" width="200"/>    | Tengo 21 años y estoy en la Carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Ye tengo experiencia realizando trabajos grupales, me considero alguien bastante eficiente y comunicativo que siempre busca la realización del trabajo de la mejor forma posible          |
+| <img src="Images/IntegranteRodrigoA.png" width="200"/>     | Mi nombre es Rodrigo Alonso Alcantara Cruz y tengo 20 años. Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que soy una persona que busca el aprendizaje continuo y siempre intento resolver los problemas de forma rapida y eficaz. Tengo conocimiento en lenguajes de programación. Por lo general siempre intento mejorar mi metodo de estudio para poder expandir mi conocimiento.            |
+|  <img src="Images/IntegranteNicolas.png"/>      | Soy estudiante del quinto ciclo de la carrera de ingeniería de software de la universidad UPC y escogí esta carrera porque me interesa el desarrollo de aplicaciones web y base de datos. Me gustan los videojuegos y el deporte.            |
+|  <img src="Images/IntegranteMechan.png"/>       |  Estudiante de 5to ciclo de Ingeniería de Software apasionado por la tecnología, con habilidades en trabajo en equipo y enfoque en la solución de problemas. Domino fundamentos de programación, estructuras de datos, bases de datos, algoritmos y tengo habilidades en trabajo en equipo, resolución de problemas y pensamiento lógico.           |
+| <img src="Images/eric.png" width="150"/>       | Soy Eric Agama, estudiante de Ingeniería de Software. Me caracterizo por ser responsable y comprometido en mis trabajos, y siempre busco optimizar la organización dentro del equipo. Tengo experiencia con el lenguaje Luau en Roblox Studio.            |
 
 
 

@@ -1238,7 +1238,7 @@ link del lucidChart: https://lucid.app/lucidchart/f864c62e-e773-40df-be1b-de30a2
 
 <h5 id="2512-domain-message-flows-modeling">2.5.1.2. Domain Message Flows Modeling</h5>
 
-En esta sección, se describe el proceso utilizado para visualizar la interacción entre los **Bounded Contexts** que conforman el sistema de **CertiMóvil**. El objetivo principal es comprender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograrlo, se aplicó la técnica de **Domain Storytelling**, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas. Esto permite identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio.
+En esta sección, se describe el proceso utilizado para visualizar la interacción entre los **Bounded Contexts** que conforman el sistema de **Certiweb**. El objetivo principal es comprender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograrlo, se aplicó la técnica de **Domain Storytelling**, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas. Esto permite identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio.
 
 <h5>Usuarios → IAM → Reservación</h5>
 
@@ -1271,17 +1271,11 @@ Después de la autenticación, el **Usuario** es autorizado para realizar accion
 
 <h5 id="2513-bounded-context-canvases">2.5.1.3. Bounded Context Canvases</h5>
 
-<h5>Usuarios</h5>
+<h5>IAM</h5>
 
-Representa el núcleo de la administración de perfiles y suscripciones dentro de la plataforma. Se encarga de la creación, autenticación y actualización de las cuentas de los usuarios (tanto vendedores como compradores). Este contexto interactúa con otros módulos, como Gestión de Vehículos, para verificar que los usuarios estén autenticados y tengan acceso a las funciones necesarias según su plan de suscripción. Además, permite a Compras y Transacciones validar los pagos para habilitar las funcionalidades correspondientes a los usuarios.
+Este contexto se encarga de la gestión de identidades y accesos dentro de la plataforma. Su principal función es garantizar que solo los usuarios autenticados y autorizados puedan acceder a las funcionalidades específicas del sistema. **IAM** maneja el registro, la autenticación, la autorización y la asignación de roles de los usuarios, tanto vendedores como compradores. Además, se encarga de validar que los usuarios tengan los permisos necesarios para realizar acciones dentro de los otros contextos, como **Reservación** y **Certificación**. IAM actúa como el proveedor centralizado de identidad y permisos, asegurando la seguridad y el acceso adecuado a los recursos del sistema.
 
-<img src="Images/canva_usuario.jpg">
-
-<h5>Reservación</h5>
-
-Este contexto gestiona la publicación, actualización y eliminación de anuncios de vehículos en la plataforma. Asegura que los vehículos estén listos para la venta tras ser verificados por el proceso de Inspección y Certificación de Vehículos. Gestiona la interacción con Gestión de Usuarios para permitir que solo los vendedores autenticados y con suscripciones válidas puedan publicar vehículos, y con Seguimiento de la Transacción del Vehículo para gestionar el proceso de compra y venta.
-
-<img src="Images/canva_reservacion.jpg">
+<img src="Images/canva_IAM.jpg">
 
 <h5>Certificación </h5>
 
@@ -1289,12 +1283,17 @@ Encargado de verificar que los vehículos publicados cumplan con los estándares
 
 <img src="Images/canva_certificacion.jpg">
 
-<h5>IAM</h5>
+<h5>Reservación</h5>
 
-Este contexto se encarga de la gestión de identidades y accesos dentro de la plataforma. Su principal función es garantizar que solo los usuarios autenticados y autorizados puedan acceder a las funcionalidades específicas del sistema. **IAM** maneja el registro, la autenticación, la autorización y la asignación de roles de los usuarios, tanto vendedores como compradores. Además, se encarga de validar que los usuarios tengan los permisos necesarios para realizar acciones dentro de los otros contextos, como **Reservación** y **Certificación**. IAM actúa como el proveedor centralizado de identidad y permisos, asegurando la seguridad y el acceso adecuado a los recursos del sistema.
+Este contexto gestiona la publicación, actualización y eliminación de anuncios de vehículos en la plataforma. Asegura que los vehículos estén listos para la venta tras ser verificados por el proceso de Inspección y Certificación de Vehículos. Gestiona la interacción con Gestión de Usuarios para permitir que solo los vendedores autenticados y con suscripciones válidas puedan publicar vehículos, y con Seguimiento de la Transacción del Vehículo para gestionar el proceso de compra y venta.
 
-<img src="Images/canva_IAM.jpg">
+<img src="Images/canva_reservacion.jpg">
 
+<h5>Usuarios</h5>
+
+Representa el núcleo de la administración de perfiles y suscripciones dentro de la plataforma. Se encarga de la creación, autenticación y actualización de las cuentas de los usuarios (tanto vendedores como compradores). Este contexto interactúa con otros módulos, como Gestión de Vehículos, para verificar que los usuarios estén autenticados y tengan acceso a las funciones necesarias según su plan de suscripción. Además, permite a Compras y Transacciones validar los pagos para habilitar las funcionalidades correspondientes a los usuarios.
+
+<img src="Images/canva_usuario.jpg">
 <h4 id="252-context-mapping">2.5.2. Context Mapping</h4>
 
 En esta sección, analizamos y evidenciamos el proceso de elaboración de context maps (visualizaciones de relaciones estructurales entre bounded contexts) a partir de la información recolectada. Para producir diseños candidatos exploramos alternativas con preguntas como:

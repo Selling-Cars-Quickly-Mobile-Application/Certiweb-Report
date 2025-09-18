@@ -1341,7 +1341,7 @@ Diagrama de Context Mapping (PlantUML):
 
 <h5 id="2533-software-architecture-deployment-diagrams">2.5.3.3. Software Architecture Deployment Diagrams</h5>
 
-<img src="Images/Deploymentdia.png">
+<img src="Images/Deploymentdia2.png">
 
 <h3 id="26-tactical-level-domain-driven-design">2.6. Tactical-Level Domain-Driven Design</h3>
 <h4 id="261-bounded-context-iam">2.6.1. Bounded Context: IAM</h4>

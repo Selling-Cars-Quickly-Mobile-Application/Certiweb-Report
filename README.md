@@ -1202,8 +1202,7 @@ En este paso, agrupamos los eventos y comandos que pertenecen a un agregado espe
 
 Para Certiweb, definimos los siguientes Aggregates clave, cada uno con sus respectivos eventos y comandos que gestionan las entidades del sistema.
 
-<img src="Images/eventstorming16.png">
-<img src="Images/eventstorming17.png">
+<img src="Images/Diagrama en blanco (14).png">
 
 <h5 id="2511-candidate-context-discovery">2.5.1.1. Candidate Context Discovery</h5>
 

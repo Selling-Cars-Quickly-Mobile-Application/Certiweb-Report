@@ -1940,7 +1940,9 @@ Persistencia y servicios técnicos
 <h1 id="conclusiones">Conclusiones</h1>
 <h1 id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</h1>
 
-
+- TB1 
+Conclusión 1: Integramos de forma consistente los contenidos de los Capítulos I y II, desde la definición del problema y segmentos (Lean UX) hasta la especificación de requisitos (User Stories, Impact Mapping, Backlog) y el diseño basado en DDD (EventStorming, Context Mapping, Arquitectura y DDD táctico). Esto permitió trazabilidad completa entre problema–solución, redujo ambigüedades y sentó una base sólida para la implementación web y móvil.<br>
+Conclusión 2: Se estableció una estrategia móvil inicial con User Stories específicas (US017–US024) que fueron priorizadas e incorporadas al Product Backlog, junto con lineamientos técnicos y prácticas de aprendizaje continuo (DDD, Clean Architecture, C4, GitFlow). Esto incrementó la calidad del entregable, alineó al equipo y habilitó una planificación más efectiva para los próximos sprints.
 
 <h1 id="video-app-validation">Video App Validation</h1>
 

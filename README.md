@@ -456,7 +456,18 @@ Web Style Guidelines
 
 <h5 id="3122-labelling-systems">3.1.2.2. Labelling Systems</h5>
 
-
+<div style="background:#F8F8B7;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">• <strong>Etiquetas concisas, orientadas a la acción:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">"Solicitar inspección"</li>
+        <li style="margin:4px 0;">"Ver informe"</li>
+        <li style="margin:4px 0;">"Certificado vigente"</li>
+        <li style="margin:4px 0;">"Agregar vehículo"</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <h5 id="3123-seo-tags-and-meta-tags">3.1.2.3. SEO Tags and Meta Tags</h5>
 

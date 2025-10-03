@@ -511,7 +511,48 @@ Web Style Guidelines
 
 <h5 id="3125-navigation-systems">3.1.2.5. Navigation Systems</h5>
 
+<div style="background:#F0F9F4;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <h4 style="color:#002D18;margin-top:0;margin-bottom:8px;">Landing Page:</h4>
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">
+      • <strong>Menú de navegación fijo (sticky) en la parte superior con anclas internas:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Inicio | Sobre Nosotros | Reseñas | ¡Por qué elegirnos? | Contáctanos</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Scroll vertical guiado con bloques visuales claramente diferenciados.</strong></li>
+    <li style="margin:12px 0 8px 0;">
+      • <strong>Botones CTA recurrentes:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">"Solicitar inspección" y "Certifica tu auto ahora" en secciones clave.</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Sección de FAQ y contacto al final, accesibles desde el menú.</strong></li>
+  </ul>
 
+  <h4 style="color:#002D18;margin-top:16px;margin-bottom:8px;">Web App:</h4>
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">
+      • <strong>Sidebar lateral con acceso rápido a:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Dashboard</li>
+        <li style="margin:4px 0;">Mis vehículos</li>
+        <li style="margin:4px 0;">Certificados</li>
+        <li style="margin:4px 0;">Historial</li>
+        <li style="margin:4px 0;">Perfil</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Menús desplegables y tabs para cambiar entre vistas</strong> (por ejemplo: Detalles del auto | Certificado | Fotos).</li>
+    <li style="margin:12px 0 8px 0;">• <strong>Indicadores de progreso</strong> en flujos como "Solicitar inspección" o "Subir documentos".</li>
+  </ul>
+
+  <h4 style="color:#002D18;margin-top:16px;margin-bottom:8px;">Accesibilidad y usabilidad:</h4>
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">• Navegación accesible con teclado y lectores de pantalla.</li>
+    <li style="margin-bottom:8px;">• Íconos y etiquetas claras para facilitar navegación intuitiva.</li>
+    <li style="margin-bottom:8px;">• Diseño coherente entre móvil y escritorio, con menús tipo hamburguesa en mobile.</li>
+  </ul>
+</div>
 
 <h4 id="313-landing-page-ui-design">3.1.3. Landing Page UI Design</h4>
 

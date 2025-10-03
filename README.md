@@ -560,11 +560,22 @@ Web Style Guidelines
 
 <h5 id="3131-landing-page-wireframe">3.1.3.1. Landing Page Wireframe</h5>
 
+<img src="Images/LandingWire1.png">
+<img src="Images/LandingWire2.png">
 
+### Mobile version
+<img src="Images/LandingWireMobile1.png">
+<img src="Images/LandingWireMobile2.png">
 
 <h5 id="3132-landing-page-mock-up">3.1.3.2. Landing Page Mock-up</h5>
 
+<img src="Images/LandingMock1.png">
+<img src="Images/LandingMock2.png">
 
+### Mobile version
+<img src="Images/LandingMockMobile1.png">
+<img src="Images/LandingMockMobile2.png">
+<img src="Images/LandingMockMobile3.png">
 
 <h4 id="314-mobile-applications-uxui-design">3.1.4. Mobile Applications UX/UI Design</h4>
 

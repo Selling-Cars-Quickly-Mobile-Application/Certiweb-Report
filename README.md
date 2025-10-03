@@ -430,7 +430,29 @@ Web Style Guidelines
 
 <h5 id="3121-organization-systems">3.1.2.1. Organization Systems</h5>
 
-
+<div style="display:flex;gap:20px;">
+  <div style="flex:1;background:#F0F9F4;border-radius:8px;padding:16px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">Landing Page:</h3>
+    <ul style="color:#333;padding-left:20px;list-style-type:disc;">
+      <li>Jerarquía visual clara: beneficios → cómo funciona → CTA</li>
+      <li>Organización secuencial para flujos como "Solicitar inspección"</li>
+    </ul>
+  </div>
+  
+  <div style="flex:1;background:#F0F9F4;border-radius:8px;padding:16px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">App Web:</h3>
+    <ul style="color:#333;padding-left:20px;list-style-type:disc;">
+      <li>Panel con organización por tópicos: "Mis vehículos", "Historial", "Certificados"</li>
+      <li>Organización por audiencia:
+        <ul style="padding-left:20px;list-style-type:circle;">
+          <li>Vendedores individuales</li>
+          <li>Revendedores</li>
+          <li>Compradores primerizos</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <h5 id="3122-labelling-systems">3.1.2.2. Labelling Systems</h5>
 

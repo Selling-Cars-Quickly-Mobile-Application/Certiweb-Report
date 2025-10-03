@@ -471,7 +471,19 @@ Web Style Guidelines
 
 <h5 id="3123-seo-tags-and-meta-tags">3.1.2.3. SEO Tags and Meta Tags</h5>
 
+<div style="background:#F0F9F4;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <h4 style="color:#002D18;margin-top:0;margin-bottom:8px;">Landing Page</h4>
+  <pre style="background:#F8ECD6;padding:12px;border-radius:6px;overflow-x:auto;border-left:3px solid #FBB901;"><code>&lt;title&gt;Certiweb - Tu Taller de Inspección y Certificación Vehicular&lt;/title&gt;
+&lt;meta name="description" content="Certiweb te ayuda a vender tu auto con confianza, respaldado por inspecciones técnicas profesionales y certificados verificables."&gt;
+&lt;meta name="keywords" content="Certificación de autos, inspección vehicular, vender auto usado, informe técnico"&gt;
+&lt;meta name="author" content="Selling Cars Quickly (SCQ)"&gt;</code></pre>
 
+  <h4 style="color:#002D18;margin-top:16px;margin-bottom:8px;">Web Application</h4>
+  <pre style="background:#F8ECD6;padding:12px;border-radius:6px;overflow-x:auto;border-left:3px solid #FBB901;"><code>&lt;title&gt;Panel Certiweb - Gestión de Autos&lt;/title&gt;
+&lt;meta name="description" content="Administra tus vehículos, consulta informes técnicos y comparte certificados desde un solo lugar."&gt;
+&lt;meta name="keywords" content="panel de autos, historial de inspección, certificado vehicular, venta segura"&gt;
+&lt;meta name="author" content="Selling Cars Quickly (SCQ)"&gt;</code></pre>
+</div>
 
 <h5 id="3124-searching-systems">3.1.2.4. Searching Systems</h5>
 

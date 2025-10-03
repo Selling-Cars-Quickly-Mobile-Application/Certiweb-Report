@@ -487,7 +487,27 @@ Web Style Guidelines
 
 <h5 id="3124-searching-systems">3.1.2.4. Searching Systems</h5>
 
-
+<div style="background:#F8ECD6;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">• <strong>Filtros por:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Estado del vehículo: Inspeccionado, En revisión, Aprobado.</li>
+        <li style="margin:4px 0;">Tipo de usuario: vendedor individual, revendedor.</li>
+        <li style="margin:4px 0;">Fecha de inspección.</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Búsqueda por texto:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Buscar por placa, nombre del modelo o número de informe.</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Resultados con vista resumida:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Tarjetas con datos clave: marca, modelo, fecha inspección, estado.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <h5 id="3125-navigation-systems">3.1.2.5. Navigation Systems</h5>
 

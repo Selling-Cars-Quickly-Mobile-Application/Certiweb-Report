@@ -1804,6 +1804,109 @@ Persistencia y servicios técnicos
 
 <h5 id="3111-general-style-guidelines">3.1.1.1. General Style Guidelines</h5>
 
+<div style="background:#F0F9F4;border-radius:8px;padding:20px;margin-bottom:20px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  
+  <div style="display:flex;align-items:center;margin-bottom:16px;">
+    <div style="flex:1;padding-right:20px;">
+      <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">Branding:</h3>
+      <img src="Images/certiweb.png" alt="Certiweb logo" width="180" style="border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+    </div>
+    <div style="flex:1;">
+      <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">Tipografía:</h3>
+      <p style="margin-bottom:8px;">Fuente principal: <code style="background:#F8ECD6;padding:2px 6px;border-radius:4px;font-family:monospace;">Roboto</code></p>
+      <p style="color:#333;font-size:0.95em;">Es moderna, legible y adecuada para transmitir confianza técnica.</p>
+    </div>
+  </div>
+
+  <h3 style="color:#002D18;margin-top:20px;font-size:1.1em;">Colores:</h3>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;margin:12px 0;background:white;border-radius:6px;overflow:hidden;">
+      <thead style="background:#002D18;color:white;">
+        <tr>
+          <th style="padding:12px;text-align:left;">Nombre</th>
+          <th style="padding:12px;text-align:left;">Color</th>
+          <th style="padding:12px;text-align:left;">Código HEX</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #F0F9F4;">
+          <td style="padding:12px;">Arena suave</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#D8CCB8;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#D8CCB8</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;background-color:#F8F8B7;">
+          <td style="padding:12px;">Verde oscuro</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#002D18;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#002D18</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;">
+          <td style="padding:12px;">Verde claro</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#F0F9F4;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#F0F9F4</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;background-color:#F8F8B7;">
+          <td style="padding:12px;">Negro</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#000000;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#000000</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;">
+          <td style="padding:12px;">Beige claro</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#F8ECD6;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#F8ECD6</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;background-color:#F8F8B7;">
+          <td style="padding:12px;">Gris claro</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#C3CCC7;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#C3CCC7</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;">
+          <td style="padding:12px;">Amarillo pastel</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#F8F8B7;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#F8F8B7</code></td>
+        </tr>
+        <tr style="border-bottom:1px solid #F0F9F4;background-color:#F8F8B7;">
+          <td style="padding:12px;">Amarillo vivo</td>
+          <td style="padding:12px;"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#FBB901;border:1px solid #ddd;"></span></td>
+          <td style="padding:12px;"><code>#FBB901</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="color:#002D18;margin-top:20px;font-size:1.1em;">Espaciado:</h3>
+  <ul style="color:#333;padding-left:20px;list-style-type:square;">
+    <li>Uso de espaciado fluido en múltiplos de 8px para mantener coherencia visual</li>
+  </ul>
+
+  <h3 style="color:#002D18;margin-top:20px;font-size:1.1em;">Tono de comunicación:</h3>
+  <ul style="color:#333;padding-left:20px;list-style-type:square;">
+    <li>Formal, respetuoso y entusiasta</li>
+    <li>Confianza, profesionalismo y seguridad</li>
+  </ul>
+</div>
+
+Web Style Guidelines
+
+<div style="display:flex;gap:20px;margin-bottom:30px;">
+  <div style="flex:1;background:#F8ECD6;border-radius:8px;padding:16px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">Diseño Responsivo:</h3>
+    <ul style="color:#333;padding-left:20px;list-style-type:circle;">
+      <li><strong>Mobile-first:</strong> prioridad a la navegación desde dispositivos móviles</li>
+      <li>Uso de tarjetas (cards) para representar vehículos e informes técnicos</li>
+      <li>Tipografía adaptativa: tamaño dinámico desde 14px hasta 24px</li>
+    </ul>
+  </div>
+  
+  <div style="flex:1;background:#F8ECD6;border-radius:8px;padding:16px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">Componentes UI:</h3>
+    <ul style="color:#333;padding-left:20px;list-style-type:circle;">
+      <li>Botones con bordes redondeados y sombras suaves</li>
+      <li>Feedback visual (hover, focus, active)</li>
+      <li>Animaciones suaves en la interacción (scroll, carga, validación)</li>
+    </ul>
+  </div>
+</div>
 
 
 <h4 id="312-information-architecture">3.1.2. Information Architecture</h4>
@@ -1812,23 +1915,129 @@ Persistencia y servicios técnicos
 
 <h5 id="3121-organization-systems">3.1.2.1. Organization Systems</h5>
 
-
+<div style="display:flex;gap:20px;">
+  <div style="flex:1;background:#F0F9F4;border-radius:8px;padding:16px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">Landing Page:</h3>
+    <ul style="color:#333;padding-left:20px;list-style-type:disc;">
+      <li>Jerarquía visual clara: beneficios → cómo funciona → CTA</li>
+      <li>Organización secuencial para flujos como "Solicitar inspección"</li>
+    </ul>
+  </div>
+  
+  <div style="flex:1;background:#F0F9F4;border-radius:8px;padding:16px;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#002D18;margin-top:0;font-size:1.1em;">App Web:</h3>
+    <ul style="color:#333;padding-left:20px;list-style-type:disc;">
+      <li>Panel con organización por tópicos: "Mis vehículos", "Historial", "Certificados"</li>
+      <li>Organización por audiencia:
+        <ul style="padding-left:20px;list-style-type:circle;">
+          <li>Vendedores individuales</li>
+          <li>Revendedores</li>
+          <li>Compradores primerizos</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <h5 id="3122-labelling-systems">3.1.2.2. Labelling Systems</h5>
 
-
+<div style="background:#F8F8B7;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">• <strong>Etiquetas concisas, orientadas a la acción:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">"Solicitar inspección"</li>
+        <li style="margin:4px 0;">"Ver informe"</li>
+        <li style="margin:4px 0;">"Certificado vigente"</li>
+        <li style="margin:4px 0;">"Agregar vehículo"</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <h5 id="3123-seo-tags-and-meta-tags">3.1.2.3. SEO Tags and Meta Tags</h5>
 
+<div style="background:#F0F9F4;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <h4 style="color:#002D18;margin-top:0;margin-bottom:8px;">Landing Page</h4>
+  <pre style="background:#F8ECD6;padding:12px;border-radius:6px;overflow-x:auto;border-left:3px solid #FBB901;"><code>&lt;title&gt;Certiweb - Tu Taller de Inspección y Certificación Vehicular&lt;/title&gt;
+&lt;meta name="description" content="Certiweb te ayuda a vender tu auto con confianza, respaldado por inspecciones técnicas profesionales y certificados verificables."&gt;
+&lt;meta name="keywords" content="Certificación de autos, inspección vehicular, vender auto usado, informe técnico"&gt;
+&lt;meta name="author" content="Selling Cars Quickly (SCQ)"&gt;</code></pre>
 
+  <h4 style="color:#002D18;margin-top:16px;margin-bottom:8px;">Web Application</h4>
+  <pre style="background:#F8ECD6;padding:12px;border-radius:6px;overflow-x:auto;border-left:3px solid #FBB901;"><code>&lt;title&gt;Panel Certiweb - Gestión de Autos&lt;/title&gt;
+&lt;meta name="description" content="Administra tus vehículos, consulta informes técnicos y comparte certificados desde un solo lugar."&gt;
+&lt;meta name="keywords" content="panel de autos, historial de inspección, certificado vehicular, venta segura"&gt;
+&lt;meta name="author" content="Selling Cars Quickly (SCQ)"&gt;</code></pre>
+</div>
 
 <h5 id="3124-searching-systems">3.1.2.4. Searching Systems</h5>
 
-
+<div style="background:#F8ECD6;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">• <strong>Filtros por:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Estado del vehículo: Inspeccionado, En revisión, Aprobado.</li>
+        <li style="margin:4px 0;">Tipo de usuario: vendedor individual, revendedor.</li>
+        <li style="margin:4px 0;">Fecha de inspección.</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Búsqueda por texto:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Buscar por placa, nombre del modelo o número de informe.</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Resultados con vista resumida:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Tarjetas con datos clave: marca, modelo, fecha inspección, estado.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <h5 id="3125-navigation-systems">3.1.2.5. Navigation Systems</h5>
 
+<div style="background:#F0F9F4;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+  <h4 style="color:#002D18;margin-top:0;margin-bottom:8px;">Landing Page:</h4>
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">
+      • <strong>Menú de navegación fijo (sticky) en la parte superior con anclas internas:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Inicio | Sobre Nosotros | Reseñas | ¡Por qué elegirnos? | Contáctanos</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Scroll vertical guiado con bloques visuales claramente diferenciados.</strong></li>
+    <li style="margin:12px 0 8px 0;">
+      • <strong>Botones CTA recurrentes:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">"Solicitar inspección" y "Certifica tu auto ahora" en secciones clave.</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Sección de FAQ y contacto al final, accesibles desde el menú.</strong></li>
+  </ul>
 
+  <h4 style="color:#002D18;margin-top:16px;margin-bottom:8px;">Web App:</h4>
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">
+      • <strong>Sidebar lateral con acceso rápido a:</strong>
+      <ul style="padding-left:20px;list-style-type:square;color:#333;">
+        <li style="margin:4px 0;">Dashboard</li>
+        <li style="margin:4px 0;">Mis vehículos</li>
+        <li style="margin:4px 0;">Certificados</li>
+        <li style="margin:4px 0;">Historial</li>
+        <li style="margin:4px 0;">Perfil</li>
+      </ul>
+    </li>
+    <li style="margin:12px 0 8px 0;">• <strong>Menús desplegables y tabs para cambiar entre vistas</strong> (por ejemplo: Detalles del auto | Certificado | Fotos).</li>
+    <li style="margin:12px 0 8px 0;">• <strong>Indicadores de progreso</strong> en flujos como "Solicitar inspección" o "Subir documentos".</li>
+  </ul>
+
+  <h4 style="color:#002D18;margin-top:16px;margin-bottom:8px;">Accesibilidad y usabilidad:</h4>
+  <ul style="color:#002D18;padding-left:20px;list-style-type:none;">
+    <li style="margin-bottom:8px;">• Navegación accesible con teclado y lectores de pantalla.</li>
+    <li style="margin-bottom:8px;">• Íconos y etiquetas claras para facilitar navegación intuitiva.</li>
+    <li style="margin-bottom:8px;">• Diseño coherente entre móvil y escritorio, con menús tipo hamburguesa en mobile.</li>
+  </ul>
+</div>
 
 <h4 id="313-landing-page-ui-design">3.1.3. Landing Page UI Design</h4>
 
@@ -1836,11 +2045,22 @@ Persistencia y servicios técnicos
 
 <h5 id="3131-landing-page-wireframe">3.1.3.1. Landing Page Wireframe</h5>
 
+<img src="Images/LandingWire1.png">
+<img src="Images/LandingWire2.png">
 
+### Mobile version
+<img src="Images/LandingWireMobile1.png">
+<img src="Images/LandingWireMobile2.png">
 
 <h5 id="3132-landing-page-mock-up">3.1.3.2. Landing Page Mock-up</h5>
 
+<img src="Images/LandingMock1.png">
+<img src="Images/LandingMock2.png">
 
+### Mobile version
+<img src="Images/LandingMockMobile1.png">
+<img src="Images/LandingMockMobile2.png">
+<img src="Images/LandingMockMobile3.png">
 
 <h4 id="314-mobile-applications-uxui-design">3.1.4. Mobile Applications UX/UI Design</h4>
 
@@ -1856,7 +2076,16 @@ Persistencia y servicios técnicos
 
 <h5 id="3143-mobile-applications-mock-ups">3.1.4.3. Mobile Applications Mock-ups</h5>
 
-
+<img src="Images/mockup1.png">
+<img src="Images/mockup2.png">
+<img src="Images/mockup3.png">
+<img src="Images/mockup4.png">
+<img src="Images/mockup5.png">
+<img src="Images/mockup6.png">
+<img src="Images/mockup7.png">
+<img src="Images/mockup8.png">
+<img src="Images/mockup9.png">
+<img src="Images/mockup10.png">
 
 <h5 id="3144-mobile-applications-user-flow-diagrams">3.1.4.4. Mobile Applications User Flow Diagrams</h5>
 
@@ -1864,36 +2093,179 @@ Persistencia y servicios técnicos
 
 <h5 id="3145-mobile-applications-prototyping">3.1.4.5. Mobile Applications Prototyping</h5>
 
-
+Link Mobile Prototyping: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213358_upc_edu_pe/EU0c0xDDQvRBjmGjR8CF0asBvo5hiqYec_PijhgszYfpbQ?e=YT6gAX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <h1 id="capítulo-iv-product-implementation--validation">Capítulo IV: Product Implementation & Validation</h1>
 <h3 id="41-software-configuration-management">4.1. Software Configuration Management</h3>
 <h4 id="411-software-development-environment-configuration">4.1.1. Software Development Environment Configuration</h4>
 
+En esta sección, se describen las herramientas utilizadas por el equipo para colaborar en el desarrollo del proyecto, así como sus propósitos específicos y las rutas de referencia.
+
+#### 1. Product UX/UI Design
+- **Figma**: Utilizado para el diseño y prototipado de la aplicación, tanto en su versión de escritorio como en navegadores móviles.
+
+#### 2. Software Development
+- **HTML**: Se usó para la estructura del contenido web.
+- **CSS**: Se usó para el diseño y la presentación visual.
+- **JavaScript**: Se usó para la lógica e interactividad del frontend.
+- **Android Studio**: Se usó como IDE para la aplicación móvil.
+- **Kotlin**: Se usó como lenguaje para la implementación móvil nativa.
+- **Structurizr**: Se usó para el diseño del diagrama C4 y arquitectura.
+- **Rider (C#)**: Se usó para el backend y los servicios API.
+
+#### 3. Software Testing
+- **Gherkin**: Lenguaje de etiquetado utilizado para definir los criterios de aceptación de las historias de usuario. Facilita la escritura de pruebas de comportamiento y asegura que los criterios sean entendibles tanto para el equipo técnico como no técnico.
+
+#### 4. Software Deployment
+- **GitHub Pages**: Utilizado para el despliegue de la landing page, permitiendo que el sitio web esté disponible públicamente. La plataforma ofrece una solución de hosting gratuita y fácil de usar directamente desde el repositorio de GitHub, lo que facilita la actualización continua del sitio.  
+  - **Ruta de referencia**: [https://pages.github.com](https://pages.github.com)
+- **Railway**: Utilizado para el despliegue y hosting de servicios backend y aplicaciones web, facilitando la integración continua (CI/CD) y ofreciendo soporte para bases de datos administradas.
+  - **Ruta de referencia**: [https://railway.com/](https://railway.com/)
+- **Render**: Utilizado para el despliegue y hosting de aplicaciones web estáticas y dinámicas, con autoscaling y despliegue directo desde repositorios Git.
+  - **Ruta de referencia**: [https://render.com/](https://render.com/)
+
+#### 5. Software Documentation
+- **GitHub**: Utilizado como plataforma de documentación para mantener la información técnica del proyecto organizada y accesible.
 
 
 <h4 id="412-source-code-management">4.1.2. Source Code Management</h4>
 
+En nuestro proyecto, utilizamos **GitHub** como plataforma para gestionar el código fuente, manteniendo los siguientes repositorios:
 
+- Report: https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Report
+- Landing page: https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page
+- App Mobile: https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication
+- Backend: https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-backend
+
+#### GitFlow Workflow
+Se implementa el modelo de **GitFlow** para gestionar las ramas en nuestros repositorios. A continuación, se detallan las ramas principales:
+
+##### Para el Reporte:
+
+- **master**: Contiene las versiones estables del reporte.
+- **develop**: Se utiliza para integrar las nuevas características antes de publicarlas en la rama master.
+- **feature-\<número de capítulo>**: Rama creada para el desarrollo de funcionalidades del capítulo.
+
+##### Para el Landing, App Mobile y Backend:
+
+- **main**: Contiene las versiones estables del reporte.
+- **develop**: Se utiliza para integrar las nuevas características antes de publicarlas en la rama release/\<versión>.
+- **hotfix**: Se utiliza para integrar caracteristicas urgentes que afectan el funcionamiento de la aplicación.
+- **realease/\<Versión>**: Se utiliza para integrar las nuevas características antes de publicarlas en la rama main.
+- **feature/\<nombre de funcionalidad>**: Rama creada para el desarrollo de funcionalidades específicas según el nombre. Las ramas se nombran en minúsculas siguiendo un esquema uniforme para mayor consistencia.
+
+<img src="Images/gitflow.png" />
+
+#### Conventional Commits
+Se emplea para los mensajes de commmits el estándar de **Conventional Commits** con las siguientes etiquetas:
+
+- **feat**: Nuevas características.
+- **fix**: Corrección de errores.
+- **docs**: Documentación.
+- **style**: Modificaciones de estilos.
+- **refactor**: Cambio de código que no corrige un error ni añade una característica.
+- **perf**: Modificaciones que mejoran el rendimiento.
+- **test**: Modificacciones en testing.
+- **build**: Cambios que afectan al sistema de compilación o a dependencias externas.
+- **ci**: Cambios en nuestros archivos y scripts de configuración CI.
+- **chore**: Otros cambios que no modifican ficheros src o test
+- **revert**: Revierte un commit anterior
 
 <h4 id="413-source-code-style-guide--conventions">4.1.3. Source Code Style Guide & Conventions</h4>
 
+Utilizaremos buenas prácticas y convenciones para mantener un código limpio, consistente y fácil de mantener en todos los lenguajes utilizados.
 
+## HTML:
+
+1. **Estructura Semántica**:
+  - Se utilizan etiquetas semánticas para estructurar el contenido, como `<header>`, `<section>`, `<nav>`, `<footer>`, y `<h1>`, lo que mejora la accesibilidad y optimización SEO.
+
+2. **Nombres de Clases**:
+  - Las clases siguen la convención **camelCase** (primera palabra en minúscula y las subsecuentes con capitalización), como `containerH`, `boxH`, `membership-banner-price`, y `membership-card`.
+
+3. **Atributos en Elementos**:
+  - Elementos como `<a>` utilizan `style="--i:0;"`, lo que indica el uso de variables CSS personalizadas, combinadas con animaciones que dependen de `--i`.
+
+4. **Imágenes y Recursos**:
+  - Las imágenes se optimizan con el formato `webp`, mejorando la velocidad de carga (`assets/images/logo/logoWhite.webp`).
+
+## CSS:
+
+1. **Resets de CSS**:
+  - Se aplica un reset de márgenes y padding para asegurar consistencia entre navegadores:
+    ```css
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ```
+
+2. **Convención de Nombres de Clases**:
+  - Los nombres de clases son **descriptivos** y reflejan el propósito de cada elemento, como `.header`, `.navbar`, `.banner`, `.about-box`.
+
+3. **Uso de Pseudo-clases**:
+  - Se utilizan pseudo-clases como `:hover` y `:checked` para manejar interacciones:
+    ```css
+    #check:checked~.navbar {
+        height: 20.5rem;
+    }
+    ```
+
+4. **Grid Layouts**:
+  - Se usa `display: grid` para la disposición de elementos, junto con `grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));`, lo que hace el diseño adaptable a pantallas de diferentes tamaños.
+
+5. **Media Queries**:
+  - Se incluyen **media queries** para dispositivos pequeños, asegurando una buena experiencia en móviles:
+    ```css
+    @media (max-width: 768px) {
+        .icons {
+            display: inline-flex;
+        }
+    }
+    ```
+
+6. **Variables CSS Personalizadas**:
+  - Se utilizan variables como `--i` en las animaciones para crear **retrasos** controlados por CSS, haciendo que los elementos de la barra de navegación aparezcan secuencialmente.
+
+7. **Transiciones**:
+  - Se implementan transiciones suaves en varios elementos para mejorar la interacción con el usuario:
+    ```css
+    .img-logo:hover {
+        transform: scale(1.25);
+        transition: transform 0.5s ease-in-out;
+    }
+    ```
 
 <h4 id="414-software-deployment-configuration">4.1.4. Software Deployment Configuration</h4>
 
-
+Se inicio con la creación de la organización en github
+<img src="Images/SD1.png">
+Posteriormente, se asocio a los integrantes del equipo para poder colaborar en los repositorios de la organización.
+<img src="Images/SD2.png">
+Luego, se crearon los repositorios del reporte, Landing Page, Frontend y Backend para organizar los productos entregables.
+<img src="Images/SD3.png">
+Se configuro y desplegó la versión final del Landing Page en GitHub Pages desde la sección "Pages" seleccionando la rama main.
+<img src="Images/SD4.png">
+Finalmente, se configuro y desplegó la versión al 100% del backend en Render con Railway.
+<img src="Images/Sprint4swagger1.png">
+<img src="Images/Sprint4swagger2.png">
+<img src="Images/Sprint4swagger3.png">
+Railway
+<img src="Images/SDR.png">
+Render
+<img src="Images/SDRR.png">
 
 <h3 id="42-landing-page--mobile-application-implementation">4.2. Landing Page & Mobile Application Implementation</h3>
 
 
 
-<h4 id="421-sprint-n">4.2.1. Sprint n</h4>
-<h5 id="4211-sprint-planning-n">4.2.1.1. Sprint Planning n</h5>
+<h4 id="421-sprint-n">4.2.1. Sprint 1</h4>
+<h5 id="4211-sprint-planning-n">4.2.1.1. Sprint Planning 1</h5>
 
 
 
-<h5 id="4212-sprint-backlog-n">4.2.1.2. Sprint Backlog n</h5>
+<h5 id="4212-sprint-backlog-n">4.2.1.2. Sprint Backlog 1</h5>
 
 
 

@@ -591,7 +591,16 @@ Web Style Guidelines
 
 <h5 id="3143-mobile-applications-mock-ups">3.1.4.3. Mobile Applications Mock-ups</h5>
 
-
+<img src="Images/mockup1.png">
+<img src="Images/mockup2.png">
+<img src="Images/mockup3.png">
+<img src="Images/mockup4.png">
+<img src="Images/mockup5.png">
+<img src="Images/mockup6.png">
+<img src="Images/mockup7.png">
+<img src="Images/mockup8.png">
+<img src="Images/mockup9.png">
+<img src="Images/mockup10.png">
 
 <h5 id="3144-mobile-applications-user-flow-diagrams">3.1.4.4. Mobile Applications User Flow Diagrams</h5>
 
@@ -599,7 +608,7 @@ Web Style Guidelines
 
 <h5 id="3145-mobile-applications-prototyping">3.1.4.5. Mobile Applications Prototyping</h5>
 
-
+Link Mobile Prototyping: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213358_upc_edu_pe/EU0c0xDDQvRBjmGjR8CF0asBvo5hiqYec_PijhgszYfpbQ?e=YT6gAX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <h1 id="capítulo-iv-product-implementation--validation">Capítulo IV: Product Implementation & Validation</h1>
 <h3 id="41-software-configuration-management">4.1. Software Configuration Management</h3>

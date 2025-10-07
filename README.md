@@ -614,30 +614,173 @@ Link Mobile Prototyping: [Link](https://upcedupe-my.sharepoint.com/:v:/g/persona
 <h3 id="41-software-configuration-management">4.1. Software Configuration Management</h3>
 <h4 id="411-software-development-environment-configuration">4.1.1. Software Development Environment Configuration</h4>
 
+En esta sección, se describen las herramientas utilizadas por el equipo para colaborar en el desarrollo del proyecto, así como sus propósitos específicos y las rutas de referencia.
+
+#### 1. Product UX/UI Design
+- **Figma**: Utilizado para el diseño y prototipado de la aplicación, tanto en su versión de escritorio como en navegadores móviles.
+
+#### 2. Software Development
+- **HTML**: Se usó para la estructura del contenido web.
+- **CSS**: Se usó para el diseño y la presentación visual.
+- **JavaScript**: Se usó para la lógica e interactividad del frontend.
+- **Android Studio**: Se usó como IDE para la aplicación móvil.
+- **Kotlin**: Se usó como lenguaje para la implementación móvil nativa.
+- **Structurizr**: Se usó para el diseño del diagrama C4 y arquitectura.
+- **Rider (C#)**: Se usó para el backend y los servicios API.
+
+#### 3. Software Testing
+- **Gherkin**: Lenguaje de etiquetado utilizado para definir los criterios de aceptación de las historias de usuario. Facilita la escritura de pruebas de comportamiento y asegura que los criterios sean entendibles tanto para el equipo técnico como no técnico.
+
+#### 4. Software Deployment
+- **GitHub Pages**: Utilizado para el despliegue de la landing page, permitiendo que el sitio web esté disponible públicamente. La plataforma ofrece una solución de hosting gratuita y fácil de usar directamente desde el repositorio de GitHub, lo que facilita la actualización continua del sitio.  
+  - **Ruta de referencia**: [https://pages.github.com](https://pages.github.com)
+- **Railway**: Utilizado para el despliegue y hosting de servicios backend y aplicaciones web, facilitando la integración continua (CI/CD) y ofreciendo soporte para bases de datos administradas.
+  - **Ruta de referencia**: [https://railway.com/](https://railway.com/)
+- **Render**: Utilizado para el despliegue y hosting de aplicaciones web estáticas y dinámicas, con autoscaling y despliegue directo desde repositorios Git.
+  - **Ruta de referencia**: [https://render.com/](https://render.com/)
+
+#### 5. Software Documentation
+- **GitHub**: Utilizado como plataforma de documentación para mantener la información técnica del proyecto organizada y accesible.
 
 
 <h4 id="412-source-code-management">4.1.2. Source Code Management</h4>
 
+En nuestro proyecto, utilizamos **GitHub** como plataforma para gestionar el código fuente, manteniendo los siguientes repositorios:
 
+- Report: https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Report
+- Landing page: https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page
+- App Mobile: https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication
+- Backend: https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-backend
+
+#### GitFlow Workflow
+Se implementa el modelo de **GitFlow** para gestionar las ramas en nuestros repositorios. A continuación, se detallan las ramas principales:
+
+##### Para el Reporte:
+
+- **master**: Contiene las versiones estables del reporte.
+- **develop**: Se utiliza para integrar las nuevas características antes de publicarlas en la rama master.
+- **feature-\<número de capítulo>**: Rama creada para el desarrollo de funcionalidades del capítulo.
+
+##### Para el Landing, App Mobile y Backend:
+
+- **main**: Contiene las versiones estables del reporte.
+- **develop**: Se utiliza para integrar las nuevas características antes de publicarlas en la rama release/\<versión>.
+- **hotfix**: Se utiliza para integrar caracteristicas urgentes que afectan el funcionamiento de la aplicación.
+- **realease/\<Versión>**: Se utiliza para integrar las nuevas características antes de publicarlas en la rama main.
+- **feature/\<nombre de funcionalidad>**: Rama creada para el desarrollo de funcionalidades específicas según el nombre. Las ramas se nombran en minúsculas siguiendo un esquema uniforme para mayor consistencia.
+
+<img src="Images/gitflow.png" />
+
+#### Conventional Commits
+Se emplea para los mensajes de commmits el estándar de **Conventional Commits** con las siguientes etiquetas:
+
+- **feat**: Nuevas características.
+- **fix**: Corrección de errores.
+- **docs**: Documentación.
+- **style**: Modificaciones de estilos.
+- **refactor**: Cambio de código que no corrige un error ni añade una característica.
+- **perf**: Modificaciones que mejoran el rendimiento.
+- **test**: Modificacciones en testing.
+- **build**: Cambios que afectan al sistema de compilación o a dependencias externas.
+- **ci**: Cambios en nuestros archivos y scripts de configuración CI.
+- **chore**: Otros cambios que no modifican ficheros src o test
+- **revert**: Revierte un commit anterior
 
 <h4 id="413-source-code-style-guide--conventions">4.1.3. Source Code Style Guide & Conventions</h4>
 
+Utilizaremos buenas prácticas y convenciones para mantener un código limpio, consistente y fácil de mantener en todos los lenguajes utilizados.
 
+## HTML:
+
+1. **Estructura Semántica**:
+  - Se utilizan etiquetas semánticas para estructurar el contenido, como `<header>`, `<section>`, `<nav>`, `<footer>`, y `<h1>`, lo que mejora la accesibilidad y optimización SEO.
+
+2. **Nombres de Clases**:
+  - Las clases siguen la convención **camelCase** (primera palabra en minúscula y las subsecuentes con capitalización), como `containerH`, `boxH`, `membership-banner-price`, y `membership-card`.
+
+3. **Atributos en Elementos**:
+  - Elementos como `<a>` utilizan `style="--i:0;"`, lo que indica el uso de variables CSS personalizadas, combinadas con animaciones que dependen de `--i`.
+
+4. **Imágenes y Recursos**:
+  - Las imágenes se optimizan con el formato `webp`, mejorando la velocidad de carga (`assets/images/logo/logoWhite.webp`).
+
+## CSS:
+
+1. **Resets de CSS**:
+  - Se aplica un reset de márgenes y padding para asegurar consistencia entre navegadores:
+    ```css
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ```
+
+2. **Convención de Nombres de Clases**:
+  - Los nombres de clases son **descriptivos** y reflejan el propósito de cada elemento, como `.header`, `.navbar`, `.banner`, `.about-box`.
+
+3. **Uso de Pseudo-clases**:
+  - Se utilizan pseudo-clases como `:hover` y `:checked` para manejar interacciones:
+    ```css
+    #check:checked~.navbar {
+        height: 20.5rem;
+    }
+    ```
+
+4. **Grid Layouts**:
+  - Se usa `display: grid` para la disposición de elementos, junto con `grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));`, lo que hace el diseño adaptable a pantallas de diferentes tamaños.
+
+5. **Media Queries**:
+  - Se incluyen **media queries** para dispositivos pequeños, asegurando una buena experiencia en móviles:
+    ```css
+    @media (max-width: 768px) {
+        .icons {
+            display: inline-flex;
+        }
+    }
+    ```
+
+6. **Variables CSS Personalizadas**:
+  - Se utilizan variables como `--i` en las animaciones para crear **retrasos** controlados por CSS, haciendo que los elementos de la barra de navegación aparezcan secuencialmente.
+
+7. **Transiciones**:
+  - Se implementan transiciones suaves en varios elementos para mejorar la interacción con el usuario:
+    ```css
+    .img-logo:hover {
+        transform: scale(1.25);
+        transition: transform 0.5s ease-in-out;
+    }
+    ```
 
 <h4 id="414-software-deployment-configuration">4.1.4. Software Deployment Configuration</h4>
 
-
+Se inicio con la creación de la organización en github
+<img src="Images/SD1.png">
+Posteriormente, se asocio a los integrantes del equipo para poder colaborar en los repositorios de la organización.
+<img src="Images/SD2.png">
+Luego, se crearon los repositorios del reporte, Landing Page, Frontend y Backend para organizar los productos entregables.
+<img src="Images/SD3.png">
+Se configuro y desplegó la versión final del Landing Page en GitHub Pages desde la sección "Pages" seleccionando la rama main.
+<img src="Images/SD4.png">
+Finalmente, se configuro y desplegó la versión al 100% del backend en Render con Railway.
+<img src="Images/Sprint4swagger1.png">
+<img src="Images/Sprint4swagger2.png">
+<img src="Images/Sprint4swagger3.png">
+Railway
+<img src="Images/SDR.png">
+Render
+<img src="Images/SDRR.png">
 
 <h3 id="42-landing-page--mobile-application-implementation">4.2. Landing Page & Mobile Application Implementation</h3>
 
 
 
-<h4 id="421-sprint-n">4.2.1. Sprint n</h4>
-<h5 id="4211-sprint-planning-n">4.2.1.1. Sprint Planning n</h5>
+<h4 id="421-sprint-n">4.2.1. Sprint 1</h4>
+<h5 id="4211-sprint-planning-n">4.2.1.1. Sprint Planning 1</h5>
 
 
 
-<h5 id="4212-sprint-backlog-n">4.2.1.2. Sprint Backlog n</h5>
+<h5 id="4212-sprint-backlog-n">4.2.1.2. Sprint Backlog 1</h5>
 
 
 

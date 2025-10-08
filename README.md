@@ -1133,32 +1133,33 @@ Empathy Mapping Compradores
 
 <h4 id="243-product-backlog">2.4.3. Product Backlog</h4>
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) | Prioridad |
-|---------|---------------|--------|-------------|----------------------------------|-----------|
-| 1       | US01          | Información clara sobre Certiweb | Como visitante quiero entender de inmediato qué es Certiweb y qué beneficios ofrece para decidir si usarlo. | 3 | Alta |
-| 2       | US02          | Testimonios y casos de éxito | Como visitante quiero leer experiencias de otros usuarios para ganar confianza en el servicio. | 2 | Alta |
-| 3       | US03          | Botón de acción claro | Como visitante quiero ver botones visibles para registrarme o solicitar una inspección para comenzar fácilmente. | 2 | Alta |
-| 4       | US04          | Compatibilidad móvil del Landing Page | Como visitante desde celular quiero que el sitio web se vea bien y sea fácil de usar desde mi dispositivo para navegar sin complicaciones. | 3 | Media |
-| 5       | US05          | Solicitud de inspección | Como vendedor individual quiero solicitar la inspección técnica de mi auto para poder publicarlo con respaldo técnico. | 5 | Media |
-| 6       | US06          | Visualización del informe técnico | Como vendedor individual quiero ver el informe técnico de mi auto para compartirlo con interesados. | 3 | Media |
-| 7       | US07          | Publicación del sello de certificación | Como vendedor individual quiero incluir un sello de certificación en mi anuncio en línea para generar mayor confianza. | 2 | Media |
-| 8       | US08          | Historial de inspecciones | Como vendedor individual quiero ver un historial de las inspecciones realizadas a mis autos para tener trazabilidad técnica de cada uno. | 3 | Baja |
-| 9       | US09          | Registro masivo de vehículos | Como revendedor quiero registrar varios vehículos a la vez para ahorrar tiempo en la gestión de inspecciones. | 5 | Baja |
-| 10      | US010         | Estado de inspecciones | Como revendedor quiero ver el estado de inspección de mis vehículos para saber cuáles están listos para vender. | 3 | Baja |
-| 11      | US011         | Enlace compartible para clientes | Como revendedor quiero compartir el enlace al informe técnico de un auto para que el cliente lo revise fácilmente. | 2 | Baja |
-| 12      | US012         | Notificaciones de progreso | Como revendedor quiero recibir notificaciones cuando cambie el estado de una inspección para mantenerme informado sin tener que revisar constantemente. | 3 | Baja |
-| 13      | US013         | Verificación de inspección antes de comprar | Como comprador quiero ver si un auto publicado está certificado por Certiweb para tomar decisiones más seguras. | 3 | Baja |
-| 14      | US014         | Comparación de vehículos certificados | Como comprador quiero comparar dos o más autos con inspección Certiweb para elegir el que tenga mejor estado. | 5 | Baja |
-| 15      | US015         | Reportar inconsistencia | Como comprador quiero reportar una posible inconsistencia en un informe para asegurar transparencia en el proceso. | 2 | Baja |
-| 16      | US016         | Validación de informe Certiweb | Como comprador quiero validar un código de informe Certiweb para asegurarme de que es auténtico. | 3 | Baja |
-| 17      | US017         | Inicio de sesión y registro en app móvil | Como usuario móvil quiero registrarme e iniciar sesión (email/Google) para acceder a mis servicios desde la aplicación. | 3 | Alta |
-| 18      | US018         | Agendar inspección desde la app | Como vendedor quiero solicitar y agendar la inspección técnica desde la app móvil para gestionar mi vehículo fácilmente. | 5 | Alta |
-| 19      | US019         | Cargar fotos y documentos desde el móvil | Como vendedor quiero subir fotos del vehículo y documentos desde la cámara o galería para completar mi solicitud de inspección. | 3 | Media |
-| 20      | US020         | Seguimiento móvil del estado de inspección | Como vendedor/revendedor quiero ver el estado de inspección en tiempo real desde la app para saber el avance. | 5 | Media |
-| 21      | US021         | Ver y compartir informe técnico en la app | Como vendedor quiero visualizar el informe técnico desde la app y compartir el enlace con posibles compradores. | 3 | Alta |
-| 22      | US022         | Validación de informe con QR desde el móvil | Como comprador quiero escanear el QR del sello Certiweb con la app para validar autenticidad del informe. | 3 | Media |
-| 23      | US023         | Acceso offline al último informe | Como vendedor quiero acceder al último informe descargado sin conexión para revisarlo en campo. | 5 | Media |
-| 24      | US024         | Gestión móvil de vehículos | Como revendedor quiero administrar mis vehículos (alta, edición, baja) desde la app para mantener actualizado mi inventario. | 5 | Media |
+| # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+|----------|----------------|---------|----------------------------------|
+| 1 | US01 | Información clara sobre Certiweb | 3 |
+| 2 | US02 | Testimonios y casos de éxito | 2 |
+| 3 | US03 | Botón de acción claro | 2 |
+| 4 | US04 | Compatibilidad móvil del Landing Page | 3 |
+| 5 | US05 | Solicitud de inspección | 5 |
+| 6 | US06 | Visualización del informe técnico | 3 |
+| 7 | US07 | Publicación del sello de certificación | 2 |
+| 8 | US08 | Historial de inspecciones | 3 |
+| 9 | US09 | Registro masivo de vehículos | 5 |
+| 10 | US010 | Estado de inspecciones | 3 |
+| 11 | US011 | Enlace compartible para clientes | 2 |
+| 12 | US012 | Notificaciones de progreso | 3 |
+| 13 | US013 | Verificación de inspección antes de comprar | 3 |
+| 14 | US014 | Comparación de vehículos certificados | 5 |
+| 15 | US015 | Reportar inconsistencia | 2 |
+| 16 | US016 | Validación de informe Certiweb | 3 |
+| 17 | US017 | Inicio de sesión y registro en app móvil | 3 |
+| 18 | US018 | Agendar inspección desde la app | 5 |
+| 19 | US019 | Cargar fotos y documentos desde el móvil | 3 |
+| 20 | US020 | Seguimiento móvil del estado de inspección | 5 |
+| 21 | US021 | Ver y compartir informe técnico en la app | 3 |
+| 22 | US022 | Validación de informe con QR desde el móvil | 3 |
+| 23 | US023 | Acceso offline al último informe | 5 |
+| 24 | US024 | Gestión móvil de vehículos | 5 |
+
 
 <h3 id="25-strategic-level-domain-driven-design">2.5. Strategic-Level Domain-Driven Design</h3>
 <h4 id="251-eventstorming">2.5.1. EventStorming</h4>

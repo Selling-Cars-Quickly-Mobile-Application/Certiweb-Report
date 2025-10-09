@@ -901,6 +901,11 @@ A continuación, se presenta el análisis de las entrevistas realizadas, agrupad
 *   **Percepción del Servicio de Certificación:**
     *   El **67%** (2 de 3) considera útil un servicio de certificación y estaría dispuesto a pagar por él (rangos mencionados: 80-100 soles, hasta 200 soles) si esto agiliza la venta o evita pérdidas de tiempo.
     *   Se percibe que un informe técnico independiente podría aumentar la seguridad para los compradores (**33%**, 1 de 3).
+*   **Insights:**
+    *   La transparencia y pruebas técnicas visibles son palancas clave de confianza.
+    *   La desconfianza hacia compradores online sugiere priorizar sellos verificables y enlaces a informes.
+    *   Existe disposición a pagar si el servicio reduce tiempo y fricción de la venta.
+    *   Falta de mecánicos confiables indica oportunidad de red propia de talleres asociados.
 
 **Segmento 2: Revendedores / Vendedores con Experiencia**
 
@@ -915,6 +920,11 @@ A continuación, se presenta el análisis de las entrevistas realizadas, agrupad
     *   Se sugiere que los informes incluyan historial de choques y aspectos legales (**33%**, 1 de 3).
 *   **Factores Clave:**
     *   La confianza y un precio competitivo son considerados clave para la venta (**33%**, 1 de 3).
+*   **Insights:**
+    *   La certificación aporta valor si la marca es reconocida y el alcance es claro.
+    *   Los fraudes percibidos exigen validaciones técnicas y legales con trazabilidad.
+    *   Integración con talleres/tokens de confianza mejora adopción en revendedores.
+    *   Precio competitivo y seriedad del proceso determinan conversión.
 
 **Segmento 3: Compradores**
 
@@ -932,6 +942,11 @@ A continuación, se presenta el análisis de las entrevistas realizadas, agrupad
     *   El **100%** (3 de 3) encuentra útiles herramientas como videos explicativos y checklists durante el proceso de compra.
 *   **Preferencias:**
     *   Mencionan preferencia por marcas consideradas confiables (Toyota, Hyundai, Nissan, Suzuki, Chevrolet) o premium (BMW, Mercedes).
+*   **Insights:**
+    *   La mayor barrera es el miedo a fallas ocultas; los informes deben ser claros y accionables.
+    *   Validaciones externas y mecánicos de confianza requieren compatibilidad y acceso simple al informe.
+    *   El uso móvil demanda landing y reportes optimizados, rápidos y legibles.
+    *   Materiales de apoyo (videos, checklists) aumentan comprensión y decisión de compra.
 
 <h3 id="23-needfinding">2.3. Needfinding</h3>
 <h4 id="231-user-personas">2.3.1. User Personas</h4>

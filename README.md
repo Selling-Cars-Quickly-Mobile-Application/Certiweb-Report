@@ -2083,7 +2083,19 @@ Web Style Guidelines
 
 <h5 id="3142-mobile-applications-wireflow-diagrams">3.1.4.2. Mobile Applications Wireflow Diagrams</h5>
 
+User goal: Reservar una Inspección Vehicular Explicación:
 
+<img src="Images/wireflow-1.png">
+
+User goal: Crear una cuenta premium eligiendo un método de pago para acceder a los beneficios:
+
+<img src="Images/wireflow-2.png">
+
+User goal: Ver vehículos certificados: Este flujo ideal para acceder al apartado de vehículos certificados.
+
+<img src="Images/wireflow-3.png">
+
+Link de los diagramas: [Link](https://lucid.app/lucidchart/92693910-d860-40ad-aa33-fd4cd72f8a14/edit?viewport_loc=1893%2C1744%2C1998%2C888%2C0_0&invitationId=inv_61acd15a-5db6-4231-bf75-90921b160a6f)
 
 <h5 id="3143-mobile-applications-mock-ups">3.1.4.3. Mobile Applications Mock-ups</h5>
 

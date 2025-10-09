@@ -356,14 +356,32 @@ El servicio está disponible mediante suscripciones mensuales (para revendedores
 </ul>
 
 <h5 id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</h5>
-
-<strong><li>Sí ofrecemos un informe técnico detallado con un sello de certificación visual (Certiweb), entonces los compradores confiarán más en el auto, lo que permitirá que los vendedores concreten ventas en menos tiempo.</li>
-
-<li>Si los revendedores cuentan con un plan de suscripción que les permita realizar múltiples inspecciones a bajo costo, entonces usarán nuestro servicio recurrentemente para mantener su stock certificado y competitivo.</li><br>
-
-<li>Si desarrollamos una plataforma digital que permita a los usuarios agendar inspecciones, visualizar informes y administrar suscripciones fácilmente, entonces mejoraremos la experiencia de usuario y aumentaremos la retención.</li><br>
-
-<li>Si los autos certificados por Certiweb son destacados en plataformas de venta online, entonces recibirán más visitas e interés que autos sin certificación, aumentando la posibilidad de venta.</li></strong>
+<ul style="list-style-type: none; padding-left: 0; line-height: 1.8;">
+  <li style="margin-bottom: 14px;">
+    <strong>Hipótesis 1 — Confianza del comprador</strong><br>
+    <em>Problema:</em> Los compradores perciben alto riesgo de fallas mecánicas ocultas y desconfían de anuncios sin respaldo técnico.<br>
+    <em>Hipótesis:</em> Si ofrecemos un informe técnico detallado con sello visual (Certiweb), entonces los compradores confiarán más en el vehículo y los vendedores concretarán ventas en menos tiempo.<br>
+    <em>Confirmación:</em> Se valida cuando los autos con informe Certiweb reducen el tiempo medio de venta vs. control, aumenta el CTR del CTA en la landing y la confianza reportada supera el 85% en encuestas.
+  </li>
+  <li style="margin-bottom: 14px;">
+    <strong>Hipótesis 2 — Escala de revendedores</strong><br>
+    <em>Problema:</em> Los revendedores enfrentan alto costo/tiempo para certificar múltiples unidades de forma consistente.<br>
+    <em>Hipótesis:</em> Si ofrecemos un plan de suscripción y un flujo eficiente de inspecciones, entonces utilizarán el servicio de manera recurrente para mantener su stock certificado y competitivo.<br>
+    <em>Confirmación:</em> Se valida cuando cada revendedor realiza ≥5 inspecciones/mes, certifica ≥60% de su stock y la retención a 2 meses es ≥70%.
+  </li>
+  <li style="margin-bottom: 14px;">
+    <strong>Hipótesis 3 — Fricción operativa</strong><br>
+    <em>Problema:</em> Existe fricción para agendar inspecciones y gestionar informes/suscripciones, afectando la adopción y la satisfacción.<br>
+    <em>Hipótesis:</em> Si desarrollamos una plataforma para agendar, visualizar informes y administrar suscripciones fácilmente, entonces mejorará la experiencia y aumentará la retención.<br>
+    <em>Confirmación:</em> Se valida cuando ≥70% de agendamientos se realizan digitalmente, se reduce ≥30% el tiempo promedio del proceso y el NPS es ≥8.
+  </li>
+  <li style="margin-bottom: 0;">
+    <strong>Hipótesis 4 — Visibilidad en portales</strong><br>
+    <em>Problema:</em> Los anuncios carecen de diferenciación y visibilidad, lo que limita visitas e interés de compradores.<br>
+    <em>Hipótesis:</em> Si destacamos autos certificados en portales (sello/enlace al informe), entonces recibirán más visitas e interés que los no certificados.<br>
+    <em>Confirmación:</em> Se valida cuando se incrementa ≥25% las visitas y ≥15% los leads vs. control, y el CTR del sello supera el 3%.
+  </li>
+</ul>
 
 <h5 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h5>
 

@@ -2285,15 +2285,44 @@ Render
 <h4 id="421-sprint-n">4.2.1. Sprint 1</h4>
 <h5 id="4211-sprint-planning-n">4.2.1.1. Sprint Planning 1</h5>
 
-
+| Criterio                     | Detalle                                                                                                                            |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                 | Sprint 1                                                                                                                           |
+| **Sprint Planning Background** |                                                                                                                                    |
+| Date                         | 24/07/25                                                                                                                         |
+| Time                         | 9:00pm                                                                                                                        |
+| Location                     | Reunión Virtual en Meet                                                                      |
+| Prepared By                  | Eric Agama                                                                                             |
+| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
+| Sprint n - 1 Review Summary  | Se logró el desarrollo de la documentación del proyecto y elaboración del landing page y backend de la aplicación Certiweb gracias al feedback de los entrevistados. |
+| Sprint n - 1 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 1 |
+| **Sprint Goal & User Stories** |                                                                                                                                    |
+| Sprint 1 Goal                | Nuestro enfoque está en tener la landing page desplegada públicamente y el backend implementado al 70%. Creemos que esto entrega visibilidad del producto y capacidad inicial de operación para usuarios y stakeholders. Esto se confirmará cuando la landing esté accesible con su CTA funcional y el backend exponga y funcione correctamente al menos el 70% de los endpoints planificados (incluyendo `GET /cars/{id}/pdf`), con registros y pruebas básicas exitosas. |
+| Sprint 1 Velocity            | 13       |
+| **Sum of Story Points**      | 13                                |
 
 <h5 id="4212-sprint-backlog-n">4.2.1.2. Sprint Backlog 1</h5>
 
-
+| **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
+|----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
+| US01           | Información clara sobre Certiweb           | T01                  | Crear Sección de Información                  | Crear una sección que destaque la información clara sobre Certiweb en la landing page | 5                      | Alcántara Cruz, Rodrigo Alonso | Done       |
+|                |                                            | T07                  | Diseñar UI para Información                   | Diseñar los elementos gráficos que destaquen la información clara sobre Certiweb | 4                      | Eric Fabrizio Agama | Done       |
+| US02           | Testimonios y casos de éxito               | T02                  | Implementar Sección de Testimonios            | Implementar una sección que muestre testimonios y casos de éxito en la landing page | 6                      | Barturen Guzman, Alejandro Nicolas | Done       |
+|                |                                            | T08                  | Validar Accesibilidad de Testimonios          | Asegurar que la sección de testimonios cumpla con los estándares de accesibilidad | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+| US03           | Botón de acción claro                      | T03                  | Implementar Botones de Acción                 | Implementar botones visibles para registrarse o solicitar una inspección en la landing page | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+|                |                                            | T09                  | Diseñar la Sección de Botones de Acción       | Crear una sección visualmente atractiva para mostrar los botones de acción | 5                      | Ortiz Alarcón, Victor Nicolas | Done       |
+| US04           | Compatibilidad móvil del Landing Page      | T04                  | Optimizar para Dispositivos Móviles           | Asegurar que la landing page sea compatible y fácil de usar en dispositivos móviles | 4                      | Eric Fabrizio Agama | Done       |
+|            |       | T05                  | Pruebas de Usabilidad en Dispositivos Móviles | Realizar pruebas de usabilidad para garantizar una experiencia óptima en móviles   | 3                      | Eric Fabrizio Agama | Done       |
 
 <h5 id="4213-development-evidence-for-sprint-review">4.2.1.3. Development Evidence for Sprint Review</h5>
 
-
+| Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
+|-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
+| [Certiweb-Landing](https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page) | main  | c042919 | docs(assets): add certiweb and logo picture | docs(assets): add certiweb and logo picture | 26/04/2025 |
+| [Certiweb-Landing](https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page) | main  | 727eb97  | docs(video): add certiweb video promo  | docs(video): add certiweb video promo | 26/04/2025 |
+| [Certiweb-Landing](https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page) | main  | 5dceb27  | feat(landing): add hero section | feat(landing): add hero section | 26/04/2025 |
+| [Certiweb-Landing](https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page) | main  | 49b9560  | feat(landing): add reviews section | feat(landing): add reviews section | 26/04/2025 |
+| [Certiweb-Landing](https://github.com/Selling-Cars-Quickly-Mobile-Application/Certiweb-Landing-Page) | main  | 8fd4024  | feat(landing): add contact and footer section | feat(landing): add contact and footer section | 26/04/2025 |
 
 <h5 id="4214-testing-suite-evidence-for-sprint-review">4.2.1.4. Testing Suite Evidence for Sprint Review</h5>
 
@@ -2301,7 +2330,19 @@ Render
 
 <h5 id="4215-execution-evidence-for-sprint-review">4.2.1.5. Execution Evidence for Sprint Review</h5>
 
+Se implemento en este primer Sprint el diseño de la primera version del Landing Page, desplegado en Github Pages. A continuacion, se explicara las secciones importantes del Landing Page.
 
+Sección Home: 
+<img src="Images/execution1-1.png" />
+
+Sección About us: 
+<img src="Images/execution1-2.png" />
+
+Sección Reviews: 
+<img src="Images/execution1-3.png" />
+
+Sección Contact Us: 
+<img src="Images/execution1-4.png" />
 
 <h5 id="4216-services-documentation-evidence-for-sprint-review">4.2.1.6. Services Documentation Evidence for Sprint Review</h5>
 

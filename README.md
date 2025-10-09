@@ -1117,48 +1117,1401 @@ Empathy Mapping Compradores
 <h3 id="24-requirements-specification">2.4. Requirements specification</h3>
 <h4 id="241-user-stories">2.4.1. User Stories</h4>
 
-| Epic/Story ID | Título | Descripción |
-|----------------|--------|-------------|
-| EP01 | Landing Page Informativa | Como visitante, quiero entender qué es Certiweb y cómo funciona, para decidir si quiero utilizar el servicio. |
-| EP02 | Gestión y Publicación de Certificaciones Vehiculares | Como vendedor, quiero gestionar inspecciones y mostrar resultados en mi anuncio, para generar confianza en potenciales compradores. |
-| EP03 | Gestión Avanzada para Revendedores | Como revendedor de autos, quiero gestionar múltiples vehículos de manera eficiente, para optimizar mi flujo de trabajo. |
-| EP04 | Experiencia de Compra Segura | Como comprador, quiero tener acceso a la verificación técnica del auto, para tomar decisiones informadas y seguras. |
-| EP05 | API de Gestión Vehicular | Como developer, quiero implementar endpoints para gestionar la inspección de vehículos, para que los datos estén disponibles para la aplicación. |
-<br>
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EPIC01</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Información clara sobre Certiweb</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como visitante quiero entender de inmediato qué es Certiweb y qué beneficios ofrece para decidir si usarlo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que ingreso a la landing page,<br>
+      Cuando leo el contenido destacado,<br>
+      Entonces entiendo claramente que Certiweb ofrece inspección técnica y certificación para autos usados.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que soy un visitante interesado,<br>
+      Cuando bajo por la página,<br>
+      Entonces veo ejemplos visuales (sellos, informes, beneficios) que explican los servicios.
+    </td>
+  </tr>
+</table>
 
-| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|----------------|--------|-------------|-------------------------|--------------------------|
-| US01 | Información clara sobre Certiweb | Como visitante quiero entender de inmediato qué es Certiweb y qué beneficios ofrece para decidir si usarlo. | Escenario 1:<br> <strong>Dado</strong> que ingreso a la landing page,<br> <strong>Cuando</strong> leo el contenido destacado,<br> <strong>Entonces</strong> entiendo claramente que Certiweb ofrece inspección técnica y certificación para autos usados. <br> Escenario 2:<br><strong>Dado</strong> que soy un visitante interesado,<br><strong>Cuando</strong> bajo por la página,<br><strong>Entonces</strong> veo ejemplos visuales (sellos, informes, beneficios) que explican los servicios. | EPIC01 |
-| US02 | Testimonios y casos de éxito | Como visitante quiero leer experiencias de otros usuarios para ganar confianza en el servicio. | Escenario 1:<br><strong>Dado</strong> que estoy navegando en la landing,<br><strong>Cuando</strong> bajo hasta la sección de testimonios,<br><strong>Entonces</strong> veo citas reales de compradores,revendedores o vendedores satisfechos. <br> Escenario 2:<br><strong>Dado</strong> que estoy interesado en el servicio,<br><strong>Cuando</strong> hago clic en un testimonio,<br><strong>Entonces</strong> puedo leer una historia completa de éxito. | EPIC01 |
-| US03 | Botón de acción claro | Como visitante quiero ver botones visibles para registrarme o solicitar una inspección para comenzar fácilmente. | Escenario 1:<br><strong>Dado</strong> que estoy en la página principal,<br><strong>Cuando</strong> llego al primer scroll,<br><strong>Entonces</strong> veo botones como “Solicita tu inspección” o “Empieza ahora” que me llevan al registro o agendamiento. <br> Escenario 2:<br><strong>Dado</strong> que estoy en una sección específica,<br><strong>Cuando</strong> veo un botón de acción,<br><strong>Entonces</strong> puedo acceder directamente al formulario de contacto. | EPIC01 |
-| US04 | Compatibilidad móvil del Landing Page | Como visitante desde celular quiero que el sitio web se vea bien y sea fácil de usar desde mi dispositivo para navegar sin complicaciones. | Escenario 1:<br><strong>Dado</strong> que ingreso a la página desde mi teléfono,<br><strong>Cuando</strong> navego por las secciones,<br><strong>Entonces</strong> todos los elementos deben ajustarse correctamente al tamaño de pantalla sin desbordes ni errores de maquetación.<br>Escenario 2:<br><strong>Dado</strong> que estoy usando la navegación móvil,<br><strong>Cuando</strong> toco botones o enlaces,<br><strong>Entonces</strong> estos deben ser accesibles con el dedo y tener un diseño táctil adecuado. | EPIC01 |
-| US05 | Solicitud de inspección | Como vendedor individual quiero solicitar la inspección técnica de mi auto para poder publicarlo con respaldo técnico. | Escenario 1:<br><strong>Dado</strong> que ingreso a la página desde mi teléfono,<br><strong>Cuando</strong> navego por las secciones,<br><strong>Entonces</strong> todos los elementos deben ajustarse correctamente al tamaño de pantalla sin desbordes ni errores de maquetación.<br>Escenario 2:<br><strong>Dado</strong> que estoy usando la navegación móvil,<br><strong>Cuando</strong> toco botones o enlaces,<br><strong>Entonces</strong> estos deben ser accesibles con el dedo y tener un diseño táctil adecuado. | EPIC02 |
-| US06 | Visualización del informe técnico | Como vendedor individual quiero ver el informe técnico de mi auto para compartirlo con interesados. | Escenario 1:<br><strong>Dado</strong> que la inspección ha sido completada,<br><strong>Cuando</strong> ingreso al panel del vehículo,<br><strong>Entonces</strong> puedo ver y descargar el informe generado.<br> Escenario 2:<br><strong>Dado</strong> que necesito compartir el informe,<br><strong>Cuando</strong> selecciono la opción de compartir,<br><strong>Entonces</strong> puedo enviar un enlace directo a los interesados. | EPIC02 |
-| US07 | Publicación del sello de certificación | Como vendedor individual quiero incluir un sello de certificación en mi anuncio en línea para generar mayor confianza. | Escenario 1:<br><strong>Dado</strong> que el auto cuenta con una inspección aprobada,<br><strong>Cuando</strong> accedo a la ficha del vehículo,<br><strong>Entonces</strong> puedo copiar el código para incluir el sello en portales de autos. <br> Escenario 2:<br><strong>Dado</strong> que estoy editando mi anuncio,<br><strong>Cuando</strong> inserto el código del sello,<br><strong>Entonces</strong> el sello se muestra correctamente en la vista previa. | EPIC02 |
-| US08 | Historial de inspecciones | Como vendedor individual quiero ver un historial de las inspecciones realizadas a mis autos para tener trazabilidad técnica de cada uno. | Escenario 1:<br><strong>Dado</strong> que tengo vehículos inspeccionados anteriormente,<br><strong>Cuando</strong> accedo a mi historial,<br><strong>Entonces</strong> puedo ver fecha, resultados y descargar informes antiguos.<br> Escenario 2:<br><strong>Dado</strong> que necesito revisar un informe específico,<br><strong>Cuando</strong> busco por fecha o vehículo,<br><strong>Entonces</strong> puedo acceder rápidamente al informe deseado. | EPIC02 |
-| US09 | Registro masivo de vehículos | Como revendedor quiero registrar varios vehículos a la vez para ahorrar tiempo en la gestión de inspecciones. | Escenario 1:<br><strong>Dado</strong> que tengo múltiples vehículos,<br><strong>Cuando</strong> subo un archivo con sus datos,<br><strong>Entonces</strong> el sistema los registra y muestra un resumen de carga.<br> Escenario 2:<br><strong>Dado</strong> que algunos datos están incompletos,<br><strong>Cuando</strong> reviso el resumen de carga,<br><strong>Entonces</strong> puedo corregir y completar la información antes de finalizar el registro. | EP03 |
-| US010 | Estado de inspecciones | Como revendedor quiero ver el estado de inspección de mis vehículos para saber cuáles están listos para vender. | Escenario 1:<br><strong>Dado</strong> que tengo autos inspeccionados y otros en proceso,<br><strong>Cuando</strong> accedo al panel de gestión,<br><strong>Entonces</strong> veo una lista con estado “pendiente”, “en inspección” o “certificado”.<br> Escenario 2:<br><strong>Dado</strong> que necesito priorizar ventas,<br><strong>Cuando</strong> filtro por estado,<br><strong>Entonces</strong> puedo ver solo los vehículos listos para vender. | EP03 |
-| US011 | Enlace compartible para clientes | Como revendedor quiero compartir el enlace al informe técnico de un auto para que el cliente lo revise fácilmente. | Escenario 1:<br><strong>Dado</strong> que un informe ya fue generado,<br><strong>Cuando</strong> copio o envío el enlace,<br><strong>Entonces</strong> el comprador puede acceder sin necesidad de login.<br> Escenario 2:<br><strong>Dado</strong> que el cliente ha recibido el enlace,<br><strong>Cuando</strong> hace clic en el enlace,<br><strong>Entonces</strong> puede ver el informe completo en su navegador sin requerir autenticación adicional. | EP03 |
-| US012 | Notificaciones de progreso | Como revendedor quiero recibir notificaciones cuando cambie el estado de una inspección para mantenerme informado sin tener que revisar constantemente. | Escenario 1:<br><strong>Dado</strong> que tengo autos en proceso de inspección,<br><strong>Cuando</strong> se actualiza su estado,<br><strong>Entonces</strong> recibo una notificación por correo o en la plataforma.<br> Escenario 2:<br><strong>Dado</strong> que prefiero notificaciones en tiempo real,<br><strong>Cuando</strong> configuro mis preferencias,<br><strong>Entonces</strong> recibo alertas instantáneas en mi dispositivo móvil. | EP03 |
-| US013 | Verificación de inspección antes de comprar | Como comprador quiero ver si un auto publicado está certificado por Certiweb para tomar decisiones más seguras. | Escenario 1:<br><strong>Dado</strong> que estoy viendo un anuncio con sello Certiweb,<br><strong>Cuando</strong> hago clic en el sello,<br><strong>Entonces</strong> puedo acceder al informe técnico del vehículo.<br> Escenario 2:<br><strong>Dado</strong> que quiero verificar la autenticidad,<br><strong>Cuando</strong> ingreso el código del informe,<br><strong>Entonces</strong> el sistema confirma su validez y detalles. | EP04 |
-| US014 | Comparación de vehículos certificados | Como comprador quiero comparar dos o más autos con inspección Certiweb para elegir el que tenga mejor estado. | Escenario 1:<br><strong>Dado</strong> que tengo varios links a informes Certiweb,<br><strong>Cuando</strong> accedo a la herramienta de comparación,<br><strong>Entonces</strong> puedo ver un resumen lado a lado de sus condiciones.<br> Escenario 2:<br><strong>Dado</strong> que necesito más detalles,<br><strong>Cuando</strong> selecciono un vehículo,<br><strong>Entonces</strong> puedo ver un análisis detallado de su estado técnico. | EP04 |
-| US015 | Reportar inconsistencia | Como comprador quiero reportar una posible inconsistencia en un informe para asegurar transparencia en el proceso. | Escenario 1:<br><strong>Dado</strong> que noto un problema en el contenido del informe,<br><strong>Cuando</strong> envío una observación desde el sitio,<br><strong>Entonces</strong> el sistema registra el caso y notifica a Certiweb.<br> Escenario 2:<br><strong>Dado</strong> que quiero seguimiento,<br><strong>Cuando</strong> reviso el estado de mi reporte,<br><strong>Entonces</strong> puedo ver actualizaciones y respuestas del equipo de Certiweb. | EP04 |
-| US016 | Validación de informe Certiweb | Como comprador quiero validar un código de informe Certiweb para asegurarme de que es auténtico. | Escenario 1:<br><strong>Dado</strong> que tengo un código o link de un informe,<br><strong>Cuando</strong> lo ingreso en la sección de validación,<br><strong>Entonces</strong> el sistema muestra si el informe es oficial y vigente.<br> Escenario 2:<br><strong>Dado</strong> que necesito más información,<br><strong>Cuando</strong> el informe es válido,<br><strong>Entonces</strong> puedo ver detalles adicionales sobre la inspección. | EP04 |
-| US017 | Inicio de sesión y registro en app móvil | Como usuario móvil quiero registrarme e iniciar sesión (email/Google) para acceder a mis servicios desde la aplicación. | Escenario 1:<br><strong>Dado</strong> que abro la app por primera vez,<br><strong>Cuando</strong> registro mi cuenta con email/Google,<br><strong>Entonces</strong> puedo ingresar y ver mi panel inicial.<br>Escenario 2:<br><strong>Dado</strong> que cerré sesión,<br><strong>Cuando</strong> inicio sesión nuevamente,<br><strong>Entonces</strong> accedo a mis datos sin reconfigurar la app. | EP03 |
-| US018 | Agendar inspección desde la app | Como vendedor quiero solicitar y agendar la inspección técnica desde la app móvil para gestionar mi vehículo fácilmente. | Escenario 1:<br><strong>Dado</strong> que estoy autenticado en la app,<br><strong>Cuando</strong> selecciono “Agendar inspección” y comparto mi ubicación/fecha preferida,<br><strong>Entonces</strong> la solicitud se registra y recibo confirmación con ID y estado “pendiente”.<br>Escenario 2:<br><strong>Dado</strong> que debo reprogramar,<br><strong>Cuando</strong> elijo nueva fecha/horario,<br><strong>Entonces</strong> se actualiza la cita y recibo notificación. | EP02 |
-| US019 | Cargar fotos y documentos desde el móvil | Como vendedor quiero subir fotos del vehículo y documentos desde la cámara o galería para completar mi solicitud de inspección. | Escenario 1:<br><strong>Dado</strong> que tengo una solicitud activa,<br><strong>Cuando</strong> capturo o selecciono fotos/archivos,<br><strong>Entonces</strong> la app los adjunta y valida formato/tamaño.<br>Escenario 2:<br><strong>Dado</strong> que subí un archivo incorrecto,<br><strong>Cuando</strong> lo elimino y reemplazo,<br><strong>Entonces</strong> la solicitud queda con los adjuntos correctos. | EP02 |
-| US020 | Seguimiento móvil del estado de inspección | Como vendedor/revendedor quiero ver el estado de inspección en tiempo real desde la app para saber el avance. | Escenario 1:<br><strong>Dado</strong> que tengo vehículos en proceso,<br><strong>Cuando</strong> abro “Mis inspecciones”,<br><strong>Entonces</strong> veo estados “pendiente”, “en inspección” y “certificado”.<br>Escenario 2:<br><strong>Dado</strong> que cambia el estado,<br><strong>Cuando</strong> ocurre una actualización,<br><strong>Entonces</strong> recibo una notificación push con el nuevo estado. | EP03 |
-| US021 | Ver y compartir informe técnico en la app | Como vendedor quiero visualizar el informe técnico desde la app y compartir el enlace con posibles compradores. | Escenario 1:<br><strong>Dado</strong> que mi vehículo está “certificado”,<br><strong>Cuando</strong> abro el detalle del vehículo,<br><strong>Entonces</strong> visualizo el informe y su resumen.<br>Escenario 2:<br><strong>Dado</strong> que quiero difundir el informe,<br><strong>Cuando</strong> uso la opción “Compartir”,<br><strong>Entonces</strong> envío el enlace mediante el share sheet del móvil. | EP02 |
-| US022 | Validación de informe con QR desde el móvil | Como comprador quiero escanear el QR del sello Certiweb con la app para validar autenticidad del informe. | Escenario 1:<br><strong>Dado</strong> que veo un sello con QR,<br><strong>Cuando</strong> abro la app y escaneo el código,<br><strong>Entonces</strong> veo si el informe es oficial y vigente.<br>Escenario 2:<br><strong>Dado</strong> que el QR es inválido o expiró,<br><strong>Cuando</strong> realizo la validación,<br><strong>Entonces</strong> la app muestra mensaje de invalidez y recomendaciones. | EP04 |
-| US023 | Acceso offline a último informe | Como vendedor quiero acceder al último informe descargado sin conexión para revisarlo en campo. | Escenario 1:<br><strong>Dado</strong> que descargué un informe con conexión,<br><strong>Cuando</strong> pierdo conexión,<br><strong>Entonces</strong> puedo ver el informe cacheado en modo solo lectura.<br>Escenario 2:<br><strong>Dado</strong> que vuelvo a tener conexión,<br><strong>Cuando</strong> abro el informe,<br><strong>Entonces</strong> la app verifica y actualiza la versión si hay cambios. | EP02 |
-| US024 | Gestión móvil de vehículos | Como revendedor quiero administrar mis vehículos (alta, edición, baja) desde la app para mantener actualizado mi inventario. | Escenario 1:<br><strong>Dado</strong> que estoy autenticado,<br><strong>Cuando</strong> agrego un vehículo con campos obligatorios,<br><strong>Entonces</strong> queda registrado y visible en mi lista.<br>Escenario 2:<br><strong>Dado</strong> que necesito editar o eliminar,<br><strong>Cuando</strong> actualizo datos o doy de baja,<br><strong>Entonces</strong> los cambios se reflejan de inmediato en mi inventario. | EP03 |
-| TS01 | Endpoint para crear inspección vehicular | Como developer quiero crear un endpoint `POST /reservation` para registrar una solicitud de inspección técnica. | Escenario 1:<br><strong>Dado</strong> que un usuario envía una solicitud con los datos del vehículo,<br><strong>Cuando</strong> la petición es válida,<br><strong>Entonces</strong> se registra en la base de datos y retorna ID y estado “pendiente”. <br> Escenario 2:<br><strong>Dado</strong> que los datos son incompletos,<br><strong>Cuando</strong> intento registrar la inspección,<br><strong>Entonces</strong> el sistema devuelve un error con detalles de los campos faltantes.| EP05 |
-| TS02 | Endpoint para visualizar informe | Como developer quiero implementar un endpoint `GET /cars/{id}/pdf` que devuelva el informe técnico en formato JSON. | Escenario 1:<br><strong>Dado</strong> que se hace una solicitud con un ID válido,<br><strong>Cuando</strong> existe el informe,<br><strong>Entonces</strong> se retorna con los datos técnicos y estado de certificación.<br> Escenario 2:<br><strong>Dado</strong> que el ID no es válido,<br><strong>Cuando</strong> se realiza la solicitud,<br><strong>Entonces</strong> el sistema devuelve un error 404 indicando que el informe no se encontró. | EP05 |
-| TS03 | Crear endpoint `GET /cars/{id}/pdf` | Desarrollar endpoint para comprobar la autenticidad de un informe | Escenario 1:<br><strong>Dado</strong> un código de informe válido,<br><strong>Cuando</strong> se consulta la API,<br><strong>Entonces</strong> debe retornar si es válido, certificado y su estado actual.<br> Escenario 2:<br><strong>Dado</strong> un código inválido,<br><strong>Cuando</strong> se realiza la consulta,<br><strong>Entonces</strong> el sistema devuelve un mensaje de error indicando que el código no es válido. | EP05 |
-| TS04 | Endpoint para consulta de informes técnicos | Como developer quiero un endpoint `GET /cars/{id}/pdf` para que se pueda obtener el informe técnico de un vehículo inspeccionado. | Escenario 1:<br><strong>Dado</strong> que el vehicleId existe,<br><strong>Cuando</strong> se consulta el endpoint,<br><strong>Entonces</strong> se retorna un JSON con el informe técnico completo.<br>Escenario 2:<br><strong>Dado</strong> que el vehicleId no existe,<br><strong>Cuando</strong> se hace la solicitud,<br><strong>Entonces</strong> el sistema devuelve un error 404 con el mensaje "Informe no encontrado". | EP05 |
-| TS05 | Implementación de hashing de contraseñas | Como developer quiero implementar hashing seguro de contraseñas para proteger las credenciales de los usuarios en la base de datos. | Escenario 1:<br><strong>Dado</strong> que un usuario se registra con una contraseña,<br><strong>Cuando</strong> se almacena en la base de datos,<br><strong>Entonces</strong> la contraseña debe estar hasheada con un algoritmo seguro (bcrypt).<br>Escenario 2:<br><strong>Dado</strong> que un usuario intenta autenticarse,<br><strong>Cuando</strong> ingresa su contraseña,<br><strong>Entonces</strong> el sistema debe comparar el hash almacenado con la contraseña ingresada. | EP05 |
-| TS06 | Sistema de WebToken de autorización | Como developer quiero implementar un sistema de JWT para manejar la autorización de usuarios de manera segura y stateless. | Escenario 1:<br><strong>Dado</strong> que un usuario se autentica correctamente,<br><strong>Cuando</strong> el login es exitoso,<br><strong>Entonces</strong> el sistema debe generar un JWT válido con información del usuario.<br>Escenario 2:<br><strong>Dado</strong> que se recibe una petición con JWT,<br><strong>Cuando</strong> se valida el token,<br><strong>Entonces</strong> el sistema debe verificar su autenticidad y extraer la información del usuario. | EP05 |
-| TS07 | Implementación de Anti Corruption Layer (ACL) | Como developer quiero implementar un ACL para proteger el dominio de la aplicación de dependencias externas y mantener la integridad arquitectural. | Escenario 1:<br><strong>Dado</strong> que se reciben datos de servicios externos,<br><strong>Cuando</strong> estos datos ingresan al sistema,<br><strong>Entonces</strong> el ACL debe transformarlos al formato del dominio interno.<br> Escenario 2:<br><strong>Dado</strong> que el dominio necesita comunicarse con servicios externos,<br><strong>Cuando</strong> se envían datos,<br><strong>Entonces</strong> el ACL debe convertir los objetos del dominio al formato requerido por el servicio externo. | EP05 |
+
+
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EPIC01</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Testimonios y casos de éxito</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como visitante quiero leer experiencias de otros usuarios para ganar confianza en el servicio.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que estoy navegando en la landing,<br>
+      Cuando bajo hasta la sección de testimonios,<br>
+      Entonces veo citas reales de compradores, revendedores o vendedores satisfechos.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que estoy interesado en el servicio,<br>
+      Cuando hago clic en un testimonio,<br>
+      Entonces puedo leer una historia completa de éxito.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EPIC01</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Botón de acción claro</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como visitante quiero ver botones visibles para registrarme o solicitar una inspección para comenzar fácilmente.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que estoy en la página principal,<br>
+      Cuando llego al primer scroll,<br>
+      Entonces veo botones como “Solicita tu inspección” o “Empieza ahora” que me llevan al registro o agendamiento.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que estoy en una sección específica,<br>
+      Cuando veo un botón de acción,<br>
+      Entonces puedo acceder directamente al formulario de contacto.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Visitante desde celular</td>
+    <td>Alta</td>
+    <td>EPIC01</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Compatibilidad móvil del Landing Page</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como visitante desde celular quiero que el sitio web se vea bien y sea fácil de usar desde mi dispositivo para navegar sin complicaciones.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que ingreso a la página desde mi teléfono,<br>
+      Cuando navego por las secciones,<br>
+      Entonces todos los elementos deben ajustarse correctamente al tamaño de pantalla sin desbordes ni errores de maquetación.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que estoy usando la navegación móvil,<br>
+      Cuando toco botones o enlaces,<br>
+      Entonces estos deben ser accesibles con el dedo y tener un diseño táctil adecuado.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Vendedor individual</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Solicitud de inspección</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor individual quiero solicitar la inspección técnica de mi auto para poder publicarlo con respaldo técnico.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que ingreso a la página desde mi teléfono,<br>
+      Cuando navego por las secciones,<br>
+      Entonces todos los elementos deben ajustarse correctamente al tamaño de pantalla sin desbordes ni errores de maquetación.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que estoy usando la navegación móvil,<br>
+      Cuando toco botones o enlaces,<br>
+      Entonces estos deben ser accesibles con el dedo y tener un diseño táctil adecuado.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Vendedor individual</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Visualización del informe técnico</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor individual quiero ver el informe técnico de mi auto para compartirlo con interesados.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que la inspección ha sido completada,<br>
+      Cuando ingreso al panel del vehículo,<br>
+      Entonces puedo ver y descargar el informe generado.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que necesito compartir el informe,<br>
+      Cuando selecciono la opción de compartir,<br>
+      Entonces puedo enviar un enlace directo a los interesados.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Vendedor individual</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Publicación del sello de certificación</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor individual quiero incluir un sello de certificación en mi anuncio en línea para generar mayor confianza.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que el auto cuenta con una inspección aprobada,<br>
+      Cuando accedo a la ficha del vehículo,<br>
+      Entonces puedo copiar el código para incluir el sello en portales de autos.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que estoy editando mi anuncio,<br>
+      Cuando inserto el código del sello,<br>
+      Entonces el sello se muestra correctamente en la vista previa.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Vendedor individual</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Historial de inspecciones</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor individual quiero ver un historial de las inspecciones realizadas a mis autos para tener trazabilidad técnica de cada uno.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo vehículos inspeccionados anteriormente,<br>
+      Cuando accedo a mi historial,<br>
+      Entonces puedo ver fecha, resultados y descargar informes antiguos.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que necesito revisar un informe específico,<br>
+      Cuando busco por fecha o vehículo,<br>
+      Entonces puedo acceder rápidamente al informe deseado.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Revendedor</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Registro masivo de vehículos</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como revendedor quiero registrar varios vehículos a la vez para ahorrar tiempo en la gestión de inspecciones.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo múltiples vehículos,<br>
+      Cuando subo un archivo con sus datos,<br>
+      Entonces el sistema los registra y muestra un resumen de carga.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que algunos datos están incompletos,<br>
+      Cuando reviso el resumen de carga,<br>
+      Entonces puedo corregir y completar la información antes de finalizar el registro.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US010</td>
+    <td>Revendedor</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Estado de inspecciones</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como revendedor quiero ver el estado de inspección de mis vehículos para saber cuáles están listos para vender.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo autos inspeccionados y otros en proceso,<br>
+      Cuando accedo al panel de gestión,<br>
+      Entonces veo una lista con estado “pendiente”, “en inspección” o “certificado”.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que necesito priorizar ventas,<br>
+      Cuando filtro por estado,<br>
+      Entonces puedo ver solo los vehículos listos para vender.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US011</td>
+    <td>Revendedor</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Enlace compartible para clientes</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como revendedor quiero compartir el enlace al informe técnico de un auto para que el cliente lo revise fácilmente.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que un informe ya fue generado,<br>
+      Cuando copio o envío el enlace,<br>
+      Entonces el comprador puede acceder sin necesidad de login.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que el cliente ha recibido el enlace,<br>
+      Cuando hace clic en el enlace,<br>
+      Entonces puede ver el informe completo en su navegador sin requerir autenticación adicional.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US012</td>
+    <td>Revendedor</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Notificaciones de progreso</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como revendedor quiero recibir notificaciones cuando cambie el estado de una inspección para mantenerme informado sin tener que revisar constantemente.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo autos en proceso de inspección,<br>
+      Cuando se actualiza su estado,<br>
+      Entonces recibo una notificación por correo o en la plataforma.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que prefiero notificaciones en tiempo real,<br>
+      Cuando configuro mis preferencias,<br>
+      Entonces recibo alertas instantáneas en mi dispositivo móvil.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US013</td>
+    <td>Comprador</td>
+    <td>Alta</td>
+    <td>EPIC04</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Verificación de inspección antes de comprar</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como comprador quiero ver si un auto publicado está certificado por Certiweb para tomar decisiones más seguras.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que estoy viendo un anuncio con sello Certiweb,<br>
+      Cuando hago clic en el sello,<br>
+      Entonces puedo acceder al informe técnico del vehículo.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que quiero verificar la autenticidad,<br>
+      Cuando ingreso el código del informe,<br>
+      Entonces el sistema confirma su validez y detalles.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US014</td>
+    <td>Comprador</td>
+    <td>Alta</td>
+    <td>EPIC04</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Comparación de vehículos certificados</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como comprador quiero comparar dos o más autos con inspección Certiweb para elegir el que tenga mejor estado.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo varios links a informes Certiweb,<br>
+      Cuando accedo a la herramienta de comparación,<br>
+      Entonces puedo ver un resumen lado a lado de sus condiciones.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que necesito más detalles,<br>
+      Cuando selecciono un vehículo,<br>
+      Entonces puedo ver un análisis detallado de su estado técnico.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US015</td>
+    <td>Comprador</td>
+    <td>Alta</td>
+    <td>EPIC04</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Reportar inconsistencia</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como comprador quiero reportar una posible inconsistencia en un informe para asegurar transparencia en el proceso.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que noto un problema en el contenido del informe,<br>
+      Cuando envío una observación desde el sitio,<br>
+      Entonces el sistema registra el caso y notifica a Certiweb.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que quiero seguimiento,<br>
+      Cuando reviso el estado de mi reporte,<br>
+      Entonces puedo ver actualizaciones y respuestas del equipo de Certiweb.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US016</td>
+    <td>Comprador</td>
+    <td>Alta</td>
+    <td>EPIC04</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Validación de informe Certiweb</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como comprador quiero validar un código de informe Certiweb para asegurarme de que es auténtico.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo un código o link de un informe,<br>
+      Cuando lo ingreso en la sección de validación,<br>
+      Entonces el sistema muestra si el informe es oficial y vigente.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que necesito más información,<br>
+      Cuando el informe es válido,<br>
+      Entonces puedo ver detalles adicionales sobre la inspección.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US017</td>
+    <td>Usuario móvil</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Inicio de sesión y registro en app móvil</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario móvil quiero registrarme e iniciar sesión (email/Google) para acceder a mis servicios desde la aplicación.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que abro la app por primera vez,<br>
+      Cuando registro mi cuenta con email/Google,<br>
+      Entonces puedo ingresar y ver mi panel inicial.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que cerré sesión,<br>
+      Cuando inicio sesión nuevamente,<br>
+      Entonces accedo a mis datos sin reconfigurar la app.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US018</td>
+    <td>Vendedor</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Agendar inspección desde la app</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor quiero solicitar y agendar la inspección técnica desde la app móvil para gestionar mi vehículo fácilmente.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que estoy autenticado en la app,<br>
+      Cuando selecciono “Agendar inspección” y comparto mi ubicación/fecha preferida,<br>
+      Entonces la solicitud se registra y recibo confirmación con ID y estado “pendiente”.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que debo reprogramar,<br>
+      Cuando elijo nueva fecha/horario,<br>
+      Entonces se actualiza la cita y recibo notificación.
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US019</td>
+    <td>Vendedor</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Cargar fotos y documentos desde el móvil</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor quiero subir fotos del vehículo y documentos desde la cámara o galería para completar mi solicitud de inspección.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo una solicitud activa,<br>
+      Cuando capturo o selecciono fotos/archivos,<br>
+      Entonces la app los adjunta y valida formato/tamaño.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que subí un archivo incorrecto,<br>
+      Cuando lo elimino y reemplazo,<br>
+      Entonces la solicitud queda con los adjuntos correctos.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US020</td>
+    <td>Vendedor / Revendedor</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Seguimiento móvil del estado de inspección</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor/revendedor quiero ver el estado de inspección en tiempo real desde la app para saber el avance.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que tengo vehículos en proceso,<br>
+      Cuando abro “Mis inspecciones”,<br>
+      Entonces veo estados “pendiente”, “en inspección” y “certificado”.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que cambia el estado,<br>
+      Cuando ocurre una actualización,<br>
+      Entonces recibo una notificación push con el nuevo estado.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US021</td>
+    <td>Vendedor</td>
+    <td>Alta</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Ver y compartir informe técnico en la app</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor quiero visualizar el informe técnico desde la app y compartir el enlace con posibles compradores.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que mi vehículo está “certificado”,<br>
+      Cuando abro el detalle del vehículo,<br>
+      Entonces visualizo el informe y su resumen.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que quiero difundir el informe,<br>
+      Cuando uso la opción “Compartir”,<br>
+      Entonces envío el enlace mediante el share sheet del móvil.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US022</td>
+    <td>Comprador</td>
+    <td>Alta</td>
+    <td>EPIC04</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Validación de informe con QR desde el móvil</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como comprador quiero escanear el QR del sello Certiweb con la app para validar autenticidad del informe.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que veo un sello con QR,<br>
+      Cuando abro la app y escaneo el código,<br>
+      Entonces veo si el informe es oficial y vigente.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que el QR es inválido o expiró,<br>
+      Cuando realizo la validación,<br>
+      Entonces la app muestra mensaje de invalidez y recomendaciones.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US023</td>
+    <td>Vendedor</td>
+    <td>Media</td>
+    <td>EPIC02</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceso offline a último informe</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como vendedor quiero acceder al último informe descargado sin conexión para revisarlo en campo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que descargué un informe con conexión,<br>
+      Cuando pierdo conexión,<br>
+      Entonces puedo ver el informe cacheado en modo solo lectura.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que vuelvo a tener conexión,<br>
+      Cuando abro el informe,<br>
+      Entonces la app verifica y actualiza la versión si hay cambios.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US024</td>
+    <td>Revendedor</td>
+    <td>Alta</td>
+    <td>EPIC03</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Gestión móvil de vehículos</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como revendedor quiero administrar mis vehículos (alta, edición, baja) desde la app para mantener actualizado mi inventario.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que estoy autenticado,<br>
+      Cuando agrego un vehículo con campos obligatorios,<br>
+      Entonces queda registrado y visible en mi lista.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que necesito editar o eliminar,<br>
+      Cuando actualizo datos o doy de baja,<br>
+      Entonces los cambios se reflejan de inmediato en mi inventario.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS01</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EPIC05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Endpoint para crear inspección vehicular</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como developer quiero crear un endpoint <code>POST /reservation</code> para registrar una solicitud de inspección técnica.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que un usuario envía una solicitud con los datos del vehículo,<br>
+      Cuando la petición es válida,<br>
+      Entonces se registra en la base de datos y retorna ID y estado “pendiente”.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que los datos son incompletos,<br>
+      Cuando intento registrar la inspección,<br>
+      Entonces el sistema devuelve un error con detalles de los campos faltantes.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS02</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Endpoint para visualizar informe</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como developer quiero implementar un endpoint <code>GET /cars/{id}/pdf</code> que devuelva el informe técnico en formato JSON.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que se hace una solicitud con un ID válido,<br>
+      Cuando existe el informe,<br>
+      Entonces se retorna con los datos técnicos y estado de certificación.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que el ID no es válido,<br>
+      Cuando se realiza la solicitud,<br>
+      Entonces el sistema devuelve un error 404 indicando que el informe no se encontró.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Crear endpoint GET /cars/{id}/pdf</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Desarrollar endpoint para comprobar la autenticidad de un informe.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado un código de informe válido,<br>
+      Cuando se consulta la API,<br>
+      Entonces debe retornar si es válido, certificado y su estado actual.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado un código inválido,<br>
+      Cuando se realiza la consulta,<br>
+      Entonces el sistema devuelve un mensaje de error indicando que el código no es válido.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS04</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Endpoint para consulta de informes técnicos</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como developer quiero un endpoint <b>GET /cars/{id}/pdf</b> para que se pueda obtener el informe técnico de un vehículo inspeccionado.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que el <i>vehicleId</i> existe,<br>
+      Cuando se consulta el endpoint,<br>
+      Entonces se retorna un JSON con el informe técnico completo.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que el <i>vehicleId</i> no existe,<br>
+      Cuando se hace la solicitud,<br>
+      Entonces el sistema devuelve un error 404 con el mensaje "Informe no encontrado".
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS05</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Implementación de hashing de contraseñas</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como developer quiero implementar hashing seguro de contraseñas para proteger las credenciales de los usuarios en la base de datos.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que un usuario se registra con una contraseña,<br>
+      Cuando se almacena en la base de datos,<br>
+      Entonces la contraseña debe estar hasheada con un algoritmo seguro (bcrypt).<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que un usuario intenta autenticarse,<br>
+      Cuando ingresa su contraseña,<br>
+      Entonces el sistema debe comparar el hash almacenado con la contraseña ingresada.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS06</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Sistema de WebToken de autorización</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como developer quiero implementar un sistema de JWT para manejar la autorización de usuarios de manera segura y stateless.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que un usuario se autentica correctamente,<br>
+      Cuando el login es exitoso,<br>
+      Entonces el sistema debe generar un JWT válido con información del usuario.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que se recibe una petición con JWT,<br>
+      Cuando se valida el token,<br>
+      Entonces el sistema debe verificar su autenticidad y extraer la información del usuario.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="25%"><b>Story ID</b></td>
+    <td width="25%"><b>User</b></td>
+    <td width="25%"><b>Priority</b></td>
+    <td width="25%"><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS07</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Implementación de Anti Corruption Layer (ACL)</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como developer quiero implementar un ACL para proteger el dominio de la aplicación de dependencias externas y mantener la integridad arquitectural.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1:</b><br>
+      Dado que se reciben datos de servicios externos,<br>
+      Cuando estos datos ingresan al sistema,<br>
+      Entonces el ACL debe transformarlos al formato del dominio interno.<br><br>
+      <b>Escenario 2:</b><br>
+      Dado que el dominio necesita comunicarse con servicios externos,<br>
+      Cuando se envían datos,<br>
+      Entonces el ACL debe convertir los objetos del dominio al formato requerido por el servicio externo.
+    </td>
+  </tr>
+</table>
+
 
 <h4 id="242-impact-mapping">2.4.2. Impact Mapping</h4>
 

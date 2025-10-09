@@ -2090,7 +2090,18 @@ Web Style Guidelines
 
 <h5 id="3144-mobile-applications-user-flow-diagrams">3.1.4.4. Mobile Applications User Flow Diagrams</h5>
 
+User Goal: Reservar una Inspección Vehicular Explicación: Este flujo ideal muestra cómo un usuario puede reservar su inspeccion de forma sencilla en CertiWeb. Todo funciona como se espera, sin ningún obstáculo o error que interrumpa el proceso.
+<img src="Images/userflow-1.png">
 
+User Goal: Crear una cuenta premium eligiendo un método de pago para acceder a los beneficios: Este flujo ideal muestra cómo un usuario quiere elegir el pagar una subcripción para acceder a mayores beneficios en la aplicación
+
+<img src="Images/userflow-2.png">
+
+User Goal: Ver vehículos certificados: Este flujo ideal para acceder al apartado de vehículos certificados.
+
+<img src="Images/userflow-3.png">
+
+Link de los diagramas: [Link](https://lucid.app/lucidchart/92693910-d860-40ad-aa33-fd4cd72f8a14/edit?viewport_loc=1893%2C1744%2C1998%2C888%2C0_0&invitationId=inv_61acd15a-5db6-4231-bf75-90921b160a6f)
 
 <h5 id="3145-mobile-applications-prototyping">3.1.4.5. Mobile Applications Prototyping</h5>
 

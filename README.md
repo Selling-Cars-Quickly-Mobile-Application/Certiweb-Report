@@ -2358,11 +2358,32 @@ Sección Contact Us:
 
 <h5 id="4216-services-documentation-evidence-for-sprint-review">4.2.1.6. Services Documentation Evidence for Sprint Review</h5>
 
+<img src="Images/Sprint4swagger1.png"/>
 
+<img src="Images/Sprint4swagger2.png"/>
+
+<img src="Images/Sprint4swagger3.png"/>
+
+**Acualizacion de documentacion con el Sprint 4**
+
+[Acceda al Swagger](https://certiweb-backend.onrender.com/swagger/index.html)
 
 <h5 id="4217-software-deployment-evidence-for-sprint-review">4.2.1.7. Software Deployment Evidence for Sprint Review</h5>
 
+Para este sprint se implementaron los siguientes cambios:
 
+- **Dockerización de la aplicación**: Se implementó la dockerización de Certiweb-Backend para garantizar la portabilidad y consistencia del entorno de desarrollo. Esto facilita el despliegue en diferentes entornos y mejora la eficiencia del proceso de implementación.
+
+- **Integración con Render**: Se configuró la integración de Certiweb-Backend con Render para el despliegue automático de la aplicación. Esto permite una entrega rápida y confiable de la aplicación a través de la plataforma Render.
+
+- **Base de datos Raiway**: Se implementó la base de datos en Railway para Certiweb-Backend, lo que garantiza la persistencia y escalabilidad de los datos.
+
+<img src="Images/Sprint3deploy1.png"/>
+<img src="Images/Sprint3deploy2.png"/>
+<img src="Images/Sprint3deploy3.png"/>
+<img src="Images/Sprint3deploy4.png"/>
+<img src="Images/Sprint3deploy5.png"/>
+<img src="Images/Sprint3deploy6.png"/>
 
 <h5 id="4218-team-collaboration-insights-during-sprint">4.2.1.8. Team Collaboration Insights during Sprint</h5>
 

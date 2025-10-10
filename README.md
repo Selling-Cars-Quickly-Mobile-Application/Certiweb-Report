@@ -3968,7 +3968,10 @@ Para este sprint se implementaron los siguientes cambios:
 
 <h5 id="4218-team-collaboration-insights-during-sprint">4.2.1.8. Team Collaboration Insights during Sprint</h5>
 
-
+<img src="Images/sprintIN1.png"/>
+<img src="Images/sprintIN2.png"/>
+<img src="Images/sprintIN3.png"/>
+<img src="Images/sprintIN4.png"/>
 
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 

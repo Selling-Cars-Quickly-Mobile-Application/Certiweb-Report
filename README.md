@@ -3946,7 +3946,7 @@ Sección Contact Us:
 
 <img src="Images/Sprint4swagger3.png"/>
 
-**Acualizacion de documentacion con el Sprint 4**
+
 
 [Acceda al Swagger](https://certiweb-backend.onrender.com/swagger/index.html)
 

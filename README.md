@@ -2523,6 +2523,185 @@ Empathy Mapping Compradores
   </tr>
 </table>
 
+User Spike US01 - Información clara sobre Certiweb
+
+Objetivo de investigación:
+Investigar cómo presentar de manera clara y atractiva los beneficios de Certiweb para que los visitantes comprendan rápidamente su propósito.
+
+Criterios de aceptación:
+- Revisión de landing pages efectivas en sitios similares.
+- Desarrollo de prototipos de contenido visual y textual.
+- Pruebas de usuario con diferentes segmentos para medir comprensión.
+- Documentación sobre las mejores prácticas de diseño de landing pages.
+
+
+User Spike US02 - Testimonios y casos de éxito
+
+Objetivo de investigación:
+Investigar qué formato de testimonios (escritos, video, citas breves) genera más confianza entre los visitantes del sitio web.
+
+Criterios de aceptación:
+- Revisión de casos de éxito utilizados por competidores y empresas similares.
+- Creación de prototipos de diferentes tipos de testimonios.
+- Realización de pruebas con usuarios para medir el impacto en su confianza.
+- Documentación sobre los formatos más efectivos y recomendación para su uso.
+
+
+User Spike US03 - Botón de acción claro
+
+Objetivo de investigación:
+Investigar las mejores prácticas para diseñar botones de acción visibles y efectivos que maximicen la tasa de clics en la landing page.
+
+Criterios de aceptación:
+- Revisión de botones de acción efectivos en sitios web exitosos.
+- Experimentación con diferentes tamaños, colores y ubicaciones de botones.
+- Realización de pruebas A/B con usuarios para determinar la mejor opción.
+- Documentación sobre el diseño de botones más efectivo.
+
+
+User Spike US04 - Compatibilidad móvil del Landing Page
+
+Objetivo de investigación:
+Investigar cómo garantizar que la landing page se vea correctamente en dispositivos móviles, adaptándose a diversas resoluciones de pantalla.
+
+Criterios de aceptación:
+- Revisión de diseño responsive en sitios web exitosos.
+- Creación de una versión móvil adaptativa de la landing page.
+- Pruebas de compatibilidad en diferentes dispositivos y sistemas operativos.
+- Documentación sobre las mejores prácticas para diseño móvil.
+
+
+User Spike US05 - Solicitud de inspección
+
+Objetivo de investigación:
+Investigar qué tipo de formulario de solicitud de inspección será el más efectivo y fácil de usar para los vendedores individuales.
+
+Criterios de aceptación:
+- Revisión de formularios efectivos en páginas de servicios similares.
+- Creación de un prototipo de formulario simplificado.
+- Realización de pruebas de usabilidad con usuarios para medir la facilidad de uso.
+- Documentación sobre la mejor estructura y diseño del formulario.
+
+
+User Spike US06 - Visualización del informe técnico
+
+Objetivo de investigación:
+Investigar la mejor manera de mostrar el informe técnico de un vehículo de forma clara y accesible para los vendedores.
+
+Criterios de aceptación:
+- Revisión de la presentación de informes técnicos en plataformas similares.
+- Desarrollo de un prototipo para la visualización del informe técnico.
+- Realización de pruebas con usuarios para evaluar la comprensión y accesibilidad.
+- Documentación sobre la mejor forma de mostrar los informes técnicos.
+
+
+User Spike US07 - Publicación del sello de certificación
+
+Objetivo de investigación:
+Investigar la mejor forma de integrar el sello de certificación en los anuncios de los vehículos para garantizar su visibilidad y efectividad.
+
+Criterios de aceptación:
+- Revisión de cómo se integran y presentan los sellos de certificación en sitios web similares.
+- Desarrollo de un prototipo que permita la inserción y visualización del sello en el anuncio.
+- Realización de pruebas con usuarios para verificar que el sello sea claramente visible y confiable.
+- Documentación sobre las mejores prácticas para integrar un sello digital en anuncios de vehículos.
+
+
+User Spike US08 - Historial de inspecciones
+
+Objetivo de investigación:
+Investigar cómo proporcionar acceso fácil y rápido al historial de inspecciones realizadas a los vehículos de los vendedores para garantizar trazabilidad y transparencia.
+
+Criterios de aceptación:
+- Revisión de sistemas similares que gestionan historiales de inspección para vehículos u otros productos.
+- Creación de un prototipo que permita visualizar las inspecciones pasadas de manera clara y ordenada.
+- Realización de pruebas con vendedores para asegurarse de que el historial sea accesible y útil para la toma de decisiones.
+- Documentación de los resultados y mejoras en la estructura del historial de inspecciones.
+
+
+User Spike US09 - Registro masivo de vehículos
+
+Objetivo de investigación:
+Investigar la viabilidad técnica de permitir la carga masiva de datos de vehículos, utilizando archivos para facilitar el proceso.
+
+Criterios de aceptación:
+- Revisión de las mejores prácticas para carga masiva de datos en plataformas web.
+- Desarrollo de un prototipo funcional para cargar múltiples vehículos desde un archivo.
+- Pruebas de carga masiva con datos reales y validación de resultados.
+- Documentación de la solución implementada y recomendaciones para optimización.
+
+
+User Spike US010 - Estado de inspecciones
+
+Objetivo de investigación:
+Investigar cómo presentar el estado de la inspección de los vehículos de manera eficiente y clara en el panel del revendedor.
+
+Criterios de aceptación:
+- Investigación sobre las mejores formas de mostrar el estado de procesos en tiempo real.
+- Prototipo de visualización del estado de inspecciones.
+- Realización de pruebas con usuarios para determinar la claridad y utilidad de la información.
+- Documentación sobre la mejor manera de estructurar y mostrar los estados de inspección.
+
+
+User Spike US011 - Enlace compartible para clientes
+
+Objetivo de investigación:
+Investigar la mejor forma de permitir que los revendedores compartan los informes técnicos de los vehículos con sus clientes de forma sencilla y rápida.
+
+Criterios de aceptación:
+- Revisión de mecanismos de compartición de enlaces utilizados en otros servicios.
+- Desarrollo de un prototipo de enlace compartible para el informe técnico.
+- Realización de pruebas con usuarios para medir la facilidad de uso.
+- Documentación sobre las mejores prácticas para compartir enlaces de manera segura.
+
+
+User Spike US012 - Notificaciones de progreso
+
+Objetivo de investigación:
+Investigar cómo implementar notificaciones efectivas para que los revendedores reciban actualizaciones sobre el estado de la inspección de sus vehículos.
+
+Criterios de aceptación:
+- Revisión de sistemas de notificación efectivos en plataformas similares.
+- Desarrollo de un prototipo de sistema de notificaciones por correo y en plataforma.
+- Realización de pruebas de usuario para asegurar que las notificaciones sean oportunas y claras.
+- Documentación sobre el diseño y las mejores prácticas para notificaciones de progreso.
+
+
+User Spike TS01 - Endpoint para crear inspección vehicular
+
+Objetivo de investigación:
+Investigar la arquitectura necesaria para crear un endpoint POST que registre correctamente las solicitudes de inspección vehicular.
+
+Criterios de aceptación:
+- Investigación sobre cómo crear un endpoint de tipo POST eficiente para la creación de registros.
+- Desarrollo de un prototipo de endpoint para la solicitud de inspección.
+- Pruebas con datos reales para asegurar que el endpoint funciona correctamente.
+- Documentación sobre la implementación del endpoint y posibles problemas encontrados.
+
+
+User Spike TS02 - Endpoint para visualizar informe
+
+Objetivo de investigación:
+Investigar la estructura y el diseño de un endpoint GET para devolver los informes técnicos de los vehículos en formato JSON.
+
+Criterios de aceptación:
+- Revisión de mejores prácticas para la creación de endpoints de tipo GET.
+- Desarrollo de un prototipo funcional del endpoint GET para informes técnicos.
+- Realización de pruebas con diferentes tipos de solicitudes para asegurar que el endpoint devuelve los datos correctamente.
+- Documentación sobre el proceso de validación y retorno de datos en formato JSON.
+
+
+User Spike TS03 - Endpoint para comprobar autenticidad de informe
+
+Objetivo de investigación:
+Estudiar cómo implementar un sistema que permita verificar la autenticidad de un informe técnico mediante un código único.
+
+Criterios de aceptación:
+- Investigación sobre los métodos de validación de códigos para documentos digitales.
+- Desarrollo de un prototipo de endpoint para validar la autenticidad de informes.
+- Realización de pruebas para asegurar que el sistema verifica correctamente los códigos.
+- Documentación sobre las mejores prácticas para la validación de informes técnicos.
+
 
 <h4 id="242-impact-mapping">2.4.2. Impact Mapping</h4>
 

@@ -2712,30 +2712,30 @@ Criterios de aceptación:
 
 | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
 |----------|----------------|---------|----------------------------------|
-| 1 | US01 | Información clara sobre Certiweb | 3 |
-| 2 | US02 | Testimonios y casos de éxito | 2 |
-| 3 | US03 | Botón de acción claro | 2 |
-| 4 | US04 | Compatibilidad móvil del Landing Page | 3 |
-| 5 | US05 | Solicitud de inspección | 5 |
-| 6 | US06 | Visualización del informe técnico | 3 |
-| 7 | US07 | Publicación del sello de certificación | 2 |
-| 8 | US08 | Historial de inspecciones | 3 |
-| 9 | US09 | Registro masivo de vehículos | 5 |
-| 10 | US010 | Estado de inspecciones | 3 |
-| 11 | US011 | Enlace compartible para clientes | 2 |
-| 12 | US012 | Notificaciones de progreso | 3 |
-| 13 | US013 | Verificación de inspección antes de comprar | 3 |
-| 14 | US014 | Comparación de vehículos certificados | 5 |
-| 15 | US015 | Reportar inconsistencia | 2 |
-| 16 | US016 | Validación de informe Certiweb | 3 |
-| 17 | US017 | Inicio de sesión y registro en app móvil | 3 |
-| 18 | US018 | Agendar inspección desde la app | 5 |
-| 19 | US019 | Cargar fotos y documentos desde el móvil | 3 |
-| 20 | US020 | Seguimiento móvil del estado de inspección | 5 |
-| 21 | US021 | Ver y compartir informe técnico en la app | 3 |
-| 22 | US022 | Validación de informe con QR desde el móvil | 3 |
-| 23 | US023 | Acceso offline al último informe | 5 |
-| 24 | US024 | Gestión móvil de vehículos | 5 |
+| 1 | US05 | Solicitar inspección | 5 |
+| 2 | US06 | Visualizar informe técnico | 3 |
+| 3 | US01 | Mostrar información clara sobre Certiweb | 3 |
+| 4 | US017 | Iniciar sesión y registrarse en app móvil | 3 |
+| 5 | US018 | Agendar inspección desde la app | 5 |
+| 6 | US021 | Ver y compartir informe técnico en la app | 3 |
+| 7 | US019 | Cargar fotos y documentos desde el móvil | 3 |
+| 8 | US020 | Realizar seguimiento del estado de inspección | 5 |
+| 9 | US022 | Validar informe con QR desde el móvil | 3 |
+| 10 | US016 | Validar informe Certiweb | 3 |
+| 11 | US07 | Publicar sello de certificación | 2 |
+| 12 | US011 | Compartir enlace con clientes | 2 |
+| 13 | US012 | Enviar notificaciones de progreso | 3 |
+| 14 | US09 | Registrar masivamente vehículos | 5 |
+| 15 | US013 | Verificar inspección antes de comprar | 3 |
+| 16 | US014 | Comparar vehículos certificados | 5 |
+| 17 | US02 | Mostrar testimonios y casos de éxito | 2 |
+| 18 | US03 | Implementar botón de acción claro | 2 |
+| 19 | US04 | Asegurar compatibilidad móvil del Landing Page | 3 |
+| 20 | US015 | Reportar inconsistencia | 2 |
+| 21 | US08 | Consultar historial de inspecciones | 3 |
+| 22 | US010 | Mostrar estado de inspecciones | 3 |
+| 23 | US023 | Permitir acceso offline al último informe | 5 |
+| 24 | US024 | Gestionar vehículos desde la app móvil | 5 |
 
 
 <h3 id="25-strategic-level-domain-driven-design">2.5. Strategic-Level Domain-Driven Design</h3>

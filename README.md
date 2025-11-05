@@ -4288,6 +4288,32 @@ Los mensajes de error son genéricos ("Error en el sistema", "Algo salió mal") 
 Recomendación:
 Crear mensajes de error específicos y útiles que expliquen claramente qué salió mal y proporcionen pasos concretos para resolver el problema.
 
+<h4 id="">4.2.2. Sprint 2</h4>
+<h4 id="">4.2.2.1. Sprint Planning 2</h4>
+
+| Criterio                     | Detalle                                                                                                                            |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                 | Sprint 2                                                                                                                           |
+| **Sprint Planning Background** |                                                                                                                                    |
+| Date                         | 20/10/25                                                                                                                         |
+| Time                         | 8:00pm                                                                                                                        |
+| Location                     | Reunión Virtual en Meet                                                                      |
+| Prepared By                  | Eric Agama                                                                                             |
+| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
+| Sprint n - 1 Review Summary  | Se logró el desarrollo de la documentación del proyecto y elaboración del landing page y backend de la aplicación Certiweb gracias al feedback de los entrevistados. |
+| Sprint n - 1 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 1 |
+| **Sprint Goal & User Stories** |                                                                                                                                    |
+| Sprint 2 Goal                | Nuestro enfoque está en tener un considerable avance en la aplicación movil tanto en flutter como en kotlin para los segmentos objetivos |
+| Sprint 2 Velocity            | 13       |
+| **Sum of Story Points**      | 13                                |
+
+<h4 id="">4.2.2.2. Sprint Backlog 2</h4>
+<h4 id="">4.2.2.3. Development Evidence for Sprint Review</h4>
+<h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
+<h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
+<h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
+<h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
+<h4 id="">4.2.2.8. Team Collaboration Insights during Sprint </h4>
 
 <h1 id="conclusiones">Conclusiones</h1>
 <h1 id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</h1>

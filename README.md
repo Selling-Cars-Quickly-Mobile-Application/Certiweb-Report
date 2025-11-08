@@ -3974,6 +3974,23 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/sprintIN3.png"/>
 <img src="Images/sprintIN4.png"/>
 
+<h4 id="422-sprint-2">4.2.2. Sprint 2</h4>
+
+<h5 id="4221-sprint-planning-2">4.2.2.1. Sprint Planning 2</h5>
+
+<h5 id="4222-sprint-backlog-1">4.2.2.2. Sprint Backlog 2</h5>
+
+<h5 id="4223-development-evidence-for-sprint-review">4.2.2.3. Development Evidence for Sprint Review</h5>
+
+<h5 id="4224-testing-suite-evidence-for-sprint-review">4.2.2.4. Testing Suite Evidence for Sprint Review</h5>
+
+<h5 id="4225-execution-evidence-for-sprint-review">4.2.2.5. Execution Evidence for Sprint Review</h5>
+
+<h5 id="4226-services-documentation-evidence-for-sprint-review">4.2.2.6. Services Documentation Evidence for Sprint Review</h5>
+
+<h5 id="4227-software-deployment-evidence-for-sprint-review">4.2.2.7. Software Deployment Evidence for Sprint Review</h5>
+
+
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 
 

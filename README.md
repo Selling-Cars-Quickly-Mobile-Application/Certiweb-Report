@@ -3987,11 +3987,55 @@ Para este sprint se implementaron los siguientes cambios:
 
 <h5 id="4221-sprint-planning-2">4.2.2.1. Sprint Planning 2</h5>
 
+| Criterio                     | Detalle |
+| :--------------------------- | :------ |
+| **Sprint #**                 | Sprint 2 |
+| **Sprint Planning Background** |        |
+| Date                         |        |
+| Time                         |        |
+| Location                     |     Reunion virtual por Meet   |
+| Prepared By                  |      Eric Agama  |
+| Attendees (to planning meeting) |   Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas    |
+| Sprint n - 2 Review Summary  |        |
+| Sprint n - 2 Retrospective Summary |   |
+| **Sprint Goal & User Stories** |       |
+| Sprint 2 Goal                |        |
+| Sprint 2 Velocity            |        |
+| **Sum of Story Points**      |        |
+
+
 <h5 id="4222-sprint-backlog-1">4.2.2.2. Sprint Backlog 2</h5>
+
+| **User Story** | **Title** | **Work-Item / Task** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|----------------|-----------|-----------------------|-----------|-----------------|------------------------|-----------------|------------|
+|                |           |                       |           |                 |                        |                 |            |
+|                |           |                       |           |                 |                        |                 |            |
+|                |           |                       |           |                 |                        |                 |            |
+|                |           |                       |           |                 |                        |                 |            |
+|                |           |                       |           |                 |                        |                 |            |
+|                |           |                       |           |                 |                        |                 |            |
+|                |           |                       |           |                 |                        |
+
 
 <h5 id="4223-development-evidence-for-sprint-review">4.2.2.3. Development Evidence for Sprint Review</h5>
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
+|------------|--------|-----------|----------------|----------------------|-------------------|
+|            |        |           |                |                      |                   |
+|            |        |           |                |                      |                   |
+|            |        |           |                |                      |                   |
+|            |        |           |                |                      |                   |
+|            |        |           |                |                      |                   |
+
+
 <h5 id="4224-testing-suite-evidence-for-sprint-review">4.2.2.4. Testing Suite Evidence for Sprint Review</h5>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
+|------------|--------|-----------|----------------|----------------------|-------------------|
+|            |        |           |                |                      |                   |
+|            |        |           |                |                      |                   |
+|            |        |           |                |                      |                   |
+
 
 <h5 id="4225-execution-evidence-for-sprint-review">4.2.2.5. Execution Evidence for Sprint Review</h5>
 

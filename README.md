@@ -4310,6 +4310,25 @@ Crear mensajes de error específicos y útiles que expliquen claramente qué sal
 | Sprint 2 Velocity            | 13       |
 | **Sum of Story Points**      | 13                                |
 
+<h5 id="4221-sprint-planning-2">4.2.2.1. Sprint Planning 2</h5>
+
+| Criterio                     | Detalle                                                                                                                            |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                 | Sprint 2                                                                                                                           |
+| **Sprint Planning Background** | En este sprint, el equipo de desarrollo se enfocará en la implementación de las funcionalidades principales de la aplicación Certiweb en Flutter, logrando la transición progresiva desde la versión inicial en Kotlin. Este desarrollo permitirá desplegar una versión funcional de la app con conexión a backend, interfaz optimizada y características esenciales para los usuarios finales.|
+| Date                         | 24/10/25                                                                                                                         |
+| Time                         | 5:00pm                                                                                                                        |
+| Location                     | Reunión Virtual en Meet                                                                      |
+| Prepared By                  | Eric Agama                                                                                             |
+| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
+| Sprint n - 2 Review Summary  | Durante el Sprint 2 se logró completar la primera versión funcional de la aplicación móvil Certiweb desarrollada en Flutter, integrando las funcionalidades principales que permiten al usuario iniciar sesión, registrarse, solicitar y agendar inspecciones, visualizar informes técnicos y cargar fotografías o documentos desde el dispositivo móvil. Además, se optimizó la comunicación entre el backend y la nueva interfaz, logrando una sincronización estable de datos. El backend alcanzó el 100% de despliegue con su documentación técnica actualizada, y la aplicación ya presenta una versión demostrable lista para validación. |
+| Sprint n - 2 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 2 |
+| **Sprint Goal & User Stories** |                                                                                                                                    |
+| Sprint 2 Goal                | El objetivo del Sprint 2 es incorporar las funcionalidades principales en la aplicación móvil Flutter de Certiweb, enfocándose en la solicitud y agendamiento de inspecciones, visualización de informes técnicos, seguimiento de estado de inspección, gestión de vehículos y carga de fotos/documentos. Estas funcionalidades serán validadas mediante pruebas funcionales y unitarias en dispositivos móviles Android y iOS. El sprint se considerará exitoso cuando las funciones sean completamente operativas, integradas con el backend y accesibles desde la app móvil. |
+| Sprint 2 Velocity            | 15      |
+| **Sum of Story Points**      | 19                                |
+
+
 <h4 id="">4.2.2.2. Sprint Backlog 2</h4>
 <h4 id="">4.2.2.3. Development Evidence for Sprint Review</h4>
 <h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>

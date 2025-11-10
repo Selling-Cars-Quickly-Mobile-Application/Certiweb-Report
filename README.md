@@ -4345,6 +4345,15 @@ Crear mensajes de error específicos y útiles que expliquen claramente qué sal
 |            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
 
 <h4 id="">4.2.2.3. Development Evidence for Sprint Review</h4>
+
+| Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
+|-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | 24aa9c0 | chore: update vcs.xml with additional flutter project mapping | 09/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | aa060ee  | feat(reservation): add reservation data model, api and repository | 02/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | 0ae28c8  | feat(certify-car): implement vehicle certification screen with form and validation | 02/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | 8c9ad39  | feat(user): implement user session management and API integration | 02/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | d7550ab  | feat(profile): implement user profile screen with view model | 02/11/2025 |
+
 <h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
 <h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
 <h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>

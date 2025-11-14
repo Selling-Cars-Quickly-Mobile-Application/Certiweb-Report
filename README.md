@@ -4030,7 +4030,6 @@ Para este sprint se implementaron los siguientes cambios:
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added certification gherkin test | 8/10/2025 |
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added reservation gherkin test | feat(add): added reservation gherkin test | 8/10/2025 |
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added user gherkin test | 8/10/2025 |
-
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | 59af660 | feat(add): add inspection_reservation feature | feat(add): add inspection_reservation feature |14/11/2025 |
 
 <h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>

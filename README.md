@@ -7,7 +7,7 @@ width=50%"/>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 <h5 style="text-align: center"> Ingeniería de Software </h5>
 
-<h5 style="text-align: center"> Periodo 2025-20 </h5>
+<h5 style="text-align: center"> Periodo 202520 </h5>
 
 <h5 style="text-align: center"> 1ACC0238 | Aplicaciones para Dispositivos Móviles </h5>
 <h5 style="text-align: center"> NRC: 14649 </h5>

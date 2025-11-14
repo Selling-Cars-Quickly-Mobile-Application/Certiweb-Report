@@ -4008,7 +4008,7 @@ Para este sprint se implementaron los siguientes cambios:
 |                |                                            | T04                  | Integrar formulario con API          | Conectar la funcionalidad del formulario al backend para registrar solicitudes en la base de datos | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
 | US18           | Agendar inspección desde la app                      | T05                  | Desarrollar calendario interactivo                 | Implementar un calendario dentro de la app para seleccionar fecha y hora de inspección | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
 |                |                                            | T06                  | Mostrar confirmación de cita       | Crear una vista con detalles del agendamiento | 3                      | Ortiz Alarcón, Victor Nicolas | Done       |
-| US06           | Visualizar informe técnico      | T07                  | Diseñar vista de informe           | Crear interfaz para mostrar los informes técnicos de vehículos inspeccionados | 3                      | Eric Fabrizio Agama | Done       |
+| US06           | Visualizar informe técnico      | T07                  | Diseñar vista de informe           | Crear interfaz para mostrar los informes técnicos de vehículos inspeccionados | 3                      | Eric Fabrizio Agama |    In progress    |
 |            |       | T08                  | Integrar endpoint de informes | Conectar la vista al endpoint del backend para mostrar datos reales de los informes   | 3                      | Eric Fabrizio Agama | Done       |
 | US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
 |            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
@@ -4040,6 +4040,16 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/execution-sprint2-4.png"/>
 
 <h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
+
+<img src="Images/Sprint4swagger1.png"/>
+
+<img src="Images/Sprint4swagger2.png"/>
+
+<img src="Images/Sprint4swagger3.png"/>
+
+
+[Acceda al Swagger](https://certiweb-backend.onrender.com/swagger/index.html)
+  
 <h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
 <h4 id="">4.2.2.8. Team Collaboration Insights during Sprint </h4>
   

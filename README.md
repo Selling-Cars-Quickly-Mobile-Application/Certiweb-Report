@@ -3977,6 +3977,58 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/sprintIN3.png"/>
 <img src="Images/sprintIN4.png"/>
 
+<h4 id="">4.2.2. Sprint 2</h4>
+
+<h5 id="4221-sprint-planning-2">4.2.2.1. Sprint Planning 2</h5>
+
+| Criterio                     | Detalle                                                                                                                            |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                 | Sprint 2                                                                                                                           |
+| **Sprint Planning Background** | En este sprint, el equipo de desarrollo se enfocará en la implementación de las funcionalidades principales de la aplicación Certiweb en Flutter, logrando la transición progresiva desde la versión inicial en Kotlin. Este desarrollo permitirá desplegar una versión funcional de la app con conexión a backend, interfaz optimizada y características esenciales para los usuarios finales.|
+| Date                         | 24/10/25                                                                                                                         |
+| Time                         | 5:00pm                                                                                                                        |
+| Location                     | Reunión Virtual en Meet                                                                      |
+| Prepared By                  | Eric Agama                                                                                             |
+| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
+| Sprint n - 2 Review Summary  | Durante el Sprint 2 se logró completar la primera versión funcional de la aplicación móvil Certiweb desarrollada en Flutter, integrando las funcionalidades principales que permiten al usuario iniciar sesión, registrarse, solicitar y agendar inspecciones, visualizar informes técnicos y cargar fotografías o documentos desde el dispositivo móvil. Además, se optimizó la comunicación entre el backend y la nueva interfaz, logrando una sincronización estable de datos. El backend alcanzó el 100% de despliegue con su documentación técnica actualizada, y la aplicación ya presenta una versión demostrable lista para validación. |
+| Sprint n - 2 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 2 |
+| **Sprint Goal & User Stories** |                                                                                                                                    |
+| Sprint 2 Goal                | El objetivo del Sprint 2 es incorporar las funcionalidades principales en la aplicación móvil Flutter de Certiweb, enfocándose en la solicitud y agendamiento de inspecciones, visualización de informes técnicos, seguimiento de estado de inspección, gestión de vehículos y carga de fotos/documentos. Estas funcionalidades serán validadas mediante pruebas funcionales y unitarias en dispositivos móviles Android y iOS. El sprint se considerará exitoso cuando las funciones sean completamente operativas, integradas con el backend y accesibles desde la app móvil. |
+| Sprint 2 Velocity            | 15      |
+| **Sum of Story Points**      | 19                                |
+
+
+<h4 id="">4.2.2.2. Sprint Backlog 2</h4>
+
+| **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
+|----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
+| US17           | Iniciar sesión y registrarse en app móvil           | T01                  | Implementar pantalla de inicio de sesión                  | Diseñar e implementar la interfaz de inicio de sesión y registro en Flutter con campos validados y navegación funcional | 5                      | Alcántara Cruz, Rodrigo Alonso | Done       |
+|                |                                            | T02                  | Conectar autenticación con backend                   | Integrar la autenticación de usuarios mediante API REST para validar credenciales y registrar nuevos usuarios | 4                      | Eric Fabrizio Agama | Done       |
+| US05           | Solicitar inspección               | T03                  | Crear formulario de solicitud            | Desarrollar un formulario que permita al usuario registrar los datos necesarios para solicitar una inspección vehicular | 5                      | Barturen Guzman, Alejandro Nicolas | Done       |
+|                |                                            | T04                  | Integrar formulario con API          | Conectar la funcionalidad del formulario al backend para registrar solicitudes en la base de datos | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+| US18           | Agendar inspección desde la app                      | T05                  | Desarrollar calendario interactivo                 | Implementar un calendario dentro de la app para seleccionar fecha y hora de inspección | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+|                |                                            | T06                  | Mostrar confirmación de cita       | Crear una vista con detalles del agendamiento | 3                      | Ortiz Alarcón, Victor Nicolas | Done       |
+| US06           | Visualizar informe técnico      | T07                  | Diseñar vista de informe           | Crear interfaz para mostrar los informes técnicos de vehículos inspeccionados | 3                      | Eric Fabrizio Agama | Done       |
+|            |       | T08                  | Integrar endpoint de informes | Conectar la vista al endpoint del backend para mostrar datos reales de los informes   | 3                      | Eric Fabrizio Agama | Done       |
+| US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
+|            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
+
+<h4 id="">4.2.2.3. Development Evidence for Sprint Review</h4>
+
+| Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
+|-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | 24aa9c0 | chore: update vcs.xml with additional flutter project mapping | chore: update vcs.xml with additional flutter project mapping | 09/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | aa060ee  | feat(reservation): add reservation data model, api and repository | feat(reservation): add reservation data model, api and repository | 02/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | 0ae28c8  | feat(certify-car): implement vehicle certification screen with form and validation | feat(certify-car): implement vehicle certification screen with form and validation | 02/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | 8c9ad39  | feat(user): implement user session management and API integration | feat(user): implement user session management and API integration | 02/11/2025 |
+| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | d7550ab  | feat(profile): implement user profile screen with view model | feat(profile): implement user profile screen with view model | 02/11/2025 |
+
+<h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
+<h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
+<h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
+<h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
+<h4 id="">4.2.2.8. Team Collaboration Insights during Sprint </h4>
+  
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 
 
@@ -4291,74 +4343,7 @@ Los mensajes de error son genéricos ("Error en el sistema", "Algo salió mal") 
 Recomendación:
 Crear mensajes de error específicos y útiles que expliquen claramente qué salió mal y proporcionen pasos concretos para resolver el problema.
 
-<h4 id="">4.2.2. Sprint 2</h4>
-<h4 id="">4.2.2.1. Sprint Planning 2</h4>
 
-| Criterio                     | Detalle                                                                                                                            |
-| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint #**                 | Sprint 2                                                                                                                           |
-| **Sprint Planning Background** |                                                                                                                                    |
-| Date                         | 20/10/25                                                                                                                         |
-| Time                         | 8:00pm                                                                                                                        |
-| Location                     | Reunión Virtual en Meet                                                                      |
-| Prepared By                  | Eric Agama                                                                                             |
-| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
-| Sprint n - 1 Review Summary  | Se logró el desarrollo de la documentación del proyecto y elaboración del landing page y backend de la aplicación Certiweb gracias al feedback de los entrevistados. |
-| Sprint n - 1 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 1 |
-| **Sprint Goal & User Stories** |                                                                                                                                    |
-| Sprint 2 Goal                | Nuestro enfoque está en tener un considerable avance en la aplicación movil tanto en flutter como en kotlin para los segmentos objetivos |
-| Sprint 2 Velocity            | 13       |
-| **Sum of Story Points**      | 13                                |
-
-<h5 id="4221-sprint-planning-2">4.2.2.1. Sprint Planning 2</h5>
-
-| Criterio                     | Detalle                                                                                                                            |
-| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint #**                 | Sprint 2                                                                                                                           |
-| **Sprint Planning Background** | En este sprint, el equipo de desarrollo se enfocará en la implementación de las funcionalidades principales de la aplicación Certiweb en Flutter, logrando la transición progresiva desde la versión inicial en Kotlin. Este desarrollo permitirá desplegar una versión funcional de la app con conexión a backend, interfaz optimizada y características esenciales para los usuarios finales.|
-| Date                         | 24/10/25                                                                                                                         |
-| Time                         | 5:00pm                                                                                                                        |
-| Location                     | Reunión Virtual en Meet                                                                      |
-| Prepared By                  | Eric Agama                                                                                             |
-| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
-| Sprint n - 2 Review Summary  | Durante el Sprint 2 se logró completar la primera versión funcional de la aplicación móvil Certiweb desarrollada en Flutter, integrando las funcionalidades principales que permiten al usuario iniciar sesión, registrarse, solicitar y agendar inspecciones, visualizar informes técnicos y cargar fotografías o documentos desde el dispositivo móvil. Además, se optimizó la comunicación entre el backend y la nueva interfaz, logrando una sincronización estable de datos. El backend alcanzó el 100% de despliegue con su documentación técnica actualizada, y la aplicación ya presenta una versión demostrable lista para validación. |
-| Sprint n - 2 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 2 |
-| **Sprint Goal & User Stories** |                                                                                                                                    |
-| Sprint 2 Goal                | El objetivo del Sprint 2 es incorporar las funcionalidades principales en la aplicación móvil Flutter de Certiweb, enfocándose en la solicitud y agendamiento de inspecciones, visualización de informes técnicos, seguimiento de estado de inspección, gestión de vehículos y carga de fotos/documentos. Estas funcionalidades serán validadas mediante pruebas funcionales y unitarias en dispositivos móviles Android y iOS. El sprint se considerará exitoso cuando las funciones sean completamente operativas, integradas con el backend y accesibles desde la app móvil. |
-| Sprint 2 Velocity            | 15      |
-| **Sum of Story Points**      | 19                                |
-
-
-<h4 id="">4.2.2.2. Sprint Backlog 2</h4>
-
-| **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
-|----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
-| US17           | Iniciar sesión y registrarse en app móvil           | T01                  | Implementar pantalla de inicio de sesión                  | Diseñar e implementar la interfaz de inicio de sesión y registro en Flutter con campos validados y navegación funcional | 5                      | Alcántara Cruz, Rodrigo Alonso | Done       |
-|                |                                            | T02                  | Conectar autenticación con backend                   | Integrar la autenticación de usuarios mediante API REST para validar credenciales y registrar nuevos usuarios | 4                      | Eric Fabrizio Agama | Done       |
-| US05           | Solicitar inspección               | T03                  | Crear formulario de solicitud            | Desarrollar un formulario que permita al usuario registrar los datos necesarios para solicitar una inspección vehicular | 5                      | Barturen Guzman, Alejandro Nicolas | Done       |
-|                |                                            | T04                  | Integrar formulario con API          | Conectar la funcionalidad del formulario al backend para registrar solicitudes en la base de datos | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
-| US18           | Agendar inspección desde la app                      | T05                  | Desarrollar calendario interactivo                 | Implementar un calendario dentro de la app para seleccionar fecha y hora de inspección | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
-|                |                                            | T06                  | Mostrar confirmación de cita       | Crear una vista con detalles del agendamiento | 3                      | Ortiz Alarcón, Victor Nicolas | Done       |
-| US06           | Visualizar informe técnico      | T07                  | Diseñar vista de informe           | Crear interfaz para mostrar los informes técnicos de vehículos inspeccionados | 3                      | Eric Fabrizio Agama | Done       |
-|            |       | T08                  | Integrar endpoint de informes | Conectar la vista al endpoint del backend para mostrar datos reales de los informes   | 3                      | Eric Fabrizio Agama | Done       |
-| US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
-|            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
-
-<h4 id="">4.2.2.3. Development Evidence for Sprint Review</h4>
-
-| Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
-|-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
-| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | 24aa9c0 | chore: update vcs.xml with additional flutter project mapping | chore: update vcs.xml with additional flutter project mapping | 09/11/2025 |
-| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | aa060ee  | feat(reservation): add reservation data model, api and repository | feat(reservation): add reservation data model, api and repository | 02/11/2025 |
-| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/flutter  | 0ae28c8  | feat(certify-car): implement vehicle certification screen with form and validation | feat(certify-car): implement vehicle certification screen with form and validation | 02/11/2025 |
-| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | 8c9ad39  | feat(user): implement user session management and API integration | feat(user): implement user session management and API integration | 02/11/2025 |
-| [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | d7550ab  | feat(profile): implement user profile screen with view model | feat(profile): implement user profile screen with view model | 02/11/2025 |
-
-<h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
-<h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
-<h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
-<h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
-<h4 id="">4.2.2.8. Team Collaboration Insights during Sprint </h4>
 
 <h1 id="conclusiones">Conclusiones</h1>
 <h1 id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</h1>

@@ -4028,6 +4028,10 @@ Para este sprint se implementaron los siguientes cambios:
 | US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
 |            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
 
+<img src="Images/trello-backlog-2.png"/>
+
+<img src="Images/trello-backlog-2-1.png"/>
+
 <h4 id="4223-development-evidence-for-sprint-review">4.2.2.3. Development Evidence for Sprint Review</h4>
 
 | Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |

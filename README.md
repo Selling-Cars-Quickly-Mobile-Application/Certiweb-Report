@@ -1166,11 +1166,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Comprensión en la landing</b><br>
       Dado que ingreso a la landing page,<br>
       Cuando leo el contenido destacado,<br>
       Entonces entiendo claramente que Certiweb ofrece inspección técnica y certificación para autos usados.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Ejemplos visuales explicativos</b><br>
       Dado que soy un visitante interesado,<br>
       Cuando bajo por la página,<br>
       Entonces veo ejemplos visuales (sellos, informes, beneficios) que explican los servicios.
@@ -1214,11 +1214,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Visualización de testimonios</b><br>
       Dado que estoy navegando en la landing,<br>
       Cuando bajo hasta la sección de testimonios,<br>
       Entonces veo citas reales de compradores, revendedores o vendedores satisfechos.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Lectura de historia completa</b><br>
       Dado que estoy interesado en el servicio,<br>
       Cuando hago clic en un testimonio,<br>
       Entonces puedo leer una historia completa de éxito.
@@ -1259,11 +1259,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Botones de acción visibles</b><br>
       Dado que estoy en la página principal,<br>
       Cuando llego al primer scroll,<br>
       Entonces veo botones como “Solicita tu inspección” o “Empieza ahora” que me llevan al registro o agendamiento.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Acceso directo al formulario</b><br>
       Dado que estoy en una sección específica,<br>
       Cuando veo un botón de acción,<br>
       Entonces puedo acceder directamente al formulario de contacto.
@@ -1304,11 +1304,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Maquetación responsive en móvil</b><br>
       Dado que ingreso a la página desde mi teléfono,<br>
       Cuando navego por las secciones,<br>
       Entonces todos los elementos deben ajustarse correctamente al tamaño de pantalla sin desbordes ni errores de maquetación.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Interacción táctil adecuada</b><br>
       Dado que estoy usando la navegación móvil,<br>
       Cuando toco botones o enlaces,<br>
       Entonces estos deben ser accesibles con el dedo y tener un diseño táctil adecuado.
@@ -1349,11 +1349,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Navegación móvil adecuada</b><br>
       Dado que ingreso a la página desde mi teléfono,<br>
       Cuando navego por las secciones,<br>
       Entonces todos los elementos deben ajustarse correctamente al tamaño de pantalla sin desbordes ni errores de maquetación.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Botones táctiles accesibles</b><br>
       Dado que estoy usando la navegación móvil,<br>
       Cuando toco botones o enlaces,<br>
       Entonces estos deben ser accesibles con el dedo y tener un diseño táctil adecuado.
@@ -1394,11 +1394,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Ver y descargar informe</b><br>
       Dado que la inspección ha sido completada,<br>
       Cuando ingreso al panel del vehículo,<br>
       Entonces puedo ver y descargar el informe generado.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Compartir informe</b><br>
       Dado que necesito compartir el informe,<br>
       Cuando selecciono la opción de compartir,<br>
       Entonces puedo enviar un enlace directo a los interesados.
@@ -1439,11 +1439,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Obtener código del sello</b><br>
       Dado que el auto cuenta con una inspección aprobada,<br>
       Cuando accedo a la ficha del vehículo,<br>
       Entonces puedo copiar el código para incluir el sello en portales de autos.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Insertar y visualizar sello</b><br>
       Dado que estoy editando mi anuncio,<br>
       Cuando inserto el código del sello,<br>
       Entonces el sello se muestra correctamente en la vista previa.
@@ -1484,11 +1484,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Ver resumen de historial</b><br>
       Dado que tengo vehículos inspeccionados anteriormente,<br>
       Cuando accedo a mi historial,<br>
       Entonces puedo ver fecha, resultados y descargar informes antiguos.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Buscar informe específico</b><br>
       Dado que necesito revisar un informe específico,<br>
       Cuando busco por fecha o vehículo,<br>
       Entonces puedo acceder rápidamente al informe deseado.
@@ -1529,11 +1529,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Carga masiva exitosa</b><br>
       Dado que tengo múltiples vehículos,<br>
       Cuando subo un archivo con sus datos,<br>
       Entonces el sistema los registra y muestra un resumen de carga.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Corrección de datos incompletos</b><br>
       Dado que algunos datos están incompletos,<br>
       Cuando reviso el resumen de carga,<br>
       Entonces puedo corregir y completar la información antes de finalizar el registro.
@@ -1574,11 +1574,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Ver lista por estado</b><br>
       Dado que tengo autos inspeccionados y otros en proceso,<br>
       Cuando accedo al panel de gestión,<br>
       Entonces veo una lista con estado “pendiente”, “en inspección” o “certificado”.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Filtrar por estado</b><br>
       Dado que necesito priorizar ventas,<br>
       Cuando filtro por estado,<br>
       Entonces puedo ver solo los vehículos listos para vender.
@@ -1619,11 +1619,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Acceso público al informe</b><br>
       Dado que un informe ya fue generado,<br>
       Cuando copio o envío el enlace,<br>
       Entonces el comprador puede acceder sin necesidad de login.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Visualización sin login</b><br>
       Dado que el cliente ha recibido el enlace,<br>
       Cuando hace clic en el enlace,<br>
       Entonces puede ver el informe completo en su navegador sin requerir autenticación adicional.
@@ -1664,11 +1664,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Notificación por cambio de estado</b><br>
       Dado que tengo autos en proceso de inspección,<br>
       Cuando se actualiza su estado,<br>
       Entonces recibo una notificación por correo o en la plataforma.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Alertas en tiempo real</b><br>
       Dado que prefiero notificaciones en tiempo real,<br>
       Cuando configuro mis preferencias,<br>
       Entonces recibo alertas instantáneas en mi dispositivo móvil.
@@ -1709,11 +1709,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Acceso al informe desde el sello</b><br>
       Dado que estoy viendo un anuncio con sello Certiweb,<br>
       Cuando hago clic en el sello,<br>
       Entonces puedo acceder al informe técnico del vehículo.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Validación por código</b><br>
       Dado que quiero verificar la autenticidad,<br>
       Cuando ingreso el código del informe,<br>
       Entonces el sistema confirma su validez y detalles.
@@ -1754,11 +1754,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Comparación lado a lado</b><br>
       Dado que tengo varios links a informes Certiweb,<br>
       Cuando accedo a la herramienta de comparación,<br>
       Entonces puedo ver un resumen lado a lado de sus condiciones.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Detalle técnico por vehículo</b><br>
       Dado que necesito más detalles,<br>
       Cuando selecciono un vehículo,<br>
       Entonces puedo ver un análisis detallado de su estado técnico.
@@ -1799,11 +1799,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Registrar reporte de inconsistencia</b><br>
       Dado que noto un problema en el contenido del informe,<br>
       Cuando envío una observación desde el sitio,<br>
       Entonces el sistema registra el caso y notifica a Certiweb.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Seguimiento de reporte</b><br>
       Dado que quiero seguimiento,<br>
       Cuando reviso el estado de mi reporte,<br>
       Entonces puedo ver actualizaciones y respuestas del equipo de Certiweb.
@@ -1844,11 +1844,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Confirmación de autenticidad</b><br>
       Dado que tengo un código o link de un informe,<br>
       Cuando lo ingreso en la sección de validación,<br>
       Entonces el sistema muestra si el informe es oficial y vigente.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Visualización de detalles</b><br>
       Dado que necesito más información,<br>
       Cuando el informe es válido,<br>
       Entonces puedo ver detalles adicionales sobre la inspección.
@@ -1889,11 +1889,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Registro e ingreso inicial</b><br>
       Dado que abro la app por primera vez,<br>
       Cuando registro mi cuenta con email/Google,<br>
       Entonces puedo ingresar y ver mi panel inicial.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Reingreso sin reconfiguración</b><br>
       Dado que cerré sesión,<br>
       Cuando inicio sesión nuevamente,<br>
       Entonces accedo a mis datos sin reconfigurar la app.
@@ -1934,11 +1934,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Registrar solicitud y confirmar</b><br>
       Dado que estoy autenticado en la app,<br>
       Cuando selecciono “Agendar inspección” y comparto mi ubicación/fecha preferida,<br>
       Entonces la solicitud se registra y recibo confirmación con ID y estado “pendiente”.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Reprogramar cita</b><br>
       Dado que debo reprogramar,<br>
       Cuando elijo nueva fecha/horario,<br>
       Entonces se actualiza la cita y recibo notificación.
@@ -1978,11 +1978,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Adjuntar y validar archivos</b><br>
       Dado que tengo una solicitud activa,<br>
       Cuando capturo o selecciono fotos/archivos,<br>
       Entonces la app los adjunta y valida formato/tamaño.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Reemplazar adjunto incorrecto</b><br>
       Dado que subí un archivo incorrecto,<br>
       Cuando lo elimino y reemplazo,<br>
       Entonces la solicitud queda con los adjuntos correctos.
@@ -2023,11 +2023,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Ver estados en Mis inspecciones</b><br>
       Dado que tengo vehículos en proceso,<br>
       Cuando abro “Mis inspecciones”,<br>
       Entonces veo estados “pendiente”, “en inspección” y “certificado”.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Notificación de actualización</b><br>
       Dado que cambia el estado,<br>
       Cuando ocurre una actualización,<br>
       Entonces recibo una notificación push con el nuevo estado.
@@ -2068,11 +2068,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Visualizar informe y resumen</b><br>
       Dado que mi vehículo está “certificado”,<br>
       Cuando abro el detalle del vehículo,<br>
       Entonces visualizo el informe y su resumen.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Compartir enlace desde el móvil</b><br>
       Dado que quiero difundir el informe,<br>
       Cuando uso la opción “Compartir”,<br>
       Entonces envío el enlace mediante el share sheet del móvil.
@@ -2113,11 +2113,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Validar informe por QR</b><br>
       Dado que veo un sello con QR,<br>
       Cuando abro la app y escaneo el código,<br>
       Entonces veo si el informe es oficial y vigente.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Mensaje ante QR inválido</b><br>
       Dado que el QR es inválido o expiró,<br>
       Cuando realizo la validación,<br>
       Entonces la app muestra mensaje de invalidez y recomendaciones.
@@ -2158,11 +2158,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Ver informe sin conexión</b><br>
       Dado que descargué un informe con conexión,<br>
       Cuando pierdo conexión,<br>
       Entonces puedo ver el informe cacheado en modo solo lectura.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Actualizar informe al reconectar</b><br>
       Dado que vuelvo a tener conexión,<br>
       Cuando abro el informe,<br>
       Entonces la app verifica y actualiza la versión si hay cambios.
@@ -2203,11 +2203,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Alta de vehículo</b><br>
       Dado que estoy autenticado,<br>
       Cuando agrego un vehículo con campos obligatorios,<br>
       Entonces queda registrado y visible en mi lista.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Edición y baja</b><br>
       Dado que necesito editar o eliminar,<br>
       Cuando actualizo datos o doy de baja,<br>
       Entonces los cambios se reflejan de inmediato en mi inventario.
@@ -2248,11 +2248,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Registro de solicitud válido</b><br>
       Dado que un usuario envía una solicitud con los datos del vehículo,<br>
       Cuando la petición es válida,<br>
       Entonces se registra en la base de datos y retorna ID y estado “pendiente”.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Error por datos incompletos</b><br>
       Dado que los datos son incompletos,<br>
       Cuando intento registrar la inspección,<br>
       Entonces el sistema devuelve un error con detalles de los campos faltantes.
@@ -2293,11 +2293,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Retornar informe existente</b><br>
       Dado que se hace una solicitud con un ID válido,<br>
       Cuando existe el informe,<br>
       Entonces se retorna con los datos técnicos y estado de certificación.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Error 404 por ID inválido</b><br>
       Dado que el ID no es válido,<br>
       Cuando se realiza la solicitud,<br>
       Entonces el sistema devuelve un error 404 indicando que el informe no se encontró.
@@ -2338,11 +2338,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Respuesta para código válido</b><br>
       Dado un código de informe válido,<br>
       Cuando se consulta la API,<br>
       Entonces debe retornar si es válido, certificado y su estado actual.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Error por código inválido</b><br>
       Dado un código inválido,<br>
       Cuando se realiza la consulta,<br>
       Entonces el sistema devuelve un mensaje de error indicando que el código no es válido.
@@ -2383,11 +2383,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Retornar JSON completo</b><br>
       Dado que el <i>vehicleId</i> existe,<br>
       Cuando se consulta el endpoint,<br>
       Entonces se retorna un JSON con el informe técnico completo.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Error 404 informe no encontrado</b><br>
       Dado que el <i>vehicleId</i> no existe,<br>
       Cuando se hace la solicitud,<br>
       Entonces el sistema devuelve un error 404 con el mensaje "Informe no encontrado".
@@ -2427,11 +2427,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Almacenar hash seguro</b><br>
       Dado que un usuario se registra con una contraseña,<br>
       Cuando se almacena en la base de datos,<br>
       Entonces la contraseña debe estar hasheada con un algoritmo seguro (bcrypt).<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Validar hash en login</b><br>
       Dado que un usuario intenta autenticarse,<br>
       Cuando ingresa su contraseña,<br>
       Entonces el sistema debe comparar el hash almacenado con la contraseña ingresada.
@@ -2472,11 +2472,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Generación de JWT</b><br>
       Dado que un usuario se autentica correctamente,<br>
       Cuando el login es exitoso,<br>
       Entonces el sistema debe generar un JWT válido con información del usuario.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Validación de JWT</b><br>
       Dado que se recibe una petición con JWT,<br>
       Cuando se valida el token,<br>
       Entonces el sistema debe verificar su autenticidad y extraer la información del usuario.
@@ -2517,11 +2517,11 @@ Empathy Mapping Compradores
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario 1:</b><br>
+      <b>Escenario 1: Transformación de entrada externa</b><br>
       Dado que se reciben datos de servicios externos,<br>
       Cuando estos datos ingresan al sistema,<br>
       Entonces el ACL debe transformarlos al formato del dominio interno.<br><br>
-      <b>Escenario 2:</b><br>
+      <b>Escenario 2: Conversión de salida a externo</b><br>
       Dado que el dominio necesita comunicarse con servicios externos,<br>
       Cuando se envían datos,<br>
       Entonces el ACL debe convertir los objetos del dominio al formato requerido por el servicio externo.

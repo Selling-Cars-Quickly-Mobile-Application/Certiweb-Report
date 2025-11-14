@@ -3921,6 +3921,10 @@ Render
 | US04           | Compatibilidad móvil del Landing Page      | T04                  | Optimizar para Dispositivos Móviles           | Asegurar que la landing page sea compatible y fácil de usar en dispositivos móviles | 4                      | Eric Fabrizio Agama | Done       |
 |            |       | T05                  | Pruebas de Usabilidad en Dispositivos Móviles | Realizar pruebas de usabilidad para garantizar una experiencia óptima en móviles   | 3                      | Eric Fabrizio Agama | Done       |
 
+<img src="Images/trello-backlog-1.png" />
+
+<img src="Images/trello-backlog-1-1.png" />
+
 <h5 id="4213-development-evidence-for-sprint-review">4.2.1.3. Development Evidence for Sprint Review</h5>
 
 | Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |

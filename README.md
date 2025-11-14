@@ -4430,11 +4430,11 @@ Conclusión 2: El plan de aprendizaje aplicado (UI/UX, accesibilidad, APIs REST 
 
 <h1 id="video-about-the-product">Video About the product</h1>
 
-
+[Link](https://youtu.be/QYdgQ-9_wjg)
 
 <h1 id="video-about-the-team">Video About the team</h1>
 
-
+[Link](https://youtu.be/4gZoolBqgq8)
 
 <h1 id="glosario">Glosario</h1>
 

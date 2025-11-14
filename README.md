@@ -1159,7 +1159,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Información clara sobre Certiweb</td>
+    <td colspan="4">Entender qué es Certiweb y sus beneficios</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1207,7 +1207,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Testimonios y casos de éxito</td>
+    <td colspan="4">Leer testimonios y casos de éxito</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1252,7 +1252,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Botón de acción claro</td>
+    <td colspan="4">Accionar desde botones visibles</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1297,7 +1297,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Compatibilidad móvil del Landing Page</td>
+    <td colspan="4">Navegar en móvil con maquetación responsive</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1342,7 +1342,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Solicitud de inspección</td>
+    <td colspan="4">Solicitar inspección técnica</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1387,7 +1387,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Visualización del informe técnico</td>
+    <td colspan="4">Ver y compartir informe técnico</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1432,7 +1432,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Publicación del sello de certificación</td>
+    <td colspan="4">Publicar sello de certificación</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1477,7 +1477,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Historial de inspecciones</td>
+    <td colspan="4">Consultar historial de inspecciones</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1522,7 +1522,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Registro masivo de vehículos</td>
+    <td colspan="4">Registrar vehículos de forma masiva</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1567,7 +1567,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Estado de inspecciones</td>
+    <td colspan="4">Ver estado de inspecciones</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1612,7 +1612,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Enlace compartible para clientes</td>
+    <td colspan="4">Compartir enlace del informe con clientes</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1657,7 +1657,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Notificaciones de progreso</td>
+    <td colspan="4">Recibir notificaciones de progreso</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1702,7 +1702,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Verificación de inspección antes de comprar</td>
+    <td colspan="4">Verificar certificación del vehículo antes de comprar</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1747,7 +1747,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Comparación de vehículos certificados</td>
+    <td colspan="4">Comparar vehículos certificados</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1792,7 +1792,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Reportar inconsistencia</td>
+    <td colspan="4">Reportar inconsistencia en informe</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1837,7 +1837,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Validación de informe Certiweb</td>
+    <td colspan="4">Validar código de informe Certiweb</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -1882,7 +1882,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Inicio de sesión y registro en app móvil</td>
+    <td colspan="4">Registrarse e iniciar sesión en la app</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2016,7 +2016,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Seguimiento móvil del estado de inspección</td>
+    <td colspan="4">Realizar seguimiento móvil del estado de inspección</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2106,7 +2106,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Validación de informe con QR desde el móvil</td>
+    <td colspan="4">Validar informe con QR desde el móvil</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2151,7 +2151,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Acceso offline a último informe</td>
+    <td colspan="4">Acceder offline al último informe</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2196,7 +2196,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Gestión móvil de vehículos</td>
+    <td colspan="4">Gestionar vehículos desde la app</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2241,7 +2241,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Endpoint para crear inspección vehicular</td>
+    <td colspan="4">Crear endpoint POST /reservation</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2286,7 +2286,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Endpoint para visualizar informe</td>
+    <td colspan="4">Implementar endpoint GET /cars/{id}/pdf</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2331,7 +2331,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Crear endpoint GET /cars/{id}/pdf</td>
+    <td colspan="4">Comprobar autenticidad de informe por código</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2376,7 +2376,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Endpoint para consulta de informes técnicos</td>
+    <td colspan="4">Obtener informe técnico por GET /cars/{id}/pdf</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2420,7 +2420,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Implementación de hashing de contraseñas</td>
+    <td colspan="4">Hashear contraseñas de forma segura</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2465,7 +2465,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Sistema de WebToken de autorización</td>
+    <td colspan="4">Implementar sistema de autorización JWT</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>
@@ -2510,7 +2510,7 @@ Empathy Mapping Compradores
     <td colspan="4"><b>Title</b></td>
   </tr>
   <tr>
-    <td colspan="4">Implementación de Anti Corruption Layer (ACL)</td>
+    <td colspan="4">Implementar Anti Corruption Layer (ACL)</td>
   </tr>
   <tr>
     <td colspan="4"><b>Description</b></td>

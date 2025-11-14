@@ -23,11 +23,14 @@ width=50%"/>
 
 ## Integrantes:
 
-|U202213358|Agama Espinoza, Eric Fabrizio|
-|U202216698|Alcántara Cruz, Rodrigo Alonso|
-|U202214406|Barturen Guzman, Alejandro Nicolas|
-|U202114649|Mechan Chumpitaz, Rodrigo Nicolas|
-|U202312899|Ortiz Alarcón, Victor Nicolas|
+| U202213358 | Agama Espinoza, Eric Fabrizio |
+|-----------|-------------------------------|
+| U202216698 | Alcántara Cruz, Rodrigo Alonso |
+| U202214406 | Barturen Guzman, Alejandro Nicolas |
+| U202114649 | Mechan Chumpitaz, Rodrigo Nicolas |
+| U202312899 | Ortiz Alarcón, Victor Nicolas |
+
+
 
 <h5 style="text-align: center"> Octubre 2025 </h5>
 

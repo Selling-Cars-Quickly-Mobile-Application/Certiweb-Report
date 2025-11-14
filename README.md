@@ -7,11 +7,11 @@ width=50%"/>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 <h5 style="text-align: center"> Ingeniería de Software </h5>
 
-<h5 style="text-align: center"> Periodo 20250 </h5>
+<h5 style="text-align: center"> Periodo 202520 </h5>
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
 <h5 style="text-align: center"> 1ACC0238 | Aplicaciones para Dispositivos Móviles </h5>
-<h5 style="text-align: center"> NRC: 1827 </h5>
+<h5 style="text-align: center"> NRC: 14649 </h5>
 
 <h5 style="text-align: center"> Docente: David Gerardo Quevedo Velasco </h5>
 
@@ -22,8 +22,7 @@ width=50%"/>
 <h5 style="text-align: center"> Producto: Certiweb </h5>
 
 ## Integrantes:
-| Código | Apellidos y nombres |
-|:----------:|:-------:|
+
 |U202213358|Agama Espinoza, Eric Fabrizio|
 |U202216698|Alcántara Cruz, Rodrigo Alonso|
 |U202214406|Barturen Guzman, Alejandro Nicolas|

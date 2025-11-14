@@ -3989,9 +3989,9 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/sprintIN3.png"/>
 <img src="Images/sprintIN4.png"/>
 
-<h4 id="">4.2.2. Sprint 2</h4>
+<h4 id="422-sprint-n">4.2.2. Sprint 2</h4>
 
-<h5 id="4221-sprint-planning-2">4.2.2.1. Sprint Planning 2</h5>
+<h5 id="4211-sprint-planning-n">4.2.2.1. Sprint Planning 2</h5>
 
 | Criterio                     | Detalle                                                                                                                            |
 | :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
@@ -4010,7 +4010,7 @@ Para este sprint se implementaron los siguientes cambios:
 | **Sum of Story Points**      | 19                                |
 
 
-<h4 id="">4.2.2.2. Sprint Backlog 2</h4>
+<h4 id="4222-sprint-backlog-n">4.2.2.2. Sprint Backlog 2</h4>
 
 | **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
 |----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
@@ -4025,7 +4025,7 @@ Para este sprint se implementaron los siguientes cambios:
 | US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
 |            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
 
-<h4 id="">4.2.2.3. Development Evidence for Sprint Review</h4>
+<h4 id="4223-development-evidence-for-sprint-review">4.2.2.3. Development Evidence for Sprint Review</h4>
 
 | Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
 |-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
@@ -4035,7 +4035,7 @@ Para este sprint se implementaron los siguientes cambios:
 | [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | 8c9ad39  | feat(user): implement user session management and API integration | feat(user): implement user session management and API integration | 02/11/2025 |
 | [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | d7550ab  | feat(profile): implement user profile screen with view model | feat(profile): implement user profile screen with view model | 02/11/2025 |
 
-<h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
+<h4 id="4224-testing-suite-evidence-for-sprint-review">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
 
 | Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
 |-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
@@ -4044,14 +4044,14 @@ Para este sprint se implementaron los siguientes cambios:
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added user gherkin test | 8/10/2025 |
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | 59af660 | feat(add): add inspection_reservation feature | feat(add): add inspection_reservation feature |14/11/2025 |
 
-<h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
+<h4 id="4225-execution-evidence-for-sprint-review">4.2.2.5. Execution Evidence for Sprint Review</h4>
 
 <img src="Images/execution-sprint2-1.png"/>
 <img src="Images/execution-sprint2-2.png"/>
 <img src="Images/execution-sprint2-3.png"/>
 <img src="Images/execution-sprint2-4.png"/>
 
-<h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
+<h4 id="4226-services-documentation-evidence-for-sprint-review">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
 
 <img src="Images/Sprint4swagger1.png"/>
 
@@ -4062,8 +4062,8 @@ Para este sprint se implementaron los siguientes cambios:
 
 [Acceda al Swagger](https://certiweb-backend.onrender.com/swagger/index.html)
   
-<h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
-<h4 id="">4.2.2.8. Team Collaboration Insights during Sprint </h4>
+<h4 id="4227-software-deployment-evidence-for-sprint-review">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
+<h4 id="4228-team-collaboration-insights-during-sprint">4.2.2.8. Team Collaboration Insights during Sprint </h4>
   
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 

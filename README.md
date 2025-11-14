@@ -4024,6 +4024,15 @@ Para este sprint se implementaron los siguientes cambios:
 | [certiweb-mobile-aplication](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb-mobile-aplication) | feature/sprint2  | d7550ab  | feat(profile): implement user profile screen with view model | feat(profile): implement user profile screen with view model | 02/11/2025 |
 
 <h4 id="">4.2.2.4. Testing Suite Evidence for Sprint Review</h4>
+
+| Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
+|-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added certification gherkin test | 8/10/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added reservation gherkin test | feat(add): added reservation gherkin test | 8/10/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added user gherkin test | 8/10/2025 |
+
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | 59af660 | feat(add): add inspection_reservation feature | feat(add): add inspection_reservation feature |14/11/2025 |
+
 <h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
 <h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
 <h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>

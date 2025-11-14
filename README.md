@@ -4033,6 +4033,12 @@ Para este sprint se implementaron los siguientes cambios:
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | 59af660 | feat(add): add inspection_reservation feature | feat(add): add inspection_reservation feature |14/11/2025 |
 
 <h4 id="">4.2.2.5. Execution Evidence for Sprint Review</h4>
+
+<img src="Images/execution-sprint2-1.png"/>
+<img src="Images/execution-sprint2-2.png"/>
+<img src="Images/execution-sprint2-3.png"/>
+<img src="Images/execution-sprint2-4.png"/>
+
 <h4 id="">4.2.2.6. Services Documentation Evidence for Sprint Review/h4>
 <h4 id="">4.2.2.7. Software Deployment Evidence for Sprint Review </h4>
 <h4 id="">4.2.2.8. Team Collaboration Insights during Sprint </h4>

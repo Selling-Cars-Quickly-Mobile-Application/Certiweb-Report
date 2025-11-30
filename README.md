@@ -4137,6 +4137,14 @@ Para este sprint se implementaron los siguientes cambios:
 
 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+A continuación se adjunta capturas de la plataforma firebase evidenciando el deploy de las aplicaciones de flutter y kotlin
+
+<H2> Android </H2>
+<img src="Images/android-deploy.png"/>
+
+<H2> Flutter </H2>
+<img src="Images/flutter-deploy.png"/>
+
 4.2.3.8. Team Collaboration Insights during Sprint
 
 

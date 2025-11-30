@@ -4119,6 +4119,12 @@ Para este sprint se implementaron los siguientes cambios:
 
 4.2.3.6. Services Documentation Evidence for Sprint Review
 
+<img src="Images/Sprint4swagger1.png"/>
+
+<img src="Images/Sprint4swagger2.png"/>
+
+<img src="Images/Sprint4swagger3.png"/>
+
 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 4.2.3.8. Team Collaboration Insights during Sprint

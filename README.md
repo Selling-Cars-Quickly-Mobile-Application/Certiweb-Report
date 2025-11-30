@@ -4147,7 +4147,21 @@ A continuación se adjunta capturas de la plataforma firebase evidenciando el de
 
 4.2.3.8. Team Collaboration Insights during Sprint
 
+<h2> REPOSITORIO KOTLIN </h2>
 
+<img src="Images/android-repo-1.png"/>
+
+<h2> REPOSITORIO FLUTTER </h2>
+
+<img src="Images/flutter-repo-1.png"/>
+
+<h2> REPOSITORIO GHERKIN </h2>
+
+<img src="Images/gherkin-repo-1.png"/>
+
+<h2> REPOSITORIO REPORTE </h2>
+
+<img src="Images/doc-report-1.png"/>
 
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 

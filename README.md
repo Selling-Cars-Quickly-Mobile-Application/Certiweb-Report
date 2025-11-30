@@ -4089,6 +4089,42 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/team-insights-sprint2-3.png"/>
 <img src="Images/team-insights-sprint2-4.png"/>
 
+4.2.3. Sprint 3
+
+4.2.3.1. Sprint Planning 3
+
+| Criterio                     | Detalle                                                                                                                            |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                 | Sprint 3                                                                                                                           |
+| **Sprint Planning Background** | En este sprint, el equipo de desarrollo se enfocará en culminar la aplicación Certiweb en Flutter y Kotlin, logrando la transición progresiva desde la versión inicial en Kotlin. Este desarrollo permitirá desplegar una versión funcional de la app con conexión a backend, interfaz optimizada y características esenciales para los usuarios finales.|
+| Date                         | 21/11/25                                                                                                                         |
+| Time                         | 4:00pm                                                                                                                        |
+| Location                     | Reunión Virtual en Meet                                                                      |
+| Prepared By                  | Eric Agama                                                                                             |
+| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
+| Sprint n - 3 Review Summary  | Durante el Sprint 3 se logró completar las aplicaciones móvil de Certiweb en Flutter y Kotlin, integrando las funcionalidades principales que permiten al usuario iniciar sesión, registrarse, solicitar y agendar inspecciones, visualizar informes técnicos y cargar fotografías o documentos desde el dispositivo móvil, logrando desplegar en firebase. |
+| Sprint n - 3 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 3 |
+| **Sprint Goal & User Stories** |                                                                                                                                    |
+| Sprint 3 Goal                | El objetivo del Sprint 3 es terminar las aplicaciones móvil de Flutter y Kotlin, enfocándose en la solicitud y agendamiento de inspecciones, visualización de informes técnicos, seguimiento de estado de inspección, gestión de vehículos y carga de fotos/documentos. Estas funcionalidades serán validadas mediante pruebas funcionales y unitarias en dispositivos móviles Android y iOS. El sprint se considerará exitoso cuando las funciones sean completamente operativas, integradas con el backend y accesibles desde la app móvil. |
+| Sprint 3 Velocity            | 15      |
+| **Sum of Story Points**      | 19                                |
+
+4.2.3.2. Sprint Backlog 3
+
+4.2.3.3. Development Evidence for Sprint Review
+
+4.2.3.4. Testing Suite Evidence for Sprint Review
+
+4.2.3.5. Execution Evidence for Sprint Review
+
+4.2.3.6. Services Documentation Evidence for Sprint Review
+
+4.2.3.7. Software Deployment Evidence for Sprint Review
+
+4.2.3.8. Team Collaboration Insights during Sprint
+
+
+
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 
 

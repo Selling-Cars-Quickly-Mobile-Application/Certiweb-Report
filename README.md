@@ -4111,6 +4111,20 @@ Para este sprint se implementaron los siguientes cambios:
 
 4.2.3.2. Sprint Backlog 3
 
+| **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
+|----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
+| US17           | Iniciar sesión y registrarse en app móvil           | T01                  | Implementar pantalla de inicio de sesión                  | Diseñar e implementar la interfaz de inicio de sesión y registro en Flutter con campos validados y navegación funcional | 5                      | Alcántara Cruz, Rodrigo Alonso | Done       |
+|                |                                            | T02                  | Conectar autenticación con backend                   | Integrar la autenticación de usuarios mediante API REST para validar credenciales y registrar nuevos usuarios | 4                      | Eric Fabrizio Agama | Done       |
+| US05           | Solicitar inspección               | T03                  | Crear formulario de solicitud            | Desarrollar un formulario que permita al usuario registrar los datos necesarios para solicitar una inspección vehicular | 5                      | Barturen Guzman, Alejandro Nicolas | Done       |
+|                |                                            | T04                  | Integrar formulario con API          | Conectar la funcionalidad del formulario al backend para registrar solicitudes en la base de datos | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+| US18           | Agendar inspección desde la app                      | T05                  | Desarrollar calendario interactivo                 | Implementar un calendario dentro de la app para seleccionar fecha y hora de inspección | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+|                |                                            | T06                  | Mostrar confirmación de cita       | Crear una vista con detalles del agendamiento | 3                      | Ortiz Alarcón, Victor Nicolas | Done       |
+| US06           | Visualizar informe técnico      | T07                  | Diseñar vista de informe           | Crear interfaz para mostrar los informes técnicos de vehículos inspeccionados | 3                      | Eric Fabrizio Agama |    In progress    |
+|            |       | T08                  | Integrar endpoint de informes | Conectar la vista al endpoint del backend para mostrar datos reales de los informes   | 3                      | Eric Fabrizio Agama | Done       |
+| US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
+|            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
+
+
 4.2.3.3. Development Evidence for Sprint Review
 
 4.2.3.4. Testing Suite Evidence for Sprint Review

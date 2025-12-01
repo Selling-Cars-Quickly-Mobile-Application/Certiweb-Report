@@ -4127,6 +4127,14 @@ Para este sprint se implementaron los siguientes cambios:
 
 4.2.3.3. Development Evidence for Sprint Review
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
+|-----------|--------|-----------|----------------|----------------------|-------------------|
+| [certiweb_android](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_android/tree/deploy/firebase) | deploy/firebase | 1dbd38c | ci: add manual Firebase deployment workflow and inspection profile | ci: add manual Firebase deployment workflow and inspection profile | 29/11/2025 |
+| [certiweb_android](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_android/tree/deploy/firebase) | deploy/firebase | 0301082 | feat(auth): add rememberMe flag to login functions | feat(auth): add rememberMe flag to login functions | 29/11/2025 |
+| [certiweb_flutter](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_flutter) | master | a977f9f | ci: add manual deploy to firebase workflow | ci: add manual deploy to firebase workflow | 28/11/2025 |
+| [certiweb_flutter](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_flutter) | master | df45b32 | feat(terms): add terms acceptance flow with forced acceptance | feat(terms): add terms acceptance flow with forced acceptance | 28/11/2025 |
+
+
 4.2.3.4. Testing Suite Evidence for Sprint Review
 
 | Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |

@@ -4125,6 +4125,8 @@ Para este sprint se implementaron los siguientes cambios:
 |            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
 
 
+<img src="Images/sprint-backlog-3.png"/>
+
 4.2.3.3. Development Evidence for Sprint Review
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |

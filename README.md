@@ -4150,7 +4150,14 @@ Para este sprint se implementaron los siguientes cambios:
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | ec30233 | add new gherkin test | add new gherkin test |29/11/2025 |
 
 4.2.3.5. Execution Evidence for Sprint Review
-
+<h2> Flutter </h2><br>
+<img src="Images/evidence1.jpeg"/>
+<img src="Images/evidence2.jpeg"/>
+<br>
+<h2> Android </h2><br>
+<img src="Images/evidence3.jpeg"/>
+<img src="Images/evidence4.jpeg"/>
+<br>
 4.2.3.6. Services Documentation Evidence for Sprint Review
 
 <img src="Images/Sprint4swagger1.png"/>

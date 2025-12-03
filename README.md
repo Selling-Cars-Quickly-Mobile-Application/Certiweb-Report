@@ -4089,6 +4089,104 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/team-insights-sprint2-3.png"/>
 <img src="Images/team-insights-sprint2-4.png"/>
 
+4.2.3. Sprint 3
+
+4.2.3.1. Sprint Planning 3
+
+| Criterio                     | Detalle                                                                                                                            |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                 | Sprint 3                                                                                                                           |
+| **Sprint Planning Background** | En este sprint, el equipo de desarrollo se enfocará en culminar la aplicación Certiweb en Flutter y Kotlin, logrando la transición progresiva desde la versión inicial en Kotlin. Este desarrollo permitirá desplegar una versión funcional de la app con conexión a backend, interfaz optimizada y características esenciales para los usuarios finales.|
+| Date                         | 21/11/25                                                                                                                         |
+| Time                         | 4:00pm                                                                                                                        |
+| Location                     | Reunión Virtual en Meet                                                                      |
+| Prepared By                  | Eric Agama                                                                                             |
+| Attendees (to planning meeting) | Alcántara Cruz, Rodrigo Alonso, Barturen Guzman, Alejandro Nicolas, Mechan Chumpitaz, Rodrigo Nicolas, Ortiz Alarcón, Victor Nicolas                                                                               |
+| Sprint n - 3 Review Summary  | Durante el Sprint 3 se logró completar las aplicaciones móvil de Certiweb en Flutter y Kotlin, integrando las funcionalidades principales que permiten al usuario iniciar sesión, registrarse, solicitar y agendar inspecciones, visualizar informes técnicos y cargar fotografías o documentos desde el dispositivo móvil, logrando desplegar en firebase. |
+| Sprint n - 3 Retrospective Summary | Se logró cumplir con el objetivo del Sprint 3 |
+| **Sprint Goal & User Stories** |                                                                                                                                    |
+| Sprint 3 Goal                | El objetivo del Sprint 3 es terminar las aplicaciones móvil de Flutter y Kotlin, enfocándose en la solicitud y agendamiento de inspecciones, visualización de informes técnicos, seguimiento de estado de inspección, gestión de vehículos y carga de fotos/documentos. Estas funcionalidades serán validadas mediante pruebas funcionales y unitarias en dispositivos móviles Android y iOS. El sprint se considerará exitoso cuando las funciones sean completamente operativas, integradas con el backend y accesibles desde la app móvil. |
+| Sprint 3 Velocity            | 15      |
+| **Sum of Story Points**      | 19                                |
+
+4.2.3.2. Sprint Backlog 3
+
+| **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
+|----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
+| US17           | Iniciar sesión y registrarse en app móvil           | T01                  | Implementar pantalla de inicio de sesión                  | Diseñar e implementar la interfaz de inicio de sesión y registro en Flutter con campos validados y navegación funcional | 5                      | Alcántara Cruz, Rodrigo Alonso | Done       |
+|                |                                            | T02                  | Conectar autenticación con backend                   | Integrar la autenticación de usuarios mediante API REST para validar credenciales y registrar nuevos usuarios | 4                      | Eric Fabrizio Agama | Done       |
+| US05           | Solicitar inspección               | T03                  | Crear formulario de solicitud            | Desarrollar un formulario que permita al usuario registrar los datos necesarios para solicitar una inspección vehicular | 5                      | Barturen Guzman, Alejandro Nicolas | Done       |
+|                |                                            | T04                  | Integrar formulario con API          | Conectar la funcionalidad del formulario al backend para registrar solicitudes en la base de datos | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+| US18           | Agendar inspección desde la app                      | T05                  | Desarrollar calendario interactivo                 | Implementar un calendario dentro de la app para seleccionar fecha y hora de inspección | 4                      | Mechan Chumpitaz, Rodrigo Nicolas | Done       |
+|                |                                            | T06                  | Mostrar confirmación de cita       | Crear una vista con detalles del agendamiento | 3                      | Ortiz Alarcón, Victor Nicolas | Done       |
+| US06           | Visualizar informe técnico      | T07                  | Diseñar vista de informe           | Crear interfaz para mostrar los informes técnicos de vehículos inspeccionados | 3                      | Eric Fabrizio Agama |    In progress    |
+|            |       | T08                  | Integrar endpoint de informes | Conectar la vista al endpoint del backend para mostrar datos reales de los informes   | 3                      | Eric Fabrizio Agama | Done       |
+| US19           | Cargar fotos y documentos desde el móvil      | T09                  | Implementar selector de archivos           | Programar la funcionalidad para subir fotos o documentos desde la cámara o galería del dispositivo | 4                      | Eric Fabrizio Agama | Done       |
+|            |       | T10                  | Conectar carga con servidor | Configurar la carga de archivos al backend y vincularlos a la inspección correspondiente.   | 3                      | Eric Fabrizio Agama | Done       |
+
+
+<img src="Images/sprint-backlog-3.png"/>
+
+4.2.3.3. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
+|-----------|--------|-----------|----------------|----------------------|-------------------|
+| [certiweb_android](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_android/tree/deploy/firebase) | deploy/firebase | 1dbd38c | ci: add manual Firebase deployment workflow and inspection profile | ci: add manual Firebase deployment workflow and inspection profile | 29/11/2025 |
+| [certiweb_android](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_android/tree/deploy/firebase) | deploy/firebase | 0301082 | feat(auth): add rememberMe flag to login functions | feat(auth): add rememberMe flag to login functions | 29/11/2025 |
+| [certiweb_flutter](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_flutter) | master | a977f9f | ci: add manual deploy to firebase workflow | ci: add manual deploy to firebase workflow | 28/11/2025 |
+| [certiweb_flutter](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_flutter) | master | df45b32 | feat(terms): add terms acceptance flow with forced acceptance | feat(terms): add terms acceptance flow with forced acceptance | 28/11/2025 |
+
+
+4.2.3.4. Testing Suite Evidence for Sprint Review
+
+| Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
+|-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added certification gherkin test | 8/10/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added reservation gherkin test | feat(add): added reservation gherkin test | 8/10/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | d790c72 | feat(add): added certification gherkin test | feat(add): added user gherkin test | 8/10/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | 59af660 | feat(add): add inspection_reservation feature | feat(add): add inspection_reservation feature |14/11/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | ec30233 | add new gherkin test | add new gherkin test |29/11/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | ec30233 | add new gherkin test | add new gherkin test |29/11/2025 |
+| [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | ec30233 | add new gherkin test | add new gherkin test |29/11/2025 |
+
+4.2.3.5. Execution Evidence for Sprint Review
+
+4.2.3.6. Services Documentation Evidence for Sprint Review
+
+<img src="Images/Sprint4swagger1.png"/>
+
+<img src="Images/Sprint4swagger2.png"/>
+
+<img src="Images/Sprint4swagger3.png"/>
+
+4.2.3.7. Software Deployment Evidence for Sprint Review
+
+A continuación se adjunta capturas de la plataforma firebase evidenciando el deploy de las aplicaciones de flutter y kotlin
+
+<H2> Android </H2>
+<img src="Images/android-deploy.png"/>
+
+<H2> Flutter </H2>
+<img src="Images/flutter-deploy.png"/>
+
+4.2.3.8. Team Collaboration Insights during Sprint
+
+<h2> REPOSITORIO KOTLIN </h2>
+
+<img src="Images/android-repo-1.png"/>
+
+<h2> REPOSITORIO FLUTTER </h2>
+
+<img src="Images/flutter-repo-1.png"/>
+
+<h2> REPOSITORIO GHERKIN </h2>
+
+<img src="Images/gherkin-repo-1.png"/>
+
+<h2> REPOSITORIO REPORTE </h2>
+
+<img src="Images/doc-report-1.png"/>
+
 <h3 id="43-validation-interviews">4.3. Validation Interviews</h3>
 
 

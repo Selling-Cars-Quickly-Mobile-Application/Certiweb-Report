@@ -4209,7 +4209,7 @@ A continuación se adjunta capturas de la plataforma firebase evidenciando el de
 
 Se realizaron entrevistas a personas representativas de nuestros segmentos objetivo, ajustando las preguntas según las particularidades de cada segmento y sus diferentes circunstancias.
 
-##### Segmento 1: Vendedores Particulares
+##### Segmento 1: Vendedores individuales
 
 Preguntas de Introducción:
 1. ¿Cuál es su nombre completo?

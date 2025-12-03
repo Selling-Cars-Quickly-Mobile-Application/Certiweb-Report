@@ -4544,7 +4544,7 @@ Conclusión 2: Estandarizamos la organización del equipo (roles, ceremonias, pl
 
 <h1 id="video-about-the-product">Video About the product</h1>
 
-
+[Link del video sobre el producto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213358_upc_edu_pe/IQBdUiwIzO1aQ6A2qpSDgAdKAVHxUxIOqYVjJ2co53s-xNw?e=qmsVl0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <h1 id="video-about-the-team">Video About the team</h1>
 

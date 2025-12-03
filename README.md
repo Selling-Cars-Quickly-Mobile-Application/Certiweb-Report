@@ -4540,7 +4540,7 @@ Conclusión 2: Estandarizamos la organización del equipo (roles, ceremonias, pl
 
 <h1 id="video-app-validation">Video App Validation</h1>
 
-
+[Link del video validación de la aplicación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213358_upc_edu_pe/IQD8d0qqQrfVRJDpwFVsy5WhAXriI5r5au44snJ-AJG3uWE?e=9wvnpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <h1 id="video-about-the-product">Video About the product</h1>
 

@@ -177,18 +177,25 @@ width=50%"/>
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
 
-    - [4.2.2. Sprint 2](#422-sprint-n)
+  - [4.2.2. Sprint 2](#422-sprint-n)
       - [4.2.2.1. Sprint Planning 2](#4211-sprint-planning-n)
       - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-n)
-    - [4.2.2. Sprint 2](#422-sprint-2)
-      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
-      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-1)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
       - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
 
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
@@ -4089,9 +4096,9 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/team-insights-sprint2-3.png"/>
 <img src="Images/team-insights-sprint2-4.png"/>
 
-4.2.3. Sprint 3
+<h4 id="423-sprint-3">4.2.3. Sprint 3</h4>
 
-4.2.3.1. Sprint Planning 3
+<h5 id="4231-sprint-planning-3">4.2.3.1. Sprint Planning 3</h5>
 
 | Criterio                     | Detalle                                                                                                                            |
 | :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
@@ -4109,7 +4116,7 @@ Para este sprint se implementaron los siguientes cambios:
 | Sprint 3 Velocity            | 15      |
 | **Sum of Story Points**      | 19                                |
 
-4.2.3.2. Sprint Backlog 3
+<h4 id="4232-sprint-backlog-3">4.2.3.2. Sprint Backlog 3</h4>
 
 | **User Story** | **Title**                                  | **Work-Item / Task** | **Title**                                     | **Description**                                                                 | **Estimation (Hours)** | **Assigned To**   | **Status** |
 |----------------|--------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------------------------------------|------------------------|-------------------|------------|
@@ -4127,7 +4134,7 @@ Para este sprint se implementaron los siguientes cambios:
 
 <img src="Images/sprint-backlog-3.png"/>
 
-4.2.3.3. Development Evidence for Sprint Review
+<h4 id="4233-development-evidence-for-sprint-review">4.2.3.3. Development Evidence for Sprint Review</h4>
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
 |-----------|--------|-----------|----------------|----------------------|-------------------|
@@ -4137,7 +4144,7 @@ Para este sprint se implementaron los siguientes cambios:
 | [certiweb_flutter](https://github.com/Selling-Cars-Quickly-Mobile-Application/certiweb_flutter) | master | df45b32 | feat(terms): add terms acceptance flow with forced acceptance | feat(terms): add terms acceptance flow with forced acceptance | 28/11/2025 |
 
 
-4.2.3.4. Testing Suite Evidence for Sprint Review
+<h4 id="4234-testing-suite-evidence-for-sprint-review">4.2.3.4. Testing Suite Evidence for Sprint Review</h4>
 
 | Repository                                                            | Branch   | Commit Id | Commit Message                                                | Commit Message Body                                           | Commit on (Date) |
 |-----------------------------------------------------------------------|----------|-----------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------|
@@ -4149,7 +4156,7 @@ Para este sprint se implementaron los siguientes cambios:
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | ec30233 | add new gherkin test | add new gherkin test |29/11/2025 |
 | [Selling-Cars-Quickly-Mobile-Application-gherkin](https://github.com/Selling-Cars-Quickly-Mobile-Application/Selling-Cars-Quickly-Mobile-Application-gherkin) | main  | ec30233 | add new gherkin test | add new gherkin test |29/11/2025 |
 
-4.2.3.5. Execution Evidence for Sprint Review
+<h4 id="4235-execution-evidence-for-sprint-review">4.2.3.5. Execution Evidence for Sprint Review</h4>
 <h2> Flutter </h2><br>
 <img src="Images/evidence1.jpeg"/>
 <img src="Images/evidence2.jpeg"/>
@@ -4158,7 +4165,7 @@ Para este sprint se implementaron los siguientes cambios:
 <img src="Images/evidence3.jpeg"/>
 <img src="Images/evidence4.jpeg"/>
 <br>
-4.2.3.6. Services Documentation Evidence for Sprint Review
+<h4 id="4236-services-documentation-evidence-for-sprint-review">4.2.3.6. Services Documentation Evidence for Sprint Review</h4>
 
 <img src="Images/Sprint4swagger1.png"/>
 
@@ -4166,7 +4173,7 @@ Para este sprint se implementaron los siguientes cambios:
 
 <img src="Images/Sprint4swagger3.png"/>
 
-4.2.3.7. Software Deployment Evidence for Sprint Review
+<h4 id="4237-software-deployment-evidence-for-sprint-review">4.2.3.7. Software Deployment Evidence for Sprint Review</h4>
 
 A continuación se adjunta capturas de la plataforma firebase evidenciando el deploy de las aplicaciones de flutter y kotlin
 
@@ -4176,7 +4183,7 @@ A continuación se adjunta capturas de la plataforma firebase evidenciando el de
 <H2> Flutter </H2>
 <img src="Images/flutter-deploy.png"/>
 
-4.2.3.8. Team Collaboration Insights during Sprint
+<h4 id="4238-team-collaboration-insights-during-sprint">4.2.3.8. Team Collaboration Insights during Sprint</h4>
 
 <h2> REPOSITORIO KOTLIN </h2>
 
@@ -4521,6 +4528,16 @@ Conclusión 2: Se estableció una estrategia móvil inicial con User Stories esp
 Conclusión 1: Se desplegó el landing page (MVP), el backend alcanzó 70% de implementación y se presentaron pantallas core; se evidenció la articulación entre Capítulo III (UI/UX) y Capítulo IV (Implementación y Validación) con entregables y métricas del Sprint 1.<br>
 Conclusión 2: El plan de aprendizaje aplicado (UI/UX, accesibilidad, APIs REST y GitFlow) habilitó el despliegue del landing, el avance del backend al 70% y la entrega de pantallas core con evidencias del Sprint 1 y documentación trazable.<br>
 
+- TB2
+
+Conclusión 1: Entregamos avances sustantivos de las aplicaciones y del trabajo general; se implementaron módulos móviles de inspecciones, informes técnicos, vehículos y carga de archivos, se completaron integraciones con endpoints (`POST /reservation`, `GET /cars/{id}/pdf`) y se optimizó rendimiento y estabilidad en Flutter.<br>
+Conclusión 2: Alineamos desarrollo móvil–backend con pruebas funcionales, corrección de incidencias y evidencias en Capítulo IV; se consolidó la trazabilidad entre historias, flujos y vistas, elevando la calidad del producto y el progreso del Sprint 2.<br>
+
+- TF
+
+Conclusión 1: Se centró en el despliegue de las aplicaciones y la organización del trabajo; configuramos entornos, empaquetamos builds móviles y establecimos procesos de publicación y validación, asegurando disponibilidad y seguimiento de versiones.<br>
+Conclusión 2: Estandarizamos la organización del equipo (roles, ceremonias, planificación y Definition of Done), mejoramos la coordinación y documentación, y habilitamos un flujo de entrega más predecible para futuras iteraciones.<br>
+
 <h1 id="video-app-validation">Video App Validation</h1>
 
 
@@ -4538,6 +4555,31 @@ Conclusión 2: El plan de aprendizaje aplicado (UI/UX, accesibilidad, APIs REST 
 
 
 <h1 id="bibliografía">Bibliografía</h1>
+
+<ul>
+  <li>Schwaber, K., & Sutherland, J. (2020). The Scrum Guide. Scrum.org. https://scrumguides.org/
+  </li>
+  <li>Pressman, R. S., & Maxim, B. R. (2019). Ingeniería del software: Un enfoque práctico (8ª ed.). McGraw-Hill.
+  </li>
+  <li>Google. (2025). Flutter documentation. Flutter. https://docs.flutter.dev/
+  </li>
+  <li>JetBrains. (2025). Kotlin documentation. Kotlin Lang. https://kotlinlang.org/docs/home.html
+  </li>
+  <li>Google. (2025). Android Studio user guide. Android Developers. https://developer.android.com/studio/intro
+  </li>
+  <li>Brown, S. (2023). The C4 model for visualising software architecture. https://c4model.com/
+  </li>
+  <li>Gothelf, J., & Seiden, J. (2017). Lean UX: Designing Great Products with Agile Teams. O'Reilly Media.
+  </li>
+  <li>Martin, R. C. (2017). Clean Architecture: A Craftsman's Guide to Software Structure and Design. Prentice Hall.
+  </li>
+  <li>Google. (2025). Android app architecture. Android Developers. https://developer.android.com/topic/architecture
+  </li>
+  <li>JetBrains. (2025). Coroutines overview. Kotlin Lang. https://kotlinlang.org/docs/coroutines-overview.html
+  </li>
+  <li>Google. (2025). Flutter state management. Flutter. https://docs.flutter.dev/development/data-and-backend/state-management
+  </li>
+</ul>
 
 
 

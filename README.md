@@ -4548,7 +4548,7 @@ Conclusión 2: Estandarizamos la organización del equipo (roles, ceremonias, pl
 
 <h1 id="video-about-the-team">Video About the team</h1>
 
-
+[Link del video about the team](https://upcedupe-my.sharepoint.com/personal/u202213358_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213358_upc_edu_pe%2FDocuments%2Fmoviles%2Fupc-pre-202520-1acc238-14649-certiweb-about-the-team-sprint-3.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&ga=1&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.8d8fa1f0-e0a3-4167-a0fc-cf2083c8042c)
 
 <h1 id="glosario">Glosario</h1>
 

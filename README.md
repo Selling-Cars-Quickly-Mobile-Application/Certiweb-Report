@@ -22,16 +22,20 @@ width=50%"/>
 
 ## Integrantes:
 
-- Agama Espinoza, Eric Fabrizio 
-- Alcántara Cruz, Rodrigo Alonso 
-- Barturen Guzman, Alejandro Nicolas 
-- Mechan Chumpitaz, Rodrigo Nicolas 
-- Ortiz Alarcón, Victor Nicolas 
+- u202213358 Agama Espinoza, Eric Fabrizio 
+- u202216698 Alcántara Cruz, Rodrigo Alonso 
+- uu202214406 Barturen Guzman, Alejandro Nicolas 
+- 202114649 Mechan Chumpitaz, Rodrigo Nicolas 
+- u202312899 Ortiz Alarcón, Victor Nicolas 
 
 
 
-<h5 style="text-align: center"> Octubre 2025 </h5>
-
+<h5 style="text-align: center"> Diciembre 2025 </h5>
+<br>
+<br>
+<br>
+<br>
+<br>
 ### Registro de Versiones del Informe
 | Versión | Fecha      | Autor      | Descripción de Modificación                                                                 | 
 |---------|------------|------------|---------------------------------------------------------------------------------------------|

@@ -24,7 +24,7 @@ width=50%"/>
 
 - u202213358 Agama Espinoza, Eric Fabrizio 
 - u202216698 Alcántara Cruz, Rodrigo Alonso 
-- uu202214406 Barturen Guzman, Alejandro Nicolas 
+- u202214406 Barturen Guzman, Alejandro Nicolas 
 - 202114649 Mechan Chumpitaz, Rodrigo Nicolas 
 - u202312899 Ortiz Alarcón, Victor Nicolas 
 
@@ -36,6 +36,7 @@ width=50%"/>
 <br>
 <br>
 <br>
+
 ### Registro de Versiones del Informe
 | Versión | Fecha      | Autor      | Descripción de Modificación                                                                 | 
 |---------|------------|------------|---------------------------------------------------------------------------------------------|

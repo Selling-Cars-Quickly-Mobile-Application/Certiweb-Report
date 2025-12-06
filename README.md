@@ -41,6 +41,9 @@ width=50%"/>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 ### Registro de Versiones del Informe
 | Versión | Fecha      | Autor      | Descripción de Modificación                                                                 | 
